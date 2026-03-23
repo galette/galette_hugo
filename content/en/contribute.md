@@ -70,6 +70,6 @@ Before you begin to write code, make sure your feature would be accepted, as wel
 Dive in the code is the most technical contribution. Plugins will certainly be simplest to understand than Galette itself, most of them are quite simple; but you can of course propose change on the core :)
 Anyway, try to ask with developer(s) who is certainly the more appropriate to help you on.
 
-Source code of all projects (Galette, plugins, documentation, website) is hosted on Git repositories, any Git applicable patch of any method would be OK. If you do not know how to proceed, maybe could you take a look on the corresponding GitHub mirror, some of them are already used for experimental features to prevent mess on the main repository. In GitHub case, we will use a PR (Pull Request) that will be reviewed by the development team.
+Source code of all projects (Galette, plugins, documentation, website) is hosted on GitHub repositories, we can rely one a PR (Pull Request) that will be reviewed by the development team. Any Git applicable patch of any method would be OK too.
 
 All [really useful information for Galette source code or plugins are available in documentation]({{ .Site.Params.galette.doc_url }}/{{ .Page.Language.Lang }}/develop/source_code.html).
