@@ -1,6 +1,6 @@
 baseURL = 'https://galette.eu/site/'
 title = 'Galette'
-defaultContentLanguage = 'fr'
+defaultContentLanguage = 'en'
 [params]
   email = 'contact@galette.eu'
   description = "Gestionnaire d'Adhérents en Ligne Extrêmement Tarabiscoté mais Tellement Efficace"
