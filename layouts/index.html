@@ -8,8 +8,6 @@
       {{ .Content }}
     </main>
   </div>
-  <hr>
-  <h2>{{ i18n "pages.posts" }}</h2>
   <div class="post-list">
     {{ $pages := where .Site.RegularPages "Type" "posts" }}
     <!-- DEBUG: Found {{ len $pages }} posts -->

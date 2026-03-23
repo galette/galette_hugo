@@ -46,3 +46,10 @@ Galette works on any web server that supports PHP ([see prerequisites]({{< param
         </figure>
     </div>
 </div>
+
+<div style="text-align:center;">
+  <a href="https://hosted.weblate.org/engage/galette/?utm_source=widget">
+    <img src="https://hosted.weblate.org/widgets/galette/-/galette/287x66-white.png" alt="Translation status" />
+  </a>
+</div>
+

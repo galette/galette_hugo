@@ -16,6 +16,10 @@ defaultContentLanguage = 'en'
   galette_tracker_url = 'https://bugs.galette.eu/projects/galette/'
 [pagination]
   pagerSize = 5
+
+[server]
+  port = 1313
+
 [languages]
   [languages.fr]
     languageName = 'Français'
@@ -127,3 +131,10 @@ defaultContentLanguage = 'en'
       unsafe = true
 [permalinks]
   posts = '/post/:year/:month/:day/:title/'
+
+[frontmatter]
+  lastmod = [":git", "lastmod", ":fileModTime", ":default"]
+
+[slugify]
+  # Nettoyage des URLs (minuscules, sans accents) pour les nouveaux contenus
+  strategies = ["ascii"]
