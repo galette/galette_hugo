@@ -1,0 +1,25 @@
+<nav class="social-media-list">
+    <a href="https://github.com/{{ .Site.Params.github_username }}" title="Source code">
+        <svg class="svg-icon">
+            <use xlink:href="{{ "assets/minima-social-icons.svg#github" | relURL }}"></use>
+        </svg>
+        <span class="username sr-only">{{ .Site.Params.github_username }}</span>
+    </a>
+    <a rel="me" href="https://{{ .Site.Params.mastodon_instance }}/@{{ .Site.Params.mastodon_username }}" title="Mastodon">
+        <svg class="svg-icon">
+            <use xlink:href="{{ "assets/minima-social-icons.svg#mastodon" | relURL }}"></use>
+        </svg>
+        <span class="username sr-only">{{ .Site.Params.mastodon_username }}</span>
+    </a>
+    <a href="{{ "feed.xml" | relLangURL }}">
+        <svg class="svg-icon">
+            <use xlink:href="{{ "assets/minima-social-icons.svg#rss" | relURL }}"></use>
+        </svg>
+    </a>
+    <a href="https://matrix.to/#/#galette:matrix.org" title="Matrix">
+        <img class="svg-icon" src="{{ "assets/matrix.svg" | relURL }}" alt="Matrix" />
+    </a>
+    <a href="https://discord.gg/98g2e3xka8" title="Discord">
+        <img class="svg-icon" src="{{ "assets/discord.svg" | relURL }}" alt="Discord" />
+    </a>
+</nav>

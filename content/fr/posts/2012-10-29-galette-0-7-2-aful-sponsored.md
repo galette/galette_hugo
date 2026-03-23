@@ -1,0 +1,32 @@
+---
+slug: "galette-0-7-2-aful-sponsored"
+aliases:
+- /post/2012/10/29/Galette-0%2E7%2E2-%3A-l-AFUL-subventionne-!
+- /post/2012/10/29/galette-0-7-2-l-aful-subventionne
+categories: fr post
+date: 2012-10-29 07:08:20 +0100
+layout: post
+tags: release sponsored
+title: 'Galette 0.7.2 : l''AFUL subventionne !'
+---
+<p>L'AFUL et moi même sommes très heureux de vous présenter cette nouvelle mouture de Galette, qui est quelque peu particulière... Il s'agit en effet de la toute première version subventionnée.</p>
+
+
+<p><a href="http://aful.org/" hreflang="fr">L'AFUL est une association dédiée à la promotion des logiciels libres et des standards ouverts</a>.</p>
+
+
+<p>Késako une «&nbsp;Version subventionnée&nbsp;» ?<br />
+Il s'agit simplement d'une version dont certains développements ont été financés via <a href="http://x-tnd.be" hreflang="fr">mon activité d'auto-entrepreneur</a> et reversés à la communauté, par l'AFUL en l'occurrence.</p>
+
+
+<p>De ma part ainsi que de celle des utilisateurs de Galette (qui sont les premiers à en bénéficier d'ailleurs)&nbsp;: un très grand merci à l'AFUL qui par sa participation permet à Galette de progresser dans le bon sens&nbsp;; un exemple pratique très concret de participation au développement d'un projet libre&nbsp;! Bravo&nbsp;!</p>
+
+
+<p><a href="{{ site.galette.doc_url }}/{{ site.lang }}/master/changelog.html#v072" hreflang="fr">Dans la recette de cette nouvelle Galette</a>, les ingrédients suivants ont été ajoutés&nbsp;:</p>
+<ul>
+<li>amélioration de l'interface des champs dynamiques,</li>
+<li>remaniement intégral du code qui gère ces mêmes champs,</li>
+<li>ajout d'un bouton sur le tableau de bord pour envoyer rapidement un mailing aux adhérents en retard.</li>
+</ul>
+
+<p>Lisez également <a href="http://aful.org/nouvelles/paiement-couts-developpements-galette" hreflang="fr">la nouvelle de l'AFUL sur le soutien à Galette</a> :-)</p>

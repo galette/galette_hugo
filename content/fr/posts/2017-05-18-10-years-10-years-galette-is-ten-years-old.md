@@ -1,0 +1,59 @@
+---
+slug: "10-years-10-years-galette-is-ten-years-old"
+aliases:
+- /post/2017/05/17/10-ans%2C-10-ans%2C-Galette-a-10-ans-!
+- /post/2017/05/17/10-ans-10-ans-galette-a-10-ans
+categories: fr post
+date: 2017-05-18 16:31:06 +0100
+layout: post
+title: 10 ans, 10 ans, Galette a 10 ans !
+---
+<p>Chers utilisateurs de Galette,</p>
+
+
+<p>Non, en fait, Galette n'a pas 10 ans ; je la rajeunis un peu. Mais cela fait effectivement <a href="https://galette.eu/download/listes-galette/mail.gna.org/public/galette-devel/2007-05/msg00002.html" hreflang="fr">10 ans aujourd'hui que j'ai repris le projet</a>, que je l'ai en quelque sorte « adopté » :-)</p>
+
+
+<p>10 ans que je tâche de rendre ce logiciel plus fonctionnel, plus moderne avec des technologies et des versions récentes, mais aussi plus joli et agréable à utiliser. J'attache beaucoup d'importance au logiciel libre et Galette est ma pierre à l'édifice.</p>
+
+
+<p>10 ans d'évolution de Galette, en parallèle avec ma propre vie. Depuis, je me suis marié, j'ai eu 2 petites filles, j'ai déménagé (plusieurs fois...), changé d'emploi (plusieurs fois...), ...</p>
+
+
+<p>10 ans durant lesquels j'ai investi beaucoup de temps, de patience et d'énergie dans ce beau projet malgré d'autres obligations, mais le jeu en valait la chandelle car Galette est aujourd'hui utilisé par de nombreuses associations aussi diverses que variées (sportives, suport de logiciel libre, collections, village...) et c'est le meilleur remerciement que l'on puisse espérer.</p>
+
+
+<p>10 ans d'ajout de fonctionnalités (je ne saurai les lister, il y en a bien trop :)) ; certaines fort utiles, comme les plugins. Certains échecs ont aussi été essuyés, qui m'ont souvent fait perdre beaucoup de temps ou ont été légèrement démotivants. C'est le jeu.</p>
+
+
+<p>10 ans de code. Ce n'est pas rien ! Quelques chiffres (qui concernent le projet uniquement, les plugins ne sont pas comptés) :</p>
+
+<ul>
+<li>57 releases ;</li>
+<li>2 ré-écritures majeures (et une troisième sur les rails) ;</li>
+<li>2833 commit (depuis le 13 avril 2007) ;</li>
+<li>928 239 lignes ajoutées ; 1 059 951 lignes supprimées ;</li>
+<li>761 jours d'activité.</li>
+</ul>
+
+
+<p>Et malgré tout, Galette ne serait pas ce qu'il est aujourd'hui sans vous, qui m'avez soutenu, rapporté des bogues, soumis des plugins, suggéré - voire financé - des améliorations utiles à tous.</p>
+
+
+<p>La gestion d'un projet Open Source comme Galette est une réelle aventure... Longue, parfois compliquée, mais toujours intéressante et enrichissante :-)</p>
+
+
+<p>Aussi, à l'occasion de cet anniversaire très spécial, je voudrais remercier tous ceux qui de près ou de loin m'ont accompagné dans cette aventure et particulièrement à Roland, fidèle parmi les fidèles... Qui était  présent avant moi :)</p>
+
+
+<p>Pour terminer... Merci à Loïs de m'avoir - il y a 10 ans - refilé le « bébé et l'eau du bain » :D</p>
+
+<pre>
+&lt;?php
+$date = new \DateTime();
+$date-&gt;modify('-10 years');
+echo $date-&gt;format('l jS \of F Y'); //Friday 18th of May 2007
+</pre>
+
+
+<p>A très bientôt pour de nouvelles aventures... 100 pour 100 pur beurre made in France ! :-D</p>

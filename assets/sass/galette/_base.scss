@@ -1,0 +1,280 @@
+/**
+# This file is part of Galette.
+#
+# Galette is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# Galette is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with Foobar.  If not, see https://www.gnu.org/licenses/
+*/
+@use "../variables";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: $background-color url(/site/assets/img/bg.png) top left no-repeat;
+
+  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+  color: $text-color;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-feature-settings: "kern" 1;
+     -moz-font-feature-settings: "kern" 1;
+       -o-font-feature-settings: "kern" 1;
+          font-feature-settings: "kern" 1;
+  font-kerning: normal;
+}
+
+section#content {
+    h2, h3, h4, h5, h6 {
+        border-bottom: 1px dotted $galette-blue;
+        display: inline-block;
+
+        a {
+            color: $text-color;
+
+            &:hover {
+                color: black;
+                text-decoration: none;
+            }
+        }
+    }
+
+    .home main h2:first-of-type {
+        color: $galette-blue;
+        border-bottom: none;
+    }
+}
+
+img {
+    max-width: 100%;
+}
+
+.download-badge {
+    text-align: center;
+    margin: 1.5em auto;
+
+    a:hover {
+        text-decoration: none;
+    }
+}
+
+a {
+  color: $action-color;
+  text-decoration: none;
+  cursor: hand;
+
+  &:hover, &:active, &:focus {
+    color: #708FAB;
+    text-decoration: underline;
+  }
+
+  img {
+    border: none;
+  }
+}
+
+pre {
+  white-space: pre;
+  white-space: -moz-pre-wrap;
+  white-space: -hp-pre-wrap;
+  white-space: -o-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: pre-wrap;
+  white-space: pre-line;
+  word-wrap: break-word;
+  text-align: left;
+}
+
+code, kbd, samp {
+    font-size: $small-font-size;
+    background: rgba(0, 0, 0, .1);
+    padding: .1em .2em;
+}
+
+/* Screen reader only */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+}
+
+.tag {
+    font-size: $small-font-size;
+    display: inline-block;
+    padding: .2em .5em;
+    background-color: $galette-light-grey;
+    color: $light-text-color;
+
+    &.release {
+        background-color: $release-color;
+    }
+
+    &.rc {
+        background-color: $rc-color;
+    }
+
+    &.sponsored {
+        background-color: $sponsored-color;
+    }
+}
+
+svg.orange {
+    fill: $galette-orange;
+
+    &:hover {
+        fill: $galette-dark-orange;
+    }
+}
+
+a:hover svg.orange {
+    fill: $galette-dark-orange;
+}
+
+.social-media-list a {
+    margin: 0 .5em;
+}
+
+.social-media-list svg, .social-media-list img, .rss-subscribe svg {
+    width: 20px;
+    height: 18px;
+    vertical-align: middle;
+    padding-right: .2em
+}
+
+aside#sidebar .rss {
+    margin-top: 1em;
+}
+
+.post-meta {
+    margin: 0;
+}
+
+.post-header {
+    display: flex;
+    align-items: baseline;
+    gap: .5em;
+    flex-wrap: wrap;
+
+    h2, h3 {
+        margin: 0;
+    }
+}
+
+.post-list {
+    margin-top: 2em;
+
+    .post-item {
+        margin-bottom: 2em;
+        padding-bottom: 1.5em;
+        border-bottom: 1px solid $galette-grey;
+
+        &:last-child {
+            border-bottom: none;
+        }
+    }
+}
+
+.post-content pre, .post-excerpt pre {
+  padding: 0 1em;
+  font: 1em 'courier new', courier, monospace;
+  border: 1px dashed #C4C4C4;
+  color: #666;
+  overflow: auto;
+  background-color: #EEFFCC;
+}
+
+.footnotes {
+    border-top: 1px solid $galette-grey;
+    background: rgba(0, 0, 0, .1);
+    padding: .5em;
+
+    ol, p {
+        margin: 0;
+    }
+
+    ol {
+        padding-left: 1.2em;
+    }
+}
+
+/** Galette BOX */
+aside#galette {
+    align-self: flex-start;
+    background:rgba(#000, 0.1);
+    border-radius:5px;
+    padding: .3em;
+    margin: 0 0 0 auto;
+    position: relative;
+    width: 100%;
+
+  ul {
+    margin:0;
+    padding:0;
+    list-style:none;
+    background: $galette-orange;
+    border-radius:5px;
+    box-shadow: inset rgba(#fff, 0.45) 0 1px 0, inset rgba(#000, 0.2) 0 -1px 0;
+    display: flex;
+    flex-wrap: wrap;
+
+    li {
+        flex: 1;
+        border-right:1px solid $galette-dark-orange;
+        border-left:1px solid $galette-light-orange;
+
+      &:hover {
+        background-color: $galette-dark-orange;
+      }
+    }
+
+    li:first-child {
+        border-left: none;
+        border-radius: 5px 0 0 5px;
+    }
+
+    li:last-child {
+        border-right:none;
+        border-radius: 0 5px 5px 0;
+    }
+
+    a {
+      white-space: nowrap;
+      color:#fff;
+      color:rgba(#fff, 0.8);
+      display:block;
+      text-align:center;
+      font-weight:400;
+      padding: .2em 1.3em;
+      text-decoration: none;
+
+      strong {
+          display: block;
+        font-size: $big-font-size;
+        -webkit-font-smoothing:antialiased;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: $galette-large) {
+    aside#galette {
+        flex: unset;
+        width: auto;
+    }
+}

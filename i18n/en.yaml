@@ -1,0 +1,108 @@
+global.tagline:
+  other: "English"
+global.twitter:
+  other: "Twitter"
+global.About:
+  other: "About"
+global.slogan:
+  other: "Galette - Web mangement of members and memberships for associations"
+global.next:
+  other: "Next"
+global.previous:
+  other: "Previous"
+global.page:
+  other: "Page"
+global.of:
+  other: "of"
+global.license:
+  other: "Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)"
+global.built:
+  other: "Built with"
+global.subscribe_rss:
+  other: "RSS feed"
+global.toc:
+  other: "Table of contents"
+global.nextpost:
+  other: "Go to next post"
+global.prevpost:
+  other: "Go to previous post"
+global.date_format:
+  other: "2006-01-02"
+global.donate:
+  other: "Donate"
+global.tosupport:
+  other: "to support!"
+share.native:
+  other: "Share"
+share.mastodon:
+  other: "Share on Mastodon"
+share.email:
+  other: "Share by email"
+langs.en:
+  other: "English"
+langs.fr:
+  other: "Français"
+langs.label.en:
+  other: "Show in English"
+langs.label.fr:
+  other: "Voir en français"
+pages.about:
+  other: "About"
+pages.home:
+  other: "Home"
+pages.contribute:
+  other: "Contribute"
+pages.contact:
+  other: "Contact"
+pages.posts:
+  other: "Posts"
+pages.notfound:
+  other: "Page not found :("
+pages.descriptions.home:
+  other: "Open source web membership management application for associations"
+pages.titles.contribute:
+  other: "Contribute to Galette"
+pages.titles.about:
+  other: "About and history of the Galette"
+menus.main:
+  other: "Navigate"
+menus.home:
+  other: "Home"
+menus.about:
+  other: "About"
+menus.posts:
+  other: "Posts"
+menus.contribute:
+  other: "Contribute"
+menus.contact:
+  other: "Contact"
+menus.faq:
+  other: "Frequently Asked Questions"
+menus.tracker:
+  other: "Bugs and Tasks"
+menus.demo:
+  other: "Demo"
+menus.doc:
+  other: "Documentation"
+menus.docinstall:
+  other: "Installation guide"
+menus.docuser:
+  other: "User manual"
+menus.docplugins:
+  other: "Plugins"
+tags.release:
+  other: "Stable"
+tags.rc:
+  other: "Test"
+tags.sponsored:
+  other: "Sponsored"
+tags.poissons:
+  other: "1st of april"
+download.text:
+  other: "Download_Galette"
+download.nightly:
+  other: "Galette_nightly"
+download.alt:
+  other: "Download Galette"
+download.alt_nightly:
+  other: "Download Galette development version (very recent, potentially unstable)"

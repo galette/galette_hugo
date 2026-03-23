@@ -1,0 +1,54 @@
+<aside id="sidebar">
+    <h3 class="mainmnulnk">{{ i18n "menus.main" }}</h3>
+    <header>
+        <a href="#main-menu"
+            id="main-menu-toggle"
+            class="menu-toggle"
+            aria-label="Open main menu">
+            <span class="sr-only">Open main menu</span>
+            <span class="menu-icon" aria-hidden="true">
+                <svg viewBox="0 0 18 15" width="18px" height="15px">
+                    <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+                </svg>
+            </span>
+        </a>
+        <nav id="main-menu" class="main-menu" aria-label="Main menu">
+            <a href="#main-menu-toggle"
+                id="main-menu-close"
+                class="menu-close"
+                aria-label="Close main menu">
+                <span class="sr-only">Close main menu</span>
+                <span aria-hidden="true"></span>
+            </a>
+            <ul>
+                {{ $currentPage := . }}
+                {{ range .Site.Menus.main }}
+                <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}{{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}">
+                    <a href="{{ .URL }}">{{ i18n (printf "menus.%s" .Identifier) }}</a>
+                </li>
+                {{ end }}
+            </ul>
+        </nav>
+        <a href="#main-menu-toggle"
+            class="backdrop"
+            tabindex="-1"
+            aria-hidden="true"></a>
+    </header>
+    <h3>{{ i18n "menus.doc" }}</h3>
+    <ul>
+        {{ $lang := .Language.Lang }}
+        <li><a href="{{ .Param "galette_doc_url" }}/{{ $lang }}/develop/faq/index.html">{{ i18n "menus.faq" }}</a></li>
+        <li><a href="{{ .Param "galette_doc_url" }}/{{ $lang }}/master/installation/index.html">{{ i18n "menus.docinstall" }}</a></li>
+        <li><a href="{{ .Param "galette_doc_url" }}/{{ $lang }}/master/usage/index.html">{{ i18n "menus.docuser" }}</a></li>
+        <li><a href="{{ .Param "galette_doc_url" }}/{{ $lang }}/master/plugins/index.html">{{ i18n "menus.docplugins" }}</a></li>
+    </ul>
+    <ul class="rss">
+        <li>
+            <a class="rss-subscribe" href="{{ "feed.xml" | relLangURL }}">
+                <svg class="svg-icon orange">
+                <use xlink:href="{{ "assets/minima-social-icons.svg#rss" | relURL }}"></use>
+                </svg><span>{{ i18n "global.subscribe_rss" }}</span>
+            </a>
+        </li>
+    </ul>
+</aside>

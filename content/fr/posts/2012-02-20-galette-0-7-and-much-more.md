@@ -1,0 +1,48 @@
+---
+slug: "galette-0-7-and-much-more"
+aliases:
+- /post/2012/02/19/Galette-0.7,-et-bien-plus
+- /post/2012/02/19/galette-0-7-et-bien-plus
+categories: fr post
+date: 2012-02-20 13:20:47 +0100
+layout: post
+tags: release
+title: Galette 0.7, et bien plus
+---
+<p>Galette 0.7 est sur les rails depuis un certain temps maintenant, les bogues et tâches déclarés pour cette version ont été corrigés&nbsp;; la migration des versions antérieures fonctionne elle aussi.</p>
+
+
+<p>C'est ainsi avec un plaisir non dissimulé que je vous informe de la sortie de Galette en version 0.7 :-) Le projet en profite pour faire peau neuve (nouveau site, nouvelle documentation, nouveau gestionnaire de bogues, migration de Subversion vers Git).</p>
+
+
+<p>Vous pouvez récupérer cette version à l'adresse :<br />
+<a href="https://galette.eu/download/archives/galette-0.7.0.tar.bz2">https://galette.eu/download/archives/galette-0.7.0.tar.bz2</a></p>
+
+
+<p>Un bon nombre de nouveautés et de changements sont au menu de cette version, il se peut que des problèmes aient échappé à nos yeux vigilants, n'hésitez pas à les rapporter via l'<a href="https://bugs.galette.eu/projects/galette/">outil de suivi des demandes Galette</a>&nbsp;!</p>
+
+
+<p>Une <a href="{{ site.galette.doc_url }}/{{ site.lang }}/master/changelog.html#v070">liste plus complète des nouvelles fonctionnalités de Galette 0.7</a> est disponible sur la documentation.</p>
+
+
+<p>Prenez bien soin, en cas de mise à jour, <strong>de faire une sauvegarde de vos données avant toute chose</strong>&nbsp;; n'ayant pas d'anciennes versions de Galette en production, je n'ai pas beaucoup pu tester cet aspect des choses malheureusement.</p>
+
+
+<p>La <a href="{{ site.galette.doc_url }}/{{ site.lang }}/master/">documentation de Galette</a> a également été intégralement revue.<br />
+Le guide de l'utilisateur n'est pas encore terminé, et je n'ai malheureusement pas eu le temps de m'en occuper d'avantage (par ailleurs, si quelqu'un est intéressé pour aider de ce côté là, je ne dirai pas non)&nbsp;; le manuel d'installation l'est en revanche&nbsp;:</p>
+
+<ul>
+<li>Le <a href="{{ site.galette.doc_url }}/{{ site.lang }}/master/installation/index.html">manuel d'installation</a></li>
+<li>Le <a href="{{ site.galette.doc_url }}/{{ site.lang }}/master/usermanual/index.html">manuel utilisateur</a></li>
+</ul>
+
+<p>Galette 0.7 apporte la possibilité d'<a href="{{ site.galette.doc_url }}/{{ site.lang }}/master/plugins/index.html">ajouter des fonctionnalités par le biais de plugins complémentaires</a>.</p>
+
+
+<p>Sur une note plus technique, <a href="{{ site.galette.doc_url }}/{{ site.lang }}/master/development/index.html">le guide du développeur</a> a vu le jour pour cette nouvelle version :-)</p>
+
+
+<p>L'ancienne documentation sera retirée progressivement du site actuel, attention de ne pas vous tromper d'ici là ;)</p>
+
+
+<p>Un grand merci à tous ceux qui ont participé à cette version&nbsp;! :-)</p>

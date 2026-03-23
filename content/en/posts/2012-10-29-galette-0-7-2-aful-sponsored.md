@@ -1,0 +1,31 @@
+---
+slug: "galette-0-7-2-aful-sponsored"
+aliases:
+- /post/2012/10/29/Galette-0%2E7%2E2-%3A-l-AFUL-subventionne-!
+categories: en post
+date: 2012-10-29 07:08:20 +0100
+layout: post
+tags: release sponsored
+title: 'Galette 0.7.2: AFUL sponsored!'
+---
+<p>AFUL and I are really proud to present you that new Galette release, which is quite special... Indeed, that is the first sponsored version.</p>
+
+
+<p><a href="http://aful.org/" hreflang="fr">AFUL is a french non profit organization dedicated to FOSS and open standards promotion</a>.</p>
+
+
+<p>But what is a "Sponsored version"?<br />
+A version that contains developments paid by someone and reversed to the community. TThe AFUL has been this someone for the present release and this via <a href="http://x-tnd.be" hreflang="fr">my self-employment activity</a>.</p>
+
+
+<p>All Galette users (who are the first to benefit from this) and I would like to say a very big thanks to AFUL for their participation. It allows Galette to keep improving and show a real, practical example of a FOSS project development! Bravo!</p>
+
+
+<p><a href="{{ site.galette.doc_url }}/{{ site.lang }}/master/changelog.html#v072" hreflang="fr">For that new Galette recipe</a>, the following ingredients has been added:</p>
+<ul>
+<li>improve dynamic fields interface,</li>
+<li>the code that manage those fields has been refactored,</li>
+<li>a button to quickly send mailings to late members has been added on the dashboard.</li>
+</ul>
+
+<p>Read also <a href="http://aful.org/nouvelles/paiement-couts-developpements-galette" hreflang="fr">AFUL's news about their Galette support</a> :-)</p>

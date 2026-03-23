@@ -1,0 +1,29 @@
+---
+slug: "galette-0-7-8-roland-xmas-gift"
+aliases:
+- /post/2013/12/22/Galette-0%2E7%2E8-%3A-Cadeau-de-Noël-de-Roland2
+- /post/2013/12/22/galette-0-7-8-cadeau-de-noel-de-roland
+categories: fr post
+date: 2013-12-22 00:20:42 +0100
+layout: post
+tags: release sponsored
+title: 'Galette 0.7.8 : Cadeau de Noël de Roland'
+---
+<p>Une nouvelle mouture de Galette voit le jour, estampillée 0.7.8, elle est subventionnée par Roland&nbsp;; de même que la mise à jour consécutive des plugins Maps et Paypal :-)</p>
+
+
+<p>La principale modification de cette version concerne l'ajout d'entrées dans les pages publiques pour les plugins qui disposent d'un espace public. Le plugin Paypal s’appuie sur cette nouvelle fonctionnalité, de même que Maps.</p>
+
+
+<p>Le plugin Maps se voit également doté de quelques nouveautés&nbsp;:</p>
+<ul>
+<li>les administrateurs et membres du bureau peuvent désormais gérer les coordonnées des membres,</li>
+<li>les membres (à jour ou non) peuvent se voir sur la carte s'ils sont connectés,</li>
+<li>les administrateurs et membres du bureau peuvent voir tous les adhérents géolocalisés, hormis les comptes inactifs,</li>
+<li>ajout d'un bouton plein écran pour davantage de confort.</li>
+</ul>
+
+<p>Petite note additionnelle&nbsp;: il s'agit ici non seulement de la dernière version de l'année&nbsp;; mais aussi de la dernière version de la série 0.7 de Galette. L'année prochaine verra naître Galette 0.8, avec quelques changements importants, et la fin du support de PHP 5.3.</p>
+
+
+<p>Un grand merci à Roland pour avoir subventionné cette version, bonne fêtes de fin d'année à tous.</p>

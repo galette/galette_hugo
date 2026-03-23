@@ -1,0 +1,108 @@
+global.tagline:
+  other: "Français"
+global.twitter:
+  other: "Twitter"
+global.About:
+  other: "À propos"
+global.slogan:
+  other: "Galette – Gestion web des adhérents et des contributions pour les associations"
+global.next:
+  other: "Suivante"
+global.previous:
+  other: "Précédente"
+global.page:
+  other: "Page"
+global.of:
+  other: "sur"
+global.license:
+  other: "Attribution - Partage dans les Mêmes Conditions 4.0 International (CC BY-SA 4.0)"
+global.built:
+  other: "Construit avec"
+global.subscribe_rss:
+  other: "Flux RSS"
+global.toc:
+  other: "Table des matières"
+global.nextpost:
+  other: "Aller au billet suivant"
+global.prevpost:
+  other: "Aller au billet précédent"
+global.date_format:
+  other: "02/01/2006"
+global.donate:
+  other: "Donner"
+global.tosupport:
+  other: "pour soutenir !"
+share.native:
+  other: "Partager"
+share.mastodon:
+  other: "Partager sur Mastodon"
+share.email:
+  other: "Partager par courriel"
+langs.en:
+  other: "English"
+langs.fr:
+  other: "Français"
+langs.label.en:
+  other: "Show in English"
+langs.label.fr:
+  other: "Voir en français"
+pages.about:
+  other: "À propos"
+pages.home:
+  other: "Accueil"
+pages.contribute:
+  other: "Contribuer"
+pages.contact:
+  other: "Contact"
+pages.posts:
+  other: "Publications"
+pages.notfound:
+  other: "Page non trouvée :'("
+pages.descriptions.home:
+  other: "Application web à code source ouvert de gestion d'adhésions pour les associations"
+pages.titles.contribute:
+  other: "Contribuer à Galette"
+pages.titles.about:
+  other: "À propos et histoire de la Galette"
+menus.main:
+  other: "Navigation"
+menus.home:
+  other: "Accueil"
+menus.about:
+  other: "À propos"
+menus.posts:
+  other: "Publications"
+menus.contribute:
+  other: "Contribuer"
+menus.contact:
+  other: "Contact"
+menus.faq:
+  other: "Foire aux questions"
+menus.tracker:
+  other: "Bogues et tâches"
+menus.demo:
+  other: "Démo"
+menus.doc:
+  other: "Documentation"
+menus.docinstall:
+  other: "Guide d'installation"
+menus.docuser:
+  other: "Manuel de l'utilisateur"
+menus.docplugins:
+  other: "Plugins"
+tags.release:
+  other: "Stable"
+tags.rc:
+  other: "Test"
+tags.sponsored:
+  other: "Sponsorisée"
+tags.poissons:
+  other: "1er avril"
+download.text:
+  other: "Télécharger_Galette"
+download.nightly:
+  other: "Galette_nightly"
+download.alt:
+  other: "Télécharger Galette"
+download.alt_nightly:
+  other: "Télécharger la version de développement de Galette (très récente, potentiellement instable)"

@@ -1,0 +1,24 @@
+# Redirect old Jekyll .html URLs to Hugo pretty URLs
+RewriteEngine On
+RewriteRule ^site/(.+)\.html$ /site/$1/ [R=301,L]
+
+#Redirection setup on galette.tuxfamily.org. Not relvant now, domain is not ok.
+#RedirectPermanent /dc/index.php/pages/À-propos https://galette.eu/site/fr/a-propos/
+#RedirectPermanent /dc/index.php/pages/Remerciements https://galette.eu
+#RedirectPermanent /dc/index.php/post/2012/12/19/Galette-0.7.2.8-%3A-coup-de-boost https://galette.eu/site/fr/post/2012/12/19/0-7-2-8-boosted-galette/
+#RedirectPermanent /dc/index.php/post/2013/02/23/Galette-0.7.4-%3A-Exsequenda-re-subventionne-! https://galette.eu/site/fr/post/2013/02/23/galette-0-7-4-exsequenda-re-sponsored/
+#RedirectPermanent /dc/index.php https://galette.eu
+#RedirectPermanent /dc/ https://galette.eu
+#RedirectPermanent /demo-mysql/ https://demo.galette.eu
+#RedirectPermanent /documentation/fr/changelog.html https://doc.galette.eu/fr/master/changelog.html
+#RedirectPermanent /documentation/fr/development/git.html https://doc.galette.eu/fr/master/source_code.html
+#RedirectPermanent /documentation/fr/development/index.html https://galette.eu/site/fr/contribuer/#d%C3%A9velopper--corriger
+#RedirectPermanent /documentation/fr/installation/index.html https://doc.galette.eu/fr/master/installation/index.html
+#RedirectPermanent /documentation/fr/plugins/index.html https://doc.galette.eu/fr/master/plugins/index.html
+#RedirectPermanent /documentation/fr/usermanual/index.html https://doc.galette.eu/fr/master/usermanual/index.html
+#RedirectPermanent /documentation/ https://doc.galette.eu
+#RedirectPermanent /en/doku.php https://galette.eu/site/
+#RedirectPermanent /fr/doku.php https://galette.eu/site/fr/
+#RedirectPermanent /fr/index.php https://galette.eu/site/fr/
+#RedirectPermanent /fr/ https://galette.eu/site/fr/
+#RedirectPermanent / https://galette.eu

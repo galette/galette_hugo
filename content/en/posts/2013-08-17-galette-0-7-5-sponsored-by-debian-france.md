@@ -1,0 +1,38 @@
+---
+slug: "galette-0-7-5-sponsored-by-debian-france"
+aliases:
+- /post/2013/08/17/Galette-0%2E7%2E5-%3A-subventionnée-par-Debian-France
+categories: en post
+date: 2013-08-17 07:14:28 +0100
+layout: post
+tags: release sponsored
+title: 'Galette 0.7.5: sponsored by Debian France!'
+---
+<p><a href="https://france.debian.net/" hreflang="fr">Debian France nonprofit organization</a>, who promotes the Debian operating system and myself, are proud to present you <a href="https://galette.eu/download/archives/galette-0.7.5.tar.bz2">Galette 0.7.5</a>!</p>
+
+
+<p>After a few months of work, a few difficulties, hard work and meticulous tests; a new sponsored version was born.
+As a reminder, a "Sponsored release" means that some developments have been paid via my self-employment activity and reversed to the community.</p>
+
+
+<p>Debian France requests were about distinct things:</p>
+<ul>
+<li>subscriptions reminder emails (<a href="https://bugs.galette.eu/issues/368">#368</a>), scheduled via cron (<a href="https://bugs.galette.eu/issues/377">#377</a>)</li>
+<li>reminders email templates (<a href="https://bugs.galette.eu/issues/376">#376</a>)</li>
+<li>customizable invoices and receipts (<a href="https://bugs.galette.eu/issues/394">#394</a>)</li>
+<li>contribution storage in accounting via an external script (<a href="https://bugs.galette.eu/issues/490">#490</a>) when adding a new contribution from Galette or Paypal plugin.</li>
+</ul>
+
+<p>Very special thanks to Guillaume Rousse, who implemented some additionnal features:</p>
+<ul>
+<li>add date/year dynamic fields type (<a href="https://bugs.galette.eu/issues/191">#191</a>)</li>
+<li>add boolean dynamic fields type (<a href="https://bugs.galette.eu/issues/624">#624</a>)</li>
+</ul>
+
+<p>A few other enhancements were brought along, and some bugs were fixed; see <a href="https://bugs.galette.eu/versions/36" hreflang="fr">complete change log</a>.</p>
+
+
+<p>Again, many thanks to Debian France for their sponsoring, and also to everyone who were involved in improving and testing this release :-)</p>
+
+
+<p>Read also <a href="http://france.debian.net/posts/2013/Annonce_Galette_2013/" hreflang="fr">Debian France news about their Galette support</a> :-)</p>

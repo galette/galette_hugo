@@ -1,0 +1,88 @@
+baseURL = 'https://galette.eu/site/'
+title = 'Galette'
+defaultContentLanguage = 'en'
+[params]
+  email = 'contact@galette.eu'
+  description = "Gestionnaire d'Adhérents en Ligne Extrêmement Tarabiscoté mais Tellement Efficace"
+  author = 'Johan Cwiklinski'
+  github_username = 'galette'
+  mastodon_username = 'galette'
+  mastodon_instance = 'framapiaf.org'
+  # Global parameters
+  galette_last_release = '1.2.1'
+  galette_stable_url = 'https://galette.eu/download/galette-1.2.1.tar.bz2'
+  galette_nightly_url = 'https://galette.eu/download/galette-dev.tar.bz2'
+  galette_doc_url = 'https://doc.galette.eu'
+  galette_tracker_url = 'https://bugs.galette.eu/projects/galette/'
+[pagination]
+  pagerSize = 5
+
+[server]
+  port = 1313
+
+[menus]
+  [[menus.main]]
+    identifier = "home"
+    pageRef = "/"
+    weight = 10
+  [[menus.main]]
+    identifier = "about"
+    pageRef = "/about"
+    weight = 20
+  [[menus.main]]
+    identifier = "posts"
+    pageRef = "/posts"
+    weight = 30
+  [[menus.main]]
+    identifier = "contribute"
+    pageRef = "/contribute"
+    weight = 40
+  [[menus.main]]
+    identifier = "contact"
+    pageRef = "/contact"
+    weight = 50
+  [[menus.main]]
+    identifier = "tracker"
+    url = 'https://bugs.galette.eu/projects/galette/'
+    weight = 60
+  [[menus.main]]
+    identifier = "demo"
+    url = "https://demo.galette.eu/"
+    weight = 70
+
+[languages]
+  [languages.fr]
+    languageName = 'Français'
+    weight = 1
+    contentDir = 'content/fr'
+  [languages.en]
+    languageName = 'English'
+    weight = 2
+    contentDir = 'content/en'
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+[permalinks]
+  posts = '/post/:year/:month/:day/:slug/'
+
+[frontmatter]
+  lastmod = [":git", "lastmod", ":fileModTime", ":default"]
+
+[slugify]
+  # Cleanup URLs (lowercase, no accents)
+  strategies = ["ascii"]
+
+[outputs]
+  home = ['html', 'rss']
+  section = ['html']
+  taxonomy = ['html']
+  term = ['html']
+
+[outputFormats]
+  [outputFormats.RSS]
+    baseName = "feed"
+
+[services]
+  [services.rss]
+    limit = 10

@@ -1,0 +1,23 @@
+---
+slug: "dynamic-fields-import-and-demo"
+aliases:
+- /post/2020/05/13/Import-des-champs-dynamiques-et-démo-!
+- /post/2020/05/13/import-des-champs-dynamiques-et-demo
+categories: fr post
+date: 2020-05-13 16:20:41 +0100
+layout: post
+title: Import des champs dynamiques et démo !
+---
+<p><a href="https://vote.galette.eu/posts/7/import-des-champs-dynamiques">L'import de champs dynamiques via un fichier CSV</a> est une fonctionnalité qui était très demandée. C'est d'ailleurs la <a href="https://vote.galette.eu/?view=most-wanted">demande numéro un</a> du système de votes ;)</p>
+
+
+<p>C'est une fonctionnalité qui est toute fraîchement intégrée dans la branche de développement de Galette ! Pour l'occasion, la version Galette nightly a été mise à jour, que ceux qui le souhaitent puissent installer et tester au plus vite la fonctionnalité. Voyez aussi la <a href="https://bugs.galette.eu/versions/66">liste des modifications de Galette 0.9.4</a> (qui peut-être amenée à évoluer encore).</p>
+
+
+<p>Mais j'ai aussi pensé aux autres, et j'ai décidé de remettre en place une <a href="https://demo.galette.eu">version de démonstration de Galette</a> ; que j'ai calée sur la branche de développement pour le moment. Elle est remise entièrement à zéro toutes les nuits.</p>
+
+
+<p>Merci de bien prendre en considération que ces données sont visibles de tous, évitez s'il vous plaît les abus (et si vous en constatez, signalez-le).</p>
+
+
+<p>Pour vous y connecter, l'identifiant et le mot de passe est « adminweb ».</p>

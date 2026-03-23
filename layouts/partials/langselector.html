@@ -1,0 +1,9 @@
+<div class="langselector">
+  {{ range .AllTranslations }}
+    {{ if ne $.Lang .Lang }}
+    <a href="{{ .RelPermalink }}">
+      {{ i18n (printf "langs.label.%s" .Lang) }}
+    </a>
+    {{ end }}
+  {{ end }}
+</div>

@@ -1,0 +1,61 @@
+/**
+# This file is part of Galette.
+#
+# Galette is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# Galette is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with Foobar.  If not, see https://www.gnu.org/licenses/
+*/
+
+// Use partials.
+@use "galette/normalize";
+@use "galette/base";
+@use "galette/layout";
+@use "galette/toc";
+@use "galette/mobilemenu";
+@use "galette/home";
+@use "galette/share";
+
+@charset "utf-8";
+
+@font-face {
+    font-family: 'PtSans';
+    src: url('/site/assets/fonts/ptsans-regular-webfont.woff2') format('woff2'),
+         url('/site/assets/fonts/ptsans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'PtSans';
+    src: url('/site/assets/fonts/ptsans-bold-webfont.woff2') format('woff2'),
+         url('/site/assets/fonts/ptsans-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PtSans';
+    src: url('/site/assets/fonts/ptsans-bolditalic-webfont.woff2') format('woff2'),
+         url('/site/assets/fonts/ptsans-bolditalic-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'PtSans';
+    src: url('/site/assets/fonts/ptsans-italic-webfont.woff2') format('woff2'),
+         url('/site/assets/fonts/ptsans-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}

@@ -1,0 +1,38 @@
+---
+slug: "galette-0-7-5-sponsored-by-debian-france"
+aliases:
+- /post/2013/08/17/Galette-0%2E7%2E5-%3A-subventionnée-par-Debian-France
+- /post/2013/08/17/galette-0-7-5-subventionnee-par-debian-france
+categories: fr post
+date: 2013-08-17 07:14:28 +0100
+layout: post
+tags: release sponsored
+title: 'Galette 0.7.5 : subventionnée par Debian France !'
+---
+<p><a href="https://france.debian.net/" hreflang="fr">L'association Debian France</a>, qui promeut l'excellent système d'exploitation Debian, et moi même sommes très heureux de vous présenter la <a href="https://galette.eu/download/archives/galette-0.7.5.tar.bz2">mouture 0.7.5 de Galette</a>&nbsp;!</p>
+
+
+<p>Après plusieurs mois de travail, quelques contre temps, un travail acharné et des tests consciencieux&nbsp;; une nouvelle version subventionnée voit le jour. Pour rappel, une «&nbsp;Version subventionnée » signifie que certains développements ont été financés via mon activité d’auto-entrepreneur et reversés à la communauté.</p>
+
+
+<p>Les demandes de Debian France portaient sur différents points&nbsp;:</p>
+<ul>
+<li>l'envoi de courriels de rappel d'échéance de cotisation (<a href="https://bugs.galette.eu/issues/368">#368</a>) et leur automatisation via cron (<a href="https://bugs.galette.eu/issues/377">#377</a>)</li>
+<li>l'ajout de modèles de courriels de rappel (<a href="https://bugs.galette.eu/issues/376">#376</a>)</li>
+<li>la possibilité d'éditer des factures et des reçus paramétrables (<a href="https://bugs.galette.eu/issues/394">#394</a>)</li>
+<li>l'enregistrement des contributions en comptabilité via un script externe (<a href="https://bugs.galette.eu/issues/490">#490</a>), lors de l'ajout d'une contribution directement dans Galette, ou depuis le plugin Paypal.</li>
+</ul>
+
+<p>Un grand merci à Guillaume Rousse, qui a implémenté quelques fonctionnalités supplémentaires&nbsp;:</p>
+<ul>
+<li>ajout de date/année en champs dynamiques (<a href="https://bugs.galette.eu/issues/191">#191</a>)</li>
+<li>ajout de booléens en champs dynamiques (<a href="https://bugs.galette.eu/issues/624">#624</a>)</li>
+</ul>
+
+<p>Quelques autres améliorations ont également été apportées, et quelques anomalies ont été corrigées&nbsp;; voyez <a href="https://bugs.galette.eu/versions/36">la liste complète des modifications</a>.</p>
+
+
+<p>De nouveau, merci à Debian France pour le subventionnement, ainsi qu'à celles et ceux qui ont participé aux améliorations et tests de cette version :-)</p>
+
+
+<p>Lisez également <a href="http://france.debian.net/posts/2013/Annonce_Galette_2013/" hreflang="fr">la nouvelle de Debian France sur le soutien à Galette</a> :-)</p>

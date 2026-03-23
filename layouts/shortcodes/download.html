@@ -1,0 +1,21 @@
+{{- $version := .Get "version" | default (.Get 0) -}}
+{{- $nightly := .Get "nightly" | default false -}}
+{{- $color := .Get "color" | default "ffb619" -}}
+{{- $logo := .Get "logo" | default "php" -}}
+{{- $logoColor := .Get "logoColor" | default "white" -}}
+{{- $style := .Get "style" | default "for-the-badge" -}}
+
+{{- if $nightly -}}
+  {{- $version = "dev" -}}
+  {{- $url := .Site.Params.galette_nightly_url -}}
+  {{- $text := i18n "download.nightly" | default "Galette_nightly" -}}
+  {{- $alt := i18n "download.alt_nightly" | default "Download Galette development version (very recent, potentially unstable)" -}}
+<figure class="download-badge"><a href="{{ $url }}"><img src="https://img.shields.io/badge/{{ $version }}-{{ $text }}-{{ $color }}.svg?logo={{ $logo }}&logoColor={{ $logoColor }}&style={{ $style }}" alt="{{ $alt }}"></a></figure>
+{{- else -}}
+  {{- $url := .Get "url" | default (printf "https://galette.eu/download/galette-%s.tar.bz2" $version) -}}
+  {{- $text := i18n "download.text" | default "Download_Galette" -}}
+  {{- $alt := printf "%s %s" (i18n "download.alt" | default "Download Galette") $version -}}
+<figure class="download-badge"><a href="{{ $url }}"><img src="https://img.shields.io/badge/{{ $version }}-{{ $text }}-{{ $color }}.svg?logo={{ $logo }}&logoColor={{ $logoColor }}&style={{ $style }}" alt="{{ $alt }}"></a></figure>
+{{- end -}}
+
+

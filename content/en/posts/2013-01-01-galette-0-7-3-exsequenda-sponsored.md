@@ -1,0 +1,30 @@
+---
+slug: "galette-0-7-3-exsequenda-sponsored"
+aliases:
+- /post/2013/01/01/Galette-0%2E7%2E3-%3A-Exsequenda-subventionne-!
+categories: en post
+date: 2013-01-01 22:10:58 +0100
+layout: post
+tags: release sponsored
+title: 'Galette 0.7.3: Exsequenda sponsored!'
+---
+<p>First of all, a very good 2013 year to all :-) Epiphany will be a bit early this year ;-)</p>
+
+
+<p>Exsequenda company (which contact me for one of their clients) and myself are proud to present you this new Galette release. It is the second sponsored release :-)</p>
+
+
+<p>As a reminder, a "Sponsored release" means that some develpments have been paid via my self-employment activity and reversed to the community.</p>
+
+
+<p>Here are new features that has been implemented for that sponsoring:</p>
+<ul>
+<li>fields visibility configuration (visibles, not visibles or visibles for administrators only),</li>
+<li>advanced search in all members fields (including dynamic fields),</li>
+<li>login and password may now be not required (default random values will be generated),</li>
+<li>improve and fix dynamic fields labels translations,</li>
+<li>help window editing mails texts,</li>
+<li>public members list pagination.</li>
+</ul>
+
+<p>Fields visibility configuration and advanced search has both been requested for a while, it has finally been achieved! A big thanks to Matthieu who make possible to implement those new features into Galette :-)</p>

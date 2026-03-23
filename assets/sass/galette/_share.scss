@@ -1,0 +1,95 @@
+/**
+# This file is part of Galette.
+#
+# Galette is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# Galette is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with Foobar.  If not, see https://www.gnu.org/licenses/
+*/
+@use "../variables";
+
+/** Share buttons */
+.share-buttons {
+    display: inline-block;
+    vertical-align: top;
+    font-size: .8em;
+}
+
+.share-native {
+    display: inline-flex;
+    align-items: center;
+    gap: .5em;
+    padding: .5em 1em;
+    background: $galette-orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+
+    &:hover {
+        background: $galette-dark-orange;
+    }
+
+    svg {
+        flex-shrink: 0;
+    }
+}
+
+.share-fallback {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: .1em;
+
+    a {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background: $galette-light-grey;
+        color: $text-color;
+
+        &:hover {
+            background: $galette-orange;
+            color: white;
+        }
+    }
+}
+
+ul.share-buttons{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+
+ul.share-buttons li{
+    display: inline-block;
+}
+
+ul.share-buttons .sr-only{
+    position: absolute;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0;
+    border: 0;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
+ul.share-buttons img{
+    width: 16px;
+}
