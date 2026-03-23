@@ -21,7 +21,9 @@ Galette works on any web server that supports PHP ([see prerequisites]({{< param
             <li>...</li>
         </ul>
         <figure>
-            <img src="/site/assets/images/screenshots/edit_member.png" alt="Edit member screenshot">
+            <a href="/site/assets/images/screenshots/edit_member.png" data-fancybox="gallery">
+                <img src="/site/assets/images/screenshots/edit_member.png" alt="Edit member screenshot">
+            </a>
         </figure>
     </div>
     <div>
@@ -38,7 +40,9 @@ Galette works on any web server that supports PHP ([see prerequisites]({{< param
             <li>...</li>
         </ul>
         <figure>
-            <img src="/site/assets/images/screenshots/desktop.png" alt="Desktop screenshot">
+            <a href="/site/assets/images/screenshots/desktop.png" data-fancybox="gallery">
+                <img src="/site/assets/images/screenshots/desktop.png" alt="Desktop screenshot">
+            </a>
         </figure>
     </div>
 </div>

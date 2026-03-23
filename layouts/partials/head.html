@@ -5,4 +5,5 @@
   <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}</title>
   {{ $style := resources.Get "sass/main.scss" | css.Sass (dict "includePaths" (slice "assets/sass")) | resources.Minify | resources.Fingerprint }}
   <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+  <link rel="stylesheet" href="{{ "assets/js/fancybox/jquery.fancybox.min.css" | relURL }}">
 </head>
