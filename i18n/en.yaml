@@ -32,10 +32,10 @@ global.donate:
   other: "Donate"
 global.tosupport:
   other: "to support!"
-share.facebook:
-  other: "Share via Facebook"
-share.twitter:
-  other: "Share via Twitter"
+share.native:
+  other: "Share"
+share.mastodon:
+  other: "Share on Mastodon"
 share.email:
   other: "Share by email"
 langs.en:
