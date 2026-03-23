@@ -1,0 +1,86 @@
+tags.poissons:
+  other: "1 квітня"
+tags.sponsored:
+  other: "Спонсорований"
+tags.rc:
+  other: "Випробувальний"
+tags.release:
+  other: "Сталий"
+menus.docplugins:
+  other: "Додатки"
+menus.docuser:
+  other: "Посібник користувача"
+menus.docinstall:
+  other: "Посібник зі встановлення"
+menus.doc:
+  other: "Документація"
+menus.demo:
+  other: "Пробник"
+menus.bugs:
+  other: "Хиби та завдання"
+menus.faq:
+  other: "Часто запитуване"
+menus.main:
+  other: "Переміщення"
+pages.titles.about:
+  other: "Про нас та нашу історію"
+pages.titles.contribute:
+  other: "Зробити внесок до Galette"
+pages.descriptions.home:
+  other: "Мережевий застосунок для управління членством з відкритим кодом для організацій"
+pages.notfound:
+  other: "Сторінку не знайдено :("
+pages.posts:
+  other: "Дописи"
+pages.contact:
+  other: "Зв'язок"
+pages.contribute:
+  other: "Зробити внесок"
+pages.home:
+  other: "Домівка"
+pages.about:
+  other: "Про нас"
+langs.fr:
+  other: "Французька"
+langs.en:
+  other: "Англійська"
+share.email:
+  other: "Поділитися електронною поштою"
+share.twitter:
+  other: "Поділитися через Twitter"
+share.facebook:
+  other: "Поділитися через Facebook"
+global.tosupport:
+  other: "підтримати!"
+global.donate:
+  other: "Пожертвувати"
+global.date_format:
+  other: "%Y-%m-%d"
+global.prevpost:
+  other: "Перейти до попереднього допису"
+global.nextpost:
+  other: "Перейти до наступного допису"
+global.toc:
+  other: "Зміст"
+global.subscribe_rss:
+  other: "RSS-потік"
+global.built:
+  other: "Побудовано за допомогою"
+global.license:
+  other: "Із Зазначенням Авторства — Поширення На Тих Самих Умовах 4.0 Міжнародна (CC BY-SA 4.0)"
+global.of:
+  other: "з"
+global.page:
+  other: "Сторінка"
+global.previous:
+  other: "Назад"
+global.next:
+  other: "Далі"
+global.slogan:
+  other: "Galette - Мережеве управління членами та членством у товариствах і організаціях"
+global.About:
+  other: "Про нас"
+global.twitter:
+  other: "Twitter"
+global.tagline:
+  other: "Англійська"

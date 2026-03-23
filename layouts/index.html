@@ -1,0 +1,33 @@
+{{ define "main" }}
+  <div class="home">
+    <!-- DEBUG: Page Title is {{ .Title }} -->
+    <!-- DEBUG: Page Type is {{ .Type }} -->
+    <!-- DEBUG: Page Kind is {{ .Kind }} -->
+    <!-- HOMEPAGE LAYOUT -->
+    <main>
+      {{ .Content }}
+    </main>
+  </div>
+  <hr>
+  <h2>{{ i18n "pages.posts" }}</h2>
+  <div class="post-list">
+    {{ $pages := where .Site.RegularPages "Type" "posts" }}
+    <!-- DEBUG: Found {{ len $pages }} posts -->
+    {{ range $pages | first 5 }}
+      <article class="post-item">
+        <span class="post-meta">{{ .Date.Format "02/01/2006" }}</span>
+        <h3>
+          <a class="post-link" href="{{ .RelPermalink }}">
+            {{ .Title }}
+          </a>
+        </h3>
+        <div class="post-excerpt">
+          {{ .Summary }}
+          {{ if .Truncated }}
+            <p><a href="{{ .RelPermalink }}">{{ i18n "global.next" }}...</a></p>
+          {{ end }}
+        </div>
+      </article>
+    {{ end }}
+  </div>
+{{ end }}

@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Galette 1.0.0rc2"
+date: 2023-10-17 17:42:00 +0100
+tags: rc
+categories: en post
+---
+
+After months of work, I'm very pleased to announce Galette is on the road to the 1.0.0 release!
+I propose you today the second release candidate of this version.
+
+Latest stable version is now quite old and is not fully compatible with recent PHP releases.
+
+Fortunately, database schema has not been changed at all, you can take an eye to 1.0.0 keeping your existing data as is. Don't forget to do a backup anyway, keep in mind this is a RC release.
+
+Under the hood, a lot of work has been done to improve code quality and maintainability; we also have switched from quite dead third party libraries to more recent/maintained ones.
+
+* Modern UI
+* Template rendering is now assumed by Twig instead of Smarty
+* LibreJS compatibility
+* Major improvements on UI/UX and also responsiveness
+* Use of YAML files instead of XML for exports configuration
+* New preference to show/hide borders around PDF member cards
+* WebP image support
+* ...
+
+See [Galette 1.0.0 changelog]({{ site.galette.doc_url }}/{{ site.lang }}/develop/changelog.html#v1000) for all details.
+
+All plugins needs to be updated as well, use the nightly archive available for each one, see [plugins documentation]({{ site.galette.doc_url }}/{{ site.lang }}/develop/plugins/) ;-)
+
+[![Download Galette 1.0.0rc2](https://img.shields.io/badge/1.0.0rc2-Download_Galette-ffb619.svg?logo=php&logoColor=white&style=for-the-badge)](https://github.com/galette/galette/releases/download/1.0.0rc2/galette-1.0.0-rc2-20231017-a030a93d5e.tar.bz2)
+{: style="text-align: center;"}
+
+Since Tuxfamily servers are down, this release has been created on Github.
+
+Hope you will enjoy this release; happy Galette!

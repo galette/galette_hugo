@@ -1,0 +1,25 @@
+---
+layout: post
+title: "Galette new release (1.1.1)!"
+date: 2024-06-15 07:00:00 +0200
+tags: release
+categories: en post
+---
+
+A very big thank to everyone involved in this release :)
+
+This is a minor release, providing several bugfixes:
+
+- Cannot sort transactions on payment type column
+- Self subscriptions cannot be stored
+- Error on sorting sent mailings
+- Error filtering members on status
+- Cannot replay a saved search
+- Cannot list saved search with "show identifiers" parameters set to false
+
+See [Galette 1.1.1 changelog]({{ site.galette.doc_url }}/{{ site.lang }}/master/changelog.html#v1110) for all details.
+
+[![Download Galette 1.1.1](https://img.shields.io/badge/1.1.1-Download_Galette-ffb619.svg?logo=php&logoColor=white&style=for-the-badge)](https://galette.eu/download/galette-1.1.1.tar.bz2)
+{: style="text-align: center;"}
+
+Hope you will enjoy this release; happy Galette!

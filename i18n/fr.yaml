@@ -1,0 +1,86 @@
+global.tagline:
+  other: "Français"
+global.twitter:
+  other: "Twitter"
+global.About:
+  other: "À propos"
+global.slogan:
+  other: "Galette – Gestion web des adhérents et des contributions pour les associations"
+global.next:
+  other: "Suivante"
+global.previous:
+  other: "Précédente"
+global.page:
+  other: "Page"
+global.of:
+  other: "sur"
+global.license:
+  other: "Attribution - Partage dans les Mêmes Conditions 4.0 International (CC BY-SA 4.0)"
+global.built:
+  other: "Construit avec"
+global.subscribe_rss:
+  other: "Flux RSS"
+global.toc:
+  other: "Table des matières"
+global.nextpost:
+  other: "Aller au billet suivant"
+global.prevpost:
+  other: "Aller au billet précédent"
+global.date_format:
+  other: "%d/%m/%Y"
+global.donate:
+  other: "Donner"
+global.tosupport:
+  other: "pour soutenir !"
+share.facebook:
+  other: "Partager via Facebook"
+share.twitter:
+  other: "Partager via Twitter"
+share.email:
+  other: "Partager par courriel"
+langs.en:
+  other: "English"
+langs.fr:
+  other: "Français"
+pages.about:
+  other: "À propos"
+pages.home:
+  other: "Accueil"
+pages.contribute:
+  other: "Contribuer"
+pages.contact:
+  other: "Contact"
+pages.posts:
+  other: "Publications"
+pages.notfound:
+  other: "Page non trouvée :'("
+pages.descriptions.home:
+  other: "Application web à code source ouvert de gestion d'adhésions pour les associations"
+pages.titles.contribute:
+  other: "Contribuer à Galette"
+pages.titles.about:
+  other: "À propos et histoire de la Galette"
+menus.main:
+  other: "Navigation"
+menus.faq:
+  other: "Foire aux questions"
+menus.bugs:
+  other: "Bogues et tâches"
+menus.demo:
+  other: "Démo"
+menus.doc:
+  other: "Documentation"
+menus.docinstall:
+  other: "Guide d'installation"
+menus.docuser:
+  other: "Manuel de l'utilisateur"
+menus.docplugins:
+  other: "Plugins"
+tags.release:
+  other: "Stable"
+tags.rc:
+  other: "Test"
+tags.sponsored:
+  other: "Sponsorisée"
+tags.poissons:
+  other: "1er avril"

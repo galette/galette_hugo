@@ -1,0 +1,7 @@
+<div class="langselector">
+  {{ range .AllTranslations }}
+    <a href="{{ .RelPermalink }}" class="{{ if eq $.Lang .Lang }}active{{ end }}">
+      {{ .Language.LanguageName }}
+    </a>
+  {{ end }}
+</div>

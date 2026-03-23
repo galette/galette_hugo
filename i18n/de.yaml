@@ -1,0 +1,86 @@
+menus.docinstall:
+  other: "Installationsleitfaden"
+menus.docplugins:
+  other: "Zusatzmodule"
+menus.docuser:
+  other: "Benutzerhandbuch"
+menus.doc:
+  other: "Dokumentation"
+menus.demo:
+  other: "Demo"
+menus.bugs:
+  other: "Fehler und Aufgaben"
+menus.faq:
+  other: "Häufig gestellte Fragen"
+menus.main:
+  other: "Navigation"
+global.slogan:
+  other: "Galette – Webverwaltung von Mitgliedern und Beiträgen für Verbände"
+global.tagline:
+  other: "Deutsch"
+global.tosupport:
+  other: "um zu unterstützen!"
+global.donate:
+  other: "Spenden"
+global.date_format:
+  other: "%d.%m.%Y"
+global.prevpost:
+  other: "Zum vorherigen Beitrag"
+global.nextpost:
+  other: "Zum nächsten Beitrag"
+global.toc:
+  other: "Inhaltsverzeichnis"
+global.subscribe_rss:
+  other: "RSS-Feed"
+global.built:
+  other: "Gemacht mit"
+global.license:
+  other: "Namensnennung - Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)"
+global.of:
+  other: "von"
+global.page:
+  other: "Seite"
+global.previous:
+  other: "Vorherige"
+global.next:
+  other: "Nächste"
+global.About:
+  other: "Über"
+global.twitter:
+  other: "Twitter"
+tags.poissons:
+  other: "1. April"
+tags.sponsored:
+  other: "Gesponsert"
+tags.rc:
+  other: "Test"
+tags.release:
+  other: "Stabil"
+pages.titles.about:
+  other: "Über und Geschichte von Galette"
+pages.titles.contribute:
+  other: "Zu Galette beitragen"
+pages.descriptions.home:
+  other: "Quelloffene Web-Anwendung zur Verwaltung von Mitgliedschaften für Verbände"
+pages.notfound:
+  other: "Seite nicht gefunden :("
+pages.posts:
+  other: "Beiträge"
+pages.contact:
+  other: "Kontakt"
+pages.contribute:
+  other: "Beitragen"
+pages.home:
+  other: "Startseite"
+pages.about:
+  other: "Über"
+langs.fr:
+  other: "Français"
+langs.en:
+  other: "English"
+share.email:
+  other: "Per E-Mail teilen"
+share.twitter:
+  other: "Auf Twitter teilen"
+share.facebook:
+  other: "Auf Facebook teilen"

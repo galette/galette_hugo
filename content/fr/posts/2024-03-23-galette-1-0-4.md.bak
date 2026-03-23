@@ -1,0 +1,31 @@
+---
+layout: post
+title: "Nouvelle version corrective de Galette (1.0.4) !"
+date: 2024-03-23 19:46:28 +0200
+tags: release
+categories: fr post
+---
+
+Un très grand merci à toutes les personnes impliquées dans cette version :)
+
+Il s'agit d'une version mineure, qui fournit plusieurs correctifs :
+
+- Impossible d’accéder aux tabulations sur certaines résolutions
+- L’aperçu HTML des courriels affiche le code
+- Correction du défilement dans la fenêtre d’aperçu des courriels
+- Corrections sur l’utilisation de l’injection de dépendances
+- Le nombre d’adhérents affichés était automatiquement remis à « tous »
+- Les modifications de groupes n’étaient pas visuellement affichées sur le formulaire adhérent
+- Correction de la redirection lorsqu’un fichier dynamique n’existe pas
+- Défilement horizontal du menu lorsque le nom est trop long
+- Un adhérent ne peut pas être son propre parent
+- Ajout du pied de page des préférences dans les remplacements
+
+Consultez [le journal des changements de Galette 1.0.4]({{ site.galette.doc_url }}/{{ site.lang }}/master/changelog.html#v1040) pour tous les détails.
+
+[![Télécharger Galette 1.0.4](https://img.shields.io/badge/1.0.4-Télécharger_Galette-ffb619.svg?logo=php&logoColor=white&style=for-the-badge)](https://galette.eu/download/galette-1.0.4.tar.bz2)
+{: style="text-align: center;"}
+
+Il s'agira certainement de la dernière version de la série 1.0, je souhaite maintenant me concentrer sur la version 1.1.
+
+En espérant que vous apprécierez cette version ; bonne Galette !

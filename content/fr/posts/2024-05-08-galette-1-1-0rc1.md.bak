@@ -1,0 +1,30 @@
+---
+layout: post
+title: "Galette 1.1.0rc1"
+date: 2024-05-08 08:00:00 +0100
+tags: rc
+categories: fr post
+---
+
+Je suis très heureux de vous annoncer que Galette est sur la route de la version 1.1.0 !
+
+Cette version corrige quelques problèmes, et apporte également quelques nouveautés et améliorations.
+
+* Ajout des montants sur les types de contributions
+* Vérification de la disponibilité d’une nouvelle version de Galette
+* Gestion des documents administratifs
+* Ventilation des contributions en paiements planifiés
+* Empêcher l’indexation de l’instance par les moteurs de recherche
+* Ajout du type de paiement sur les transactions
+* ...
+
+Le schéma de base de données a été modifié, n'oubliez pas d'effectuer une sauvegarde de votre base ! Gardez à l'esprit qu'il s'agit d'une version RC, vous ne devriez pas l'utiliser dans un environnement de production.
+
+Consultez le [journal des changements Galette 1.1.0]({{ site.galette.doc_url }}/{{ site.lang }}/develop/changelog.html#v1100) pour tous les détails.
+
+Tous les plugins doivent être mis à jour également, utilisez l'archive nightly disponible pour chacun d'entre eux, consultez [la documentation des plugins]({{ site.galette.doc_url }}/{{ site.lang }}/develop/plugins/) ;-)
+
+[![Télécharger Galette 1.1.0rc1](https://img.shields.io/badge/1.1.0rc1-Télécharger_Galette-ffb619.svg?logo=php&logoColor=white&style=for-the-badge)](https://galette.eu/download/dev/galette-1.1.0-rc1-20240508-95bbbc2ede.tar.bz2)
+{: style="text-align: center;"}
+
+En espérant que vous apprécierez cette version ; bonne Galette !

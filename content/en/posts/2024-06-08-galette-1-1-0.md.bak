@@ -1,0 +1,30 @@
+---
+layout: post
+title: "Galette 1.1.0"
+date: 2024-06-08 07:00:00 +0200
+tags: release
+categories: en post
+---
+
+I'm very, very happy to announce the release of new major Galette 1.1.0 release!  
+
+The new 1.1.0 release fix some issues, but also brings some new features and improvements:
+
+* Add amounts on contributions types 
+* Check if new Galette version is available
+* Manage administrative documents
+* Dispatch contribution into scheduled payments
+* Prevent instance indexation from search engines bots
+* Add payment type on transactions
+* ...
+
+Database schema has changed since 1.0 series, do not forget to backup your database before upgrading!
+
+See [Galette 1.1.0 changelog]({{ site.galette.doc_url }}/{{ site.lang }}/develop/changelog.html#v1100) for all details.
+
+All plugins needs to be updated as well, see [plugins documentation]({{ site.galette.doc_url }}/{{ site.lang }}/develop/plugins/) ;-)
+
+[![Download Galette 1.1.0](https://img.shields.io/badge/1.1.0-Download_Galette-ffb619.svg?logo=php&logoColor=white&style=for-the-badge)](https://galette.eu/download/galette-1.1.0.tar.bz2)
+{: style="text-align: center;"}
+
+Hope you will enjoy this release; happy Galette!

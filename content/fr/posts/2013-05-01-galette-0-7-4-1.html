@@ -1,0 +1,21 @@
+---
+layout: post
+title: "Galette 0.7.4.1"
+date: 2013-05-01 09:05:12 +0100
+tags: release
+categories: fr post
+redirect_from:
+  - /post/2013/05/01/Galette-0.7.4.1
+---
+
+<p>Après moult péripéties (un nouveau travail, un déménagement de l'autre côté du pays, ...)&nbsp;; j'ai finalement réussi à trouver assez de temps pour travailler un peu sur le projet, et sortir une nouvelle version corrective&nbsp;!</p>
+
+
+<p>Pas mal de choses ont été corrigées, consultez <a href="{{ site.galette.doc_url }}/{{ site.lang }}/master/changelog.html#v0741" hreflang="fr">la liste des modifications</a> pour une liste exhaustive.</p>
+
+
+<p>Le seul changement qui ne soit pas à proprement parler un bogue ne concerne que les personnes qui sont hébergées sur un serveur qui utilise Debian Squeeze, et sa version PHP 5.3.3 patchée. Je rappelle que Galette requiert désormais PHP en version 5.3.7 au moins, et qu'il est plus que fortement conseillé de mettre à jour votre version de PHP si ce pré-requis n'est pas satisfait&nbsp;; toute autre solution relève davantage du «&nbsp;bricolage&nbsp;» qu'autre chose.</p>
+
+
+<p>Néanmoins, des distributions relativement répandues sur les serveurs d'hébergement, telles que Debian Squeeze ou RHEL 6 ne fournissent pas de version de PHP supérieure à 5.3.3, mais y incluent les patchs de sécurité à postériori. Le problème, c'est que Debian n'a pas inclus tous les patches nécessaires.<br />
+Une vérification a par conséquent été ajoutée dans le processus d'installation pour détecter les cas qui ne fonctionneraient pas, et <a href="{{ site.galette.doc_url }}/{{ site.lang }}/master/development/codage.html?highlight=GALETTE_UNSECURE_PASSWORDS#configuration-du-comportement" hreflang="fr">une solution de contournement</a> a été mise en place.</p>

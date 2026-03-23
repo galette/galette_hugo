@@ -1,0 +1,26 @@
+---
+layout: post
+title: "Galette new release (0.9.5.2)!"
+date: 2021-11-07 07:50:00 +0200
+tags: release
+categories: en post
+---
+
+This release brings a few bugfixes.
+
+- Update translations
+- Work on PHP 8.1 compatibility and tests improvements
+- Fix members list issue with titles column displayed
+- Fix members list ordering
+- Fix missing emails texts insertion
+- Drop duplicate check on saved searches
+- Fix some silent errors
+- Some data were missing checking passwords against personal data
+- Fix gateway timeout sending emails with SSL SMTP
+
+See [Galette 0.9.5.2 changelog]({{ site.galette.doc_url }}/{{ site.lang }}/master/changelog.html#v0952) for all details.
+
+[![Download Galette 0.9.5.2](https://img.shields.io/badge/0.9.5.2-Download_Galette-ffb619.svg?logo=php&logoColor=white&style=for-the-badge)](https://galette.eu/download/galette-0.9.5.2.tar.bz2)
+{: style="text-align: center;"}
+
+Hope you will enjoy this release; happy Galette!

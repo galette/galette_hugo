@@ -1,0 +1,86 @@
+global.toc:
+  other: ""
+global.subscribe_rss:
+  other: ""
+global.slogan:
+  other: ""
+global.About:
+  other: ""
+global.tosupport:
+  other: ""
+global.prevpost:
+  other: ""
+global.tagline:
+  other: ""
+global.of:
+  other: ""
+global.nextpost:
+  other: ""
+global.donate:
+  other: ""
+global.date_format:
+  other: ""
+global.next:
+  other: ""
+global.page:
+  other: ""
+global.built:
+  other: ""
+global.license:
+  other: ""
+global.twitter:
+  other: ""
+global.previous:
+  other: ""
+langs.en:
+  other: ""
+langs.fr:
+  other: ""
+pages.posts:
+  other: ""
+pages.titles.about:
+  other: ""
+pages.titles.contribute:
+  other: ""
+pages.home:
+  other: ""
+pages.contribute:
+  other: ""
+pages.descriptions.home:
+  other: ""
+pages.contact:
+  other: ""
+pages.notfound:
+  other: ""
+pages.about:
+  other: ""
+menus.docinstall:
+  other: ""
+menus.bugs:
+  other: ""
+menus.main:
+  other: ""
+menus.doc:
+  other: ""
+menus.faq:
+  other: ""
+menus.demo:
+  other: ""
+menus.docplugins:
+  other: ""
+menus.docuser:
+  other: ""
+share.email:
+  other: ""
+share.facebook:
+  other: ""
+share.twitter:
+  other: ""
+tags.poissons:
+  other: ""
+tags.sponsored:
+  other: ""
+tags.rc:
+  other: ""
+tags.release:
+  other: ""

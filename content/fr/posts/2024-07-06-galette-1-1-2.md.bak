@@ -1,0 +1,28 @@
+---
+layout: post
+title: "Nouvelle version de Galette (1.1.2) !"
+date: 2024-07-06 09:30:00 +0200
+tags: release
+categories: fr post
+---
+
+Un très grand merci à toutes les personnes impliquées dans cette version :)
+
+Il s'agit d'une version mineure, qui fournit plusieurs correctifs :
+
+- Désormais traduite entièrement en Italien !
+- Ne pas afficher les liens vers la page publique des documents si les pages publiques ne sont pas activées
+- Correction de l’affichage du message d’information d’une nouvelle version
+- Correction de types sur les champs dynamiques
+- Vérification de possibles valeurs vides converties en entiers
+- Correction de la recherche d’adhérents sur les types de contributions
+- Les types de contributions et de paiements n’étaient plus sélectionnés à l’affichage des paramètres de recherche
+- Correction d’une erreur SQL avec PostgreSQL sur la recherche de champs dynamiques de type booléen
+- Correction des types de retour sur les exports paramétrés
+
+Consultez le [journal des changements de Galette 1.1.2]({{ site.galette.doc_url }}/{{ site.lang }}/master/changelog.html#v1120) pour tous les détails.
+
+[![Télécharger Galette 1.1.2](https://img.shields.io/badge/1.1.2-Télécharger_Galette-ffb619.svg?logo=php&logoColor=white&style=for-the-badge)](https://galette.eu/download/galette-1.1.2.tar.bz2)
+{: style="text-align: center;"}
+
+En espérant que vous apprécierez cette version ; bonne Galette !

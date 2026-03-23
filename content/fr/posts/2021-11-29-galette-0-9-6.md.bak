@@ -1,0 +1,27 @@
+---
+layout: post
+title: "Nouvelle version majeure de Galette (0.9.6) !"
+date: 2021-11-29 19:11:57 +0200
+tags: release
+categories: fr post
+---
+
+Il s'agit d'une version majeure, qui apporte de nouvelles fonctionnalités et des correctifs de bogues comme à l'accoutumée, mais elle corrige aussi quelques problèmes de sécurité (CVE-2021-41262, CVE-2021-41261, CVE-2021-41260). 
+
+**La mise à jour est fortement conseillée.**
+
+* Externalisation réseaux sociaux/contacts
+* Ajour du numéro d'adhérent
+* Export des contributions en CSV
+* Suppression de l'unicité des noms de groupes sur un même niveau
+* Ajout d'une protection CSRF protection
+* ...
+
+Consultez le [journal des changements de Galette 0.9.6]({{ site.galette.doc_url }}/{{ site.lang }}/master/changelog.html#v0960) pour tous les détails.
+
+Malheureusement, certaines modifications requises dans les coulisses (vérifications CSRF) rend presque tous les plugins incompatibles, il est nécessaire de les mettre à jour, reportez-vous à [la documentation des plugins]({{ site.galette.doc_url }}/{{ site.lang }}/master/plugins/) ;-)
+
+[![Télécharger Galette 0.9.6](https://img.shields.io/badge/0.9.6-Télécharger_Galette-ffb619.svg?logo=php&logoColor=white&style=for-the-badge)](https://galette.eu/download/galette-0.9.6.tar.bz2)
+{: style="text-align: center;"}
+
+En espérant que vous apprécierez cette version ; bonne Galette !

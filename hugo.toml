@@ -1,0 +1,129 @@
+baseURL = 'https://galette.eu/site/'
+title = 'Galette'
+defaultContentLanguage = 'fr'
+[params]
+  email = 'contact@galette.eu'
+  description = "Gestionnaire d'Adhérents en Ligne Extrêmement Tarabiscoté mais Tellement Efficace"
+  author = 'Johan Cwiklinski'
+  github_username = 'galette'
+  mastodon_username = 'galette'
+  mastodon_instance = 'framapiaf.org'
+  # Paramètres Galette globaux pour un accès facile
+  galette_last_release = '1.2.1'
+  galette_stable_url = 'https://galette.eu/download/galette-1.2.1.tar.bz2'
+  galette_nightly_url = 'https://galette.eu/download/galette-dev.tar.bz2'
+  galette_doc_url = 'https://doc.galette.eu'
+  galette_tracker_url = 'https://bugs.galette.eu/projects/galette/'
+[pagination]
+  pagerSize = 5
+[languages]
+  [languages.fr]
+    languageName = 'Français'
+    weight = 1
+    contentDir = 'content/fr'
+    [[languages.fr.menu.main]]
+      name = "Accueil"
+      url = "/"
+      weight = 10
+    [[languages.fr.menu.main]]
+      name = "À propos"
+      url = "/about/"
+      weight = 20
+    [[languages.fr.menu.main]]
+      name = "Publications"
+      url = "/posts/"
+      weight = 30
+    [[languages.fr.menu.main]]
+      name = "Contribuer"
+      url = "/contribute/"
+      weight = 40
+    [[languages.fr.menu.main]]
+      name = "Contact"
+      url = "/contact/"
+      weight = 50
+  [languages.en]
+    languageName = 'English'
+    weight = 2
+    contentDir = 'content/en'
+    [[languages.en.menu.main]]
+      name = "Home"
+      url = "/"
+      weight = 10
+    [[languages.en.menu.main]]
+      name = "About"
+      url = "/about/"
+      weight = 20
+    [[languages.en.menu.main]]
+      name = "Posts"
+      url = "/posts/"
+      weight = 30
+    [[languages.en.menu.main]]
+      name = "Contribute"
+      url = "/contribute/"
+      weight = 40
+    [[languages.en.menu.main]]
+      name = "Contact"
+      url = "/contact/"
+      weight = 50
+  [languages.ar]
+    languageName = 'العربية'
+    weight = 10
+    contentDir = 'content/ar'
+  [languages.br]
+    languageName = 'Brezhoneg'
+    weight = 10
+    contentDir = 'content/br'
+  [languages.ca]
+    languageName = 'Català'
+    weight = 10
+    contentDir = 'content/ca'
+  [languages.de]
+    languageName = 'Deutsch'
+    weight = 10
+    contentDir = 'content/de'
+  [languages.es]
+    languageName = 'Español'
+    weight = 10
+    contentDir = 'content/es'
+  [languages.it]
+    languageName = 'Italiano'
+    weight = 10
+    contentDir = 'content/it'
+  [languages.nb_NO]
+    languageName = 'Norsk Bokmål'
+    weight = 10
+    contentDir = 'content/nb_NO'
+  [languages.oc]
+    languageName = 'Occitan'
+    weight = 10
+    contentDir = 'content/oc'
+  [languages.ota]
+    languageName = 'Ottoman Turkish'
+    weight = 10
+    contentDir = 'content/ota'
+  [languages.pt]
+    languageName = 'Português'
+    weight = 10
+    contentDir = 'content/pt'
+  [languages.ru]
+    languageName = 'Русский'
+    weight = 10
+    contentDir = 'content/ru'
+  [languages.si]
+    languageName = 'Sinhala'
+    weight = 10
+    contentDir = 'content/si'
+  [languages.tr]
+    languageName = 'Türkçe'
+    weight = 10
+    contentDir = 'content/tr'
+  [languages.uk]
+    languageName = 'Українська'
+    weight = 10
+    contentDir = 'content/uk'
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+[permalinks]
+  posts = '/post/:year/:month/:day/:title/'

@@ -1,0 +1,26 @@
+---
+layout: post
+title: "Nouvelle version de Galette (0.9.5.2) !"
+date: 2021-11-07 07:50:00 +0200
+tags: release
+categories: fr post
+---
+
+Cette version apporte quelques correctifs.
+
+- Mise à jour des traductions
+- Compatibilité PHP 8.1 et amélioration des tests
+- Correction de la liste des adhérents lorsque la colonne titre est affichée
+- Correction du tri de la liste des adhérents
+- Correction de l'ajout des textes de courriels
+- Suppression de la vérification des doublons sur les recherches enregistrées
+- Correction d'erreurs silencieuses
+- Certaines données personnelles étaient manquantes à la vérification des mots de passe
+- Correction d'un gateway timeout à l'envoi des courriels en utilisant SMTP avec SSL
+
+Consultez le [journal des changements de Galette 0.9.5.2]({{ site.galette.doc_url }}/{{ site.lang }}/master/changelog.html#v0952) pour tous les détails.
+
+[![Télécharger Galette 0.9.5.2](https://img.shields.io/badge/0.9.5.2-Télécharger_Galette-ffb619.svg?logo=php&logoColor=white&style=for-the-badge)](https://galette.eu/download/galette-0.9.5.2.tar.bz2)
+{: style="text-align: center;"}
+
+En espérant que vous apprécierez cette version ; bonne Galette !

@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Galette 1.0.0rc2"
+date: 2023-10-17 17:42:00 +0100
+tags: rc
+categories: fr post
+---
+
+Après des mois de travail, je suis très heureux de vous annoncer que Galette est sur la route de la version 1.0.0 !
+Je vous propose aujourd'hui la seconde version candidate de cette version.
+
+La dernière version stable est maintenant assez ancienne et n'est pas pleinement compatible avec les versions récentes de PHP.
+
+Fort heureusement, le schéma de la base de données n'a pas changé, vous pouvez donc jeter un œil à la 1.0.0 en gardant vos données existantes telles quelles. N'oubliez pas de faire une sauvegarde quand même, gardez à l'esprit qu'il s'agit d'une version RC.
+
+Sous le capot, beaucoup de travail a été fait pour améliorer la qualité et la maintenabilité du code ; nous avons également remplacé des bibliothèques tierces non maintenues par des bibliothèques plus récentes/maintenues.
+
+* UI moderne
+* Le rendu des pages est désormais assuré par Twig au lieu de Smarty
+* Compatibilité LibreJS
+* Améliorations majeures sur les UI/UX et responsive
+* Utilisation de YAML au lieu de XML pour la configuration des exports
+* Nouvelle préférence pour afficher/masquer les bordures autour des cartes de membres PDF
+* Support des images WebP
+* ...
+
+Consultez le [journal des changements Galette 1.0.0]({{ site.galette.doc_url }}/{{ site.lang }}/develop/changelog.html#v1000) pour tous les détails.
+
+Tous les plugins doivent être mis à jour également, utilisez l'archive nightly disponible pour chacun d'entre eux, consultez [la documentation des plugins]({{ site.galette.doc_url }}/{{ site.lang }}/develop/plugins/) ;-)
+
+[![Télécharger Galette 1.0.0rc2](https://img.shields.io/badge/1.0.0rc2-Télécharger_Galette-ffb619.svg?logo=php&logoColor=white&style=for-the-badge)](https://github.com/galette/galette/releases/download/1.0.0rc2/galette-1.0.0-rc2-20231017-a030a93d5e.tar.bz2)
+{: style="text-align: center;"}
+
+Puisque les serveurs de Tuxfamily sont en panne, cette version a été créée sur Github.
+
+En espérant que vous apprécierez cette version ; bonne Galette !

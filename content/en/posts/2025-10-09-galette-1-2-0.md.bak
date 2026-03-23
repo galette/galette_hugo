@@ -1,0 +1,35 @@
+---
+layout: post
+title: "Galette 1.2.0"
+date: 2025-10-09 16:07:00 +0200
+tags: release
+categories: en post
+---
+
+After several months of development, I'm happy to announce the release of new major Galette 1.2.0 release!
+  
+As usual, this new version brings fixes, new features and improvements; but is also fix some security issues.
+
+* Add staff public pages (list and gallery)
+* PHP 8.5 compatibility
+* Fix stored XSS CVE-2025-48076 and reflected XSS CVE-2025-48884
+* Fix groups manager access bypass CVE-2025-53922  and CVE-2025-58052
+* Changes and fixes on dates 
+* Rework/harmonize SQL scripts
+* Add links to relevant parts of the documentation
+* Add few parameters to customize appearance
+* Prevent main social networks to be removed on update
+* Plugins no longer require write access to their root directory to be disabled/enabled
+* Plugins can display news on dashboard
+* ...
+
+Database schema changed a lot since 1.1 series, do not forget to backup your database before upgrading!
+
+See [Galette 1.2.0 changelog]({{ site.galette.doc_url }}/{{ site.lang }}/develop/changelog.html#v1200) for all details.
+
+All plugins needs to be updated as well, see [plugins documentation]({{ site.galette.doc_url }}/{{ site.lang }}/develop/plugins/) ;-)
+
+[![Download Galette 1.2.0](https://img.shields.io/badge/1.2.0-Download_Galette-ffb619.svg?logo=php&logoColor=white&style=for-the-badge)](https://galette.eu/download/galette-1.2.0.tar.bz2)
+{: style="text-align: center;"}
+
+Hope you will enjoy this release; happy Galette!

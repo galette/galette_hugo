@@ -1,0 +1,28 @@
+---
+layout: post
+title: "Galette new release (1.0.1)!"
+date: 2024-01-16 06:50:00 +0200
+tags: release
+categories: en post
+---
+
+A very big thank to everyone involved in this release :)
+
+This is a minor release, providing several bugfixes and some background enhancements:
+
+- Title in members list causes an error
+- Cannot enter a new social network name
+- Pagination and search on members list broken adding contribution
+- Contribution start date overload
+- Groups "accordion tree" not opened when a name contains a slash
+- open_basedir prevents files in /etc to be read
+- Some issues with contribution amount set to 0
+- Fatal error with PHP 7.4
+- Cron user does not have lang defined
+
+See [Galette 1.0.1 changelog]({{ site.galette.doc_url }}/{{ site.lang }}/master/changelog.html#v1010) for all details.
+
+[![Download Galette 1.0.1](https://img.shields.io/badge/1.0.1-Download_Galette-ffb619.svg?logo=php&logoColor=white&style=for-the-badge)](https://galette.eu/download/galette-1.0.1.tar.bz2)
+{: style="text-align: center;"}
+
+Hope you will enjoy this release; happy Galette!

@@ -1,0 +1,24 @@
+---
+layout: post
+title: "Galette 0.63.3!"
+date: 2009-11-28 14:22:28 +0100
+tags: release
+categories: en post
+redirect_from:
+  - /post/2009/11/28/Galette-0.63.3-!
+---
+
+<p><a href="https://galette.eu/download/archives/galette-0.63.3.tgz">Galette 0.63.3</a> is cooked, lunch's ready ! :-)</p>
+
+
+<p>This version fixes a security flaw found in the demonstration. Here is the changelog:</p>
+<ul>
+<li>fix a security flaw that allowed attacker to send arbitrary PHP files on some servers</li>
+<li>when sendind invalid member form, line dynamic fields were repeated (<a href="https://gna.org/bugs/?10187">bug #10187</a>)</li>
+<li>some encoding issues has been noticed on UFT-8 MySQL servers. Connection is now forced to LATIN1 (thanks to Cédric)</li>
+<li>unbreakable spaces appears on non html email (thanks to Cédric)</li>
+<li>using XML characters in mailing subjects causes XML analysis errors on preview (<a href="https://gna.org/bugs/index.php?14571">bug #14571</a>)</li>
+<li>needless data were stored into logs (and not at the right place) sending mailings (<a href="https://gna.org/bugs/index.php?14569">bug #14569</a>)</li>
+<li>XML analysis errors where thrown on logs page when a member card contains reserved characters (<a href="https://gna.org/bugs/index.php?14561">bug #14561</a>)</li>
+<li>html tags in mailing were not showed while previewing a mailing under Firefox (<a href="https://gna.org/bugs/index.php?14465">bug #14465</a>)</li>
+</ul>

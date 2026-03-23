@@ -1,0 +1,21 @@
+---
+layout: post
+title: "Galette 0.7.4.1"
+date: 2013-05-01 09:05:12 +0100
+tags: release
+categories: en post
+redirect_from:
+  - /post/2013/05/01/Galette-0.7.4.1
+---
+
+<p>After some adventures (new job, move accross country, ...); I finally find some time to work a bit on the project, and release a new corrective version!</p>
+
+
+<p>Many issues have been fixed, see <a href="{{ site.galette.doc_url }}/{{ site.lang }}/master/changelog.html#v0741" hreflang="fr">modifications list</a> for the full list.</p>
+
+
+<p>The only change that is not really a fix concerns Debian Squeeze powered hostings, and its patched PHP 5.3.3. Note that Galette does now requires PHP 5.3.7 at least, and that it is strongly advised to upgrade your PHP version if this requirement is not met; any other solution would be kind of patch-up job.</p>
+
+
+<p>Nevertheless, popular linux distributions on hosting servers, such as Debian Squeeze or RHEL 6 do not provide PHP upper than 5.3.3, but security patches to be applied afterwards. Problem is Debian did not include all necessary patches.<br />
+A check is now performed at install time to detect failing cases, and a <a href="{{ site.galette.doc_url }}/{{ site.lang }}/master/development/codage.html?highlight=GALETTE_UNSECURE_PASSWORDS#configuration-du-comportement" hreflang="fr">workaround</a> was provided.</p>

@@ -1,0 +1,27 @@
+---
+layout: post
+title: "Galette new bugfixes release (1.0.3)!"
+date: 2024-03-01 08:44:06 +0200
+tags: release
+categories: en post
+---
+
+A very big thank to everyone involved in this release :)
+
+This is a minor release, providing several bugfixes:
+
+- Logo in mail signature is not shown
+- Missing HTML editor for dynamic fields information field
+- Update and maintainance pages are no longer working
+- Do not throw events on mass edition
+- Make cache version dependent
+- Check preferences website is valid
+- Link to asso website from logo
+- Rework UI messages
+
+See [Galette 1.0.3 changelog]({{ site.galette.doc_url }}/{{ site.lang }}/master/changelog.html#v1030) for all details.
+
+[![Download Galette 1.0.3](https://img.shields.io/badge/1.0.3-Download_Galette-ffb619.svg?logo=php&logoColor=white&style=for-the-badge)](https://galette.eu/download/galette-1.0.3.tar.bz2)
+{: style="text-align: center;"}
+
+Hope you will enjoy this release; happy Galette!

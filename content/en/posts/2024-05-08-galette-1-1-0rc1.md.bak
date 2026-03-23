@@ -1,0 +1,30 @@
+---
+layout: post
+title: "Galette 1.1.0rc1"
+date: 2024-05-08 08:00:00 +0100
+tags: rc
+categories: en post
+---
+
+I'm very pleased to announce Galette is on the road to the 1.1.0 release!
+
+This new release fix some issues, but also brings some new features and improvements.
+
+* Add amounts on contributions types 
+* Check if new Galette version is available
+* Manage administrative documents
+* Dispatch contribution into scheduled payments
+* Prevent instance indexation from search engines bots
+* Add payment type on transactions
+* ...
+
+Database schema has changed, do not forget to backup your database! Keep in mind this is a RC release, you should avoid using it in a production environment.
+
+See [Galette 1.1.0 changelog]({{ site.galette.doc_url }}/{{ site.lang }}/develop/changelog.html#v1100) for all details.
+
+All plugins needs to be updated as well, use the nightly archive available for each one, see [plugins documentation]({{ site.galette.doc_url }}/{{ site.lang }}/develop/plugins/) ;-)
+
+[![Download Galette 1.1.0rc1](https://img.shields.io/badge/1.1.0rc1-Download_Galette-ffb619.svg?logo=php&logoColor=white&style=for-the-badge)](https://galette.eu/download/dev/galette-1.1.0-rc1-20240508-95bbbc2ede.tar.bz2)
+{: style="text-align: center;"}
+
+Hope you will enjoy this release; happy Galette!

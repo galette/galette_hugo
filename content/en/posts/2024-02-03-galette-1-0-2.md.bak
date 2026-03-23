@@ -1,0 +1,27 @@
+---
+layout: post
+title: "Galette new security release (1.0.2)!"
+date: 2024-02-03 08:34:02 +0200
+tags: release
+categories: en post
+---
+
+A very big thank to everyone involved in this release :)
+
+**This release contains a security fix, upgrading is highly recommended!**
+
+This is a minor release, providing several bugfixes:
+
+- Public pages access restriction (CVE-2024-24761)
+- Remove useless class from templates and fix social networks search dropdown
+- Ensure language is changed when login from cron; closes #1769
+- Make replacements icon in PDF Model more visible
+- Fix possible issue on group creation
+- Fix URL redirection
+
+See [Galette 1.0.2 changelog]({{ site.galette.doc_url }}/{{ site.lang }}/master/changelog.html#v1020) for all details.
+
+[![Download Galette 1.0.2](https://img.shields.io/badge/1.0.2-Download_Galette-ffb619.svg?logo=php&logoColor=white&style=for-the-badge)](https://galette.eu/download/galette-1.0.2.tar.bz2)
+{: style="text-align: center;"}
+
+Hope you will enjoy this release; happy Galette!

@@ -1,0 +1,47 @@
+/**
+# This file is part of Galette.
+#
+# Galette is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# Galette is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with Foobar.  If not, see https://www.gnu.org/licenses/
+*/
+@use 'sass:color';
+
+$base-font-family:  PtSans, Arial, sans-serif !default;
+$base-font-size:    14px !default;
+$base-font-weight:  400 !default;
+$small-font-size:   $base-font-size * 0.875 !default;
+$big-font-size:     $base-font-size * 1.125 !default;
+$base-line-height:  1.4em !default;
+
+$text-color:        #6b6b6b !default;
+$light-text-color:  #fff !default;
+$background-color:  #636B70 !default;
+$galette-orange:    #ffb619 !default;
+$galette-grey:      #e6e6e6 !default;
+$action-color:      #279ac4 !default;
+
+$galette-light-orange: lighten($galette-orange, 20%) !default;
+$galette-dark-orange:  darken($galette-orange, 15%) !default;
+$galette-blue:      #0486b5 !default;
+$galette-light-grey:   lighten($text-color, 20%) !default;
+
+$galette-max-width: 1024px;
+$content-width:    800px !default;
+$sidebar-width:    200px !default;
+
+$galette-large:     767px !default;
+$galette-large-lang: 1080px !default; //lang selector is placed on the side.
+
+$release-color: $galette-blue !default;
+$sponsored-color: green !default;
+$rc-color: $galette-dark-orange !default;

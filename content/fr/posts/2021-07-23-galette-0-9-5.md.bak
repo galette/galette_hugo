@@ -1,0 +1,27 @@
+---
+layout: post
+title: "Nouvelle version majeure de Galette (0.9.5)!"
+date: 2021-07-23 09:00:00 +0200
+tags: release
+categories: fr post
+---
+
+Un très grand merci à toutes les personnes impliquées dans cette version, et plus particulièrement :
+- les contributeurs Weblate, beaucoup de traductions encore été effectuées,
+- les membres de la communauté qui ont testé durant les phases de développement, beaucoup de problèmes ont été corrigés,
+- ...
+
+Il s'agit d'une version majeure, qui apporte de nouvelles fonctionnalités et des correctifs de bogues comme à l'accoutumée, mais elle corrige aussi quelques problèmes de sécurité (CVE-2021-21319). 
+
+* Homogénéisation des variables des PDF et courriels ; ajout de variables pour les champs dynamiques
+* Ajout de champs dynamiques de type fichier sur les contributions et transactions
+* Modifications des tailles des champs en base
+
+Plusieurs anomalies ont également été corrigées ; y-compris des problèmes avec PHP 8.0 entre autres. Consultez le [journal des changements de Galette 0.9.5]({{ site.galette.doc_url }}/{{ site.lang }}/master/changelog.html#v095) pour tous les détails.
+
+Malheureusement, certaines modifications requises dans les coulisses (sur la bibliothèque qui gère l'injection de dépendances) rend tous les plugins incompatibles, il est nécessaire de les mettre à jour, reportez-vous à [la documentation des plugins]({{ site.galette.doc_url }}/{{ site.lang }}/master/plugins/) ;-)
+
+[![Télécharger Galette 0.9.5](https://img.shields.io/badge/0.9.5-Télécharger_Galette-ffb619.svg?logo=php&logoColor=white&style=for-the-badge)](https://galette.eu/download/galette-0.9.5.tar.bz2)
+{: style="text-align: center;"}
+
+En espérant que vous apprécierez cette version ; bonne Galette !

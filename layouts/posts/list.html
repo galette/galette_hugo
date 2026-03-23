@@ -1,0 +1,17 @@
+{{ define "main" }}
+  <h1>{{ i18n "pages.posts" }}</h1>
+  {{ range .Paginator.Pages }}
+    <article class="post-item">
+      <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+      <time class="post-meta">{{ .Date.Format (i18n "global.date_format") }}</time>
+      <div class="post-excerpt">
+        {{ .Summary }}
+        {{ if .Truncated }}
+          <p><a href="{{ .RelPermalink }}">{{ i18n "global.next" }}...</a></p>
+        {{ end }}
+      </div>
+    </article>
+    <hr>
+  {{ end }}
+  {{ partial "pagination.html" . }}
+{{ end }}

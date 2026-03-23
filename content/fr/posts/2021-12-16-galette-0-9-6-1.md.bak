@@ -1,0 +1,23 @@
+---
+layout: post
+title: "Nouvelle version de Galette (0.9.6.1) !"
+date: 2021-12-16 06:50:00 +0200
+tags: release
+categories: fr post
+---
+
+Un très grand merci à toutes les personnes impliquées dans cette version :)
+
+Il s'agit d'une version mineure, qui fournit plusieurs correctifs et quelques améliorations en arrière-plan :
+
+- Correction de la priorité des langues qui n'était pas respectée
+- Suppression des vérifications de plate-forme de composer
+- Correction de html2text pour php 8
+- Correction des remplacements des réseaux sociaux
+
+Consultez le [journal des changements de Galette 0.9.6.1]({{ site.galette.doc_url }}/{{ site.lang }}/master/changelog.html#v0961) pour tous les détails.
+
+[![Télécharger Galette 0.9.6.1](https://img.shields.io/badge/0.9.6.1-Télécharger_Galette-ffb619.svg?logo=php&logoColor=white&style=for-the-badge)](https://galette.eu/download/galette-0.9.6.1.tar.bz2)
+{: style="text-align: center;"}
+
+En espérant que vous apprécierez cette version ; bonne Galette !

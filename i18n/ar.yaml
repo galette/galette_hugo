@@ -1,0 +1,86 @@
+pages.titles.contribute:
+  other: "المساهمة في Galette"
+pages.titles.about:
+  other: "عن وتاريخ Galette"
+pages.posts:
+  other: "المنشورات"
+pages.contact:
+  other: "للتواصل"
+pages.contribute:
+  other: "المساهمة"
+pages.home:
+  other: "الرئيسية"
+pages.about:
+  other: "عن"
+pages.descriptions.home:
+  other: "تطبيق ويب مفتوح المصدر لإدارة العضوية في الجمعيات"
+pages.notfound:
+  other: "الصفحة غير موجودة :("
+share.email:
+  other: "شارك عبر البريد الإلكتروني"
+share.twitter:
+  other: "شارك عبر تويتر"
+share.facebook:
+  other: "شارك عبر فايسبوك"
+global.donate:
+  other: "التبرع"
+global.prevpost:
+  other: "الإنتقال إلى المقال السابق"
+global.nextpost:
+  other: "الإنتقال إلى المقال التالي"
+global.toc:
+  other: "فهرس المحتويات"
+global.subscribe_rss:
+  other: "تدفق RSS"
+global.of:
+  other: "مِن"
+global.page:
+  other: "الصفحة"
+global.previous:
+  other: "السابقة"
+global.next:
+  other: "التالية"
+global.slogan:
+  other: "Galette - إدارة عبر الويب للأعضاء والعضويات في الجمعيات"
+global.About:
+  other: "عن"
+global.twitter:
+  other: "تويتر"
+global.tagline:
+  other: "العربية"
+global.license:
+  other: "نَسب المُصنَّف - الترخيص بالمثل 4.0 دولي (CC BY-SA 4.0)"
+global.date_format:
+  other: "%d/%m/%Y"
+global.tosupport:
+  other: "للدعم!"
+global.built:
+  other: "بُني بـ"
+menus.docuser:
+  other: "دليل المستخدم"
+menus.faq:
+  other: "الأسئلة المتداولة"
+menus.bugs:
+  other: "العِلل والمهام"
+menus.demo:
+  other: "تجريبي"
+menus.docplugins:
+  other: "الإضافات"
+menus.doc:
+  other: "الدليل"
+menus.docinstall:
+  other: "دليل التنصيب"
+menus.main:
+  other: "التنقل"
+langs.en:
+  other: "الإنجليزية"
+langs.fr:
+  other: "Français"
+tags.release:
+  other: "الثابت"
+tags.rc:
+  other: "اختبار"
+tags.sponsored:
+  other: "الرعاة"
+tags.poissons:
+  other: "الأول من أفريل"

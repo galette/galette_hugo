@@ -1,0 +1,29 @@
+---
+layout: post
+title: "Galette 1.2.1"
+date: 2025-12-08 07:30:00 +0200
+tags: release
+categories: fr post
+---
+
+Je suis heureux de vous annoncer la sortie de la nouvelle version de Galette 1.2.1 !
+
+* Revue de l'interface graphique de gestion des groupes
+* Correctifs et amélioration sur le logo (transparence des webp, affichage des logos dans les emails, ...)
+* Modification de l'ordre par défaut des contributions et transactions
+* Correction sur le lien d'une contribution depuis une transaction
+* Corrections sur les cartes adhérents PDF
+* Correction des signatures des emails en mode texte
+* Correction du mode debug depuis les archives
+* Corrections mineures sur les exports CSV
+* Correction de la création de paiement depuis les plugins
+* Correction de problèmes sur les séquences avec PostgreSQL
+
+Consultez le [journal des changements Galette 1.2.1]({{ site.galette.doc_url }}/{{ site.lang }}/develop/changelog.html#v1210) pour tous les détails.
+
+À peu près tous les [plugins]({{ site.galette.doc_url }}/{{ site.lang }}/develop/plugins/) ont également été mis à jour, quelques problèmes ont été corrigés et les langues mises à jour.
+
+[![Télécharger Galette 1.2.1](https://img.shields.io/badge/1.2.1-Télécharger_Galette-ffb619.svg?logo=php&logoColor=white&style=for-the-badge)](https://galette.eu/download/galette-1.2.1.tar.bz2)
+{: style="text-align: center;"}
+
+En espérant que vous apprécierez cette version ; bonne Galette !

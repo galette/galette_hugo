@@ -1,0 +1,86 @@
+global.prevpost:
+  other: "Vai alla pubblicazione precedente"
+global.nextpost:
+  other: "Vai alla pubblicazione successiva"
+global.tosupport:
+  other: "per sostenere!"
+global.donate:
+  other: "Dona"
+global.date_format:
+  other: "%d/%m/%Y"
+global.toc:
+  other: "Tabella dei contenuti"
+global.subscribe_rss:
+  other: "Flusso RSS"
+global.built:
+  other: "Fatto con"
+global.license:
+  other: "Attribuzione - Condividi allo stesso modo 4.0 Internazionale (CC BY-SA 4.0)"
+global.slogan:
+  other: "Galette – Gestione web dei membri e delle contribuzioni per le associazioni"
+global.of:
+  other: "di"
+global.page:
+  other: "Pagina"
+global.previous:
+  other: "Precedente"
+global.next:
+  other: "Successivo"
+global.About:
+  other: "Informazioni"
+global.twitter:
+  other: "Twitter"
+global.tagline:
+  other: "Italiano"
+tags.poissons:
+  other: "1º aprile"
+tags.sponsored:
+  other: "Sponsorizzato"
+tags.rc:
+  other: "Test"
+tags.release:
+  other: "Stabile"
+menus.docplugins:
+  other: "Plugin"
+menus.docuser:
+  other: "Manuale utente"
+menus.docinstall:
+  other: "Guida d'installazione"
+menus.doc:
+  other: "Documentazione"
+menus.demo:
+  other: "Demo"
+menus.bugs:
+  other: "Errori e compiti"
+menus.faq:
+  other: "Domande frequenti"
+menus.main:
+  other: "Naviga"
+pages.titles.about:
+  other: "Informazioni e storia di Galette"
+pages.titles.contribute:
+  other: "Contribuisci a Galette"
+pages.descriptions.home:
+  other: "Applicazione web a codice aperto di gestione delle adesioni per le associazioni"
+pages.notfound:
+  other: "Pagina non trovata :("
+pages.posts:
+  other: "Pubblicazioni"
+pages.contact:
+  other: "Contatto"
+pages.contribute:
+  other: "Contribuisci"
+pages.home:
+  other: "Pagina principale"
+pages.about:
+  other: "Informazioni"
+langs.fr:
+  other: "Français"
+langs.en:
+  other: "English"
+share.email:
+  other: "Condividi via posta elettronica"
+share.twitter:
+  other: "Condividi via Twitter"
+share.facebook:
+  other: "Condividi via Facebook"

@@ -1,0 +1,25 @@
+---
+layout: post
+title: "Nouvelle version corrective de Galette (0.9.4.2)"
+date: 2020-11-01 12:07:03 +0200
+tags: release
+categories: fr post
+---
+
+Un très grand merci à toutes les personnes impliquées dans cette version :)
+
+Il s'agit d'une version mineure, qui fournit plusieurs correctifs :
+
+* Problèmes à l’instanciation des envois, dans le coeur et les plugins (#1495)
+* Correction de problèmes avec les pièces jointes des envois (#1497)
+* Le script de post contribution était appelé trop tôt (#1496)
+* Correction de la couleur des cartes à l’installation (#1508)
+* Nom et prénom étaient inversés sur la carte de membre PDF
+* Le logo d’impression était bien celui utilisé, mais pas celui affiché
+
+Consultez le [journal des changements de Galette 0.9.4.2]({{ site.galette.doc_url }}/{{ site.lang }}/master/changelog.html#v0942) pour tous les détails.
+
+[![Télécharger Galette 0.9.4.2](https://img.shields.io/badge/0.9.4.2-Télécharger_Galette-ffb619.svg?logo=php&logoColor=white&style=for-the-badge)](https://galette.eu/download/galette-0.9.4.2.tar.bz2)
+{: style="text-align: center;"}
+
+En espérant que vous apprécierez cette version ; bonne Galette !

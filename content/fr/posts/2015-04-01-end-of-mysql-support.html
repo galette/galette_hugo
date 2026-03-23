@@ -1,0 +1,22 @@
+---
+layout: post
+title: "Fin du support MySQL"
+date: 2015-04-01 04:59:04 +0100
+ref: end-of-mysql-support
+tags: poissons
+categories: fr post
+redirect_from:
+  - /post/2015/04/01/Fin-du-support-MySQL
+  - /post/2015/04/01/fin-du-support-mysql
+---
+
+<p><strong>EDIT</strong>&nbsp;: Évidemment, personne n’y a cru, il s’agissait d’un poisson d’avril.</p>
+
+<p>Depuis quelque temps déjà, je m'interroge sur le fait de conserver ou non le support de SQLite dans Galette. Le constat est simple, supporter plusieurs moteurs de bases de données est une tâche complexe, qui demande beaucoup de temps et d'attention. Pour moult raisons, mon temps libre s'est fortement réduit ces derniers mois, et il fallait impérativement que je trouve une solution.</p>
+
+
+<p>Après mûre réflexion, il m'est apparu que finalement, le moteur qui pose le plus de problèmes et qui prend le plus de temps n'est pas SQLite, mais bel et bien MySQL.<br />
+En conséquence, j'ai décidé de stopper le support de MySQL dans Galette.</p>
+
+
+<p>Concrètement, cela signifie que les versions futures de Galette ne prendront plus en compte ce moteur spécifique, mais aussi que les demandes et autres bogues rapportés ne seront pas traités non plus. Les utilisateurs qui utilisent actuellement ce moteur sont cordialement invités à migrer vers d'autres horizons le plus rapidement possible.</p>

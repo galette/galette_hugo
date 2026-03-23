@@ -1,0 +1,25 @@
+---
+layout: post
+title: "Nouvelle version de Galette (1.1.1) !"
+date: 2024-06-15 07:00:00 +0200
+tags: release
+categories: fr post
+---
+
+Un très grand merci à toutes les personnes impliquées dans cette version :)
+
+Il s'agit d'une version mineure, qui fournit plusieurs correctifs :
+
+- Impossible de trier les transactions sur la colonne type de paiement
+- Les inscriptions par l'adhérent ne pouvaient pas être enregistrées
+- Erreur sur le tri dans la liste des envois
+- Erreur sur le filtrage par status de la liste des adhérents
+- Impossible de rejouer une recherche sauvegardée
+- Impossible de lister les recherches sauvegardées avec le paramètre "afficher les identifiants" désactivé
+
+Consultez le [journal des changements de Galette 1.1.1]({{ site.galette.doc_url }}/{{ site.lang }}/master/changelog.html#v1110) pour tous les détails.
+
+[![Télécharger Galette 1.1.1](https://img.shields.io/badge/1.1.1-Télécharger_Galette-ffb619.svg?logo=php&logoColor=white&style=for-the-badge)](https://galette.eu/download/galette-1.1.1.tar.bz2)
+{: style="text-align: center;"}
+
+En espérant que vous apprécierez cette version ; bonne Galette !

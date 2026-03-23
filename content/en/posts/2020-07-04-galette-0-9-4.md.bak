@@ -1,0 +1,54 @@
+---
+layout: post
+title: "Galette new major release (0.9.4) - Community sponsored!"
+date: 2020-07-04 15:47:04 +0200
+tags: release
+categories: en post
+---
+
+This release is dedicated to contributors of my new working station pool **thank you very much**!
+
+![](/site/assets/images/thanks.jpg)
+
+A very big thanks as well to everyone involved in this release, especially:
+- community members who brings features/fix,
+- Weblate contributors, many translations have been done,
+- community members who do tests during the development phases, many issues has been fixed,
+- [APiCy](https://apicy.fr) association, which sponsored direct download links sent in mails,
+- ...
+
+This is a major release, which brings a few new features as usual:
+
+* Customizable password security level (complexity, blacklist, ...)
+
+![](/site/assets/images/screenshots/prefs_security.png)
+
+* Choose and order visible fields on members list
+
+![](/site/assets/images/screenshots/default_memberslist.png)
+![](/site/assets/images/screenshots/custom_memberslist.png)
+
+* Support of RTL languages in PDF
+
+![](/site/assets/images/screenshots/rtl_pdf.png)
+
+And also:
+
+* CSV imports now handles dynamic fields and already encrypted passwords
+* Send invoice/receipt or membercard direct download links in emails
+* Offer last months when using beginning of membership date
+* Members can print their own invoices/receipts
+* Possibility to use member’s deadline instead of year in PDF cards
+
+Some bugs have also been fixed; including PHP 7.4 and CSV import issues among others. See [Galette 0.9.4 changelog]({{ site.galette.doc_url }}/{{ site.lang }}/master/changelog.html#v094) for all details.
+
+A big work has been done under the hood; the code has been cleaned and reorganized a bit, unit tests has been added and more work has been done on code quality.
+
+All official plugins, as well as documentation can now be [translated](https://hosted.weblate.org/projects/galette) in the same languages as Galette itself! Setting up all that was a big work, but even if this has been done very recently, translations have already started :-)
+
+Most of the plugins have also been updated, please refer to [plugins documentation]({{ site.galette.doc_url }}/{{ site.lang }}/master/plugins/) to know more ;-)
+
+[![Download Galette 0.9.4](https://img.shields.io/badge/0.9.4-Download_Galette-ffb619.svg?logo=php&logoColor=white&style=for-the-badge)](https://galette.eu/download/galette-0.9.4.tar.bz2)
+{: style="text-align: center;"}
+
+Hope you will enjoy this release; happy Galette!
