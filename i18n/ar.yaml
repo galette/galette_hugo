@@ -51,7 +51,7 @@ global.tagline:
 global.license:
   other: "نَسب المُصنَّف - الترخيص بالمثل 4.0 دولي (CC BY-SA 4.0)"
 global.date_format:
-  other: "%d/%m/%Y"
+  other: "02/01/2006"
 global.tosupport:
   other: "للدعم!"
 global.built:

@@ -7,7 +7,7 @@ global.tosupport:
 global.donate:
   other: "Dona"
 global.date_format:
-  other: "%d/%m/%Y"
+  other: "02/01/2006"
 global.toc:
   other: "Tabella dei contenuti"
 global.subscribe_rss:

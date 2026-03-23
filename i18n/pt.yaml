@@ -11,7 +11,7 @@ global.nextpost:
 global.prevpost:
   other: "Ir para publicação anterior"
 global.date_format:
-  other: "%Y-%m-%d"
+  other: "2006-01-02"
 global.donate:
   other: "Doe"
 global.tosupport:

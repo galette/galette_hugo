@@ -23,7 +23,7 @@ global.tosupport:
 global.donate:
   other: "Spenden"
 global.date_format:
-  other: "%d.%m.%Y"
+  other: "02.01.2006"
 global.prevpost:
   other: "Zum vorherigen Beitrag"
 global.nextpost:

@@ -27,7 +27,7 @@ global.nextpost:
 global.prevpost:
   other: "Go to previous post"
 global.date_format:
-  other: "%Y-%m-%d"
+  other: "2006-01-02"
 global.donate:
   other: "Donate"
 global.tosupport:
@@ -84,3 +84,11 @@ tags.sponsored:
   other: "Sponsored"
 tags.poissons:
   other: "1st of april"
+download.text:
+  other: "Download_Galette"
+download.nightly:
+  other: "Galette_nightly"
+download.alt:
+  other: "Download Galette"
+download.alt_nightly:
+  other: "Download Galette development version (very recent, potentially unstable)"

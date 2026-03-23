@@ -1,0 +1,15 @@
+{{ if .Params.tags }}
+<div class="post-tags">
+  {{- if reflect.IsSlice .Params.tags -}}
+    {{ range .Params.tags }}
+      {{- $tagKey := printf "tags.%s" . -}}
+      {{- $translated := i18n $tagKey -}}
+      <span class="tag {{ . }}">{{ if $translated }}{{ $translated }}{{ else }}{{ . }}{{ end }}</span>
+    {{ end }}
+  {{- else -}}
+    {{- $tagKey := printf "tags.%s" .Params.tags -}}
+    {{- $translated := i18n $tagKey -}}
+    <span class="tag {{ .Params.tags }}">{{ if $translated }}{{ $translated }}{{ else }}{{ .Params.tags }}{{ end }}</span>
+  {{- end -}}
+</div>
+{{ end }}

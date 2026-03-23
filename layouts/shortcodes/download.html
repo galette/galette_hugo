@@ -8,12 +8,14 @@
 {{- if $nightly -}}
   {{- $version = "dev" -}}
   {{- $url := .Site.Params.galette_nightly_url -}}
-  {{- $text := "Download_Nightly" -}}
-<figure class="download-badge"><a href="{{ $url }}"><img src="https://img.shields.io/badge/{{ $version }}-{{ $text }}-{{ $color }}.svg?logo={{ $logo }}&logoColor={{ $logoColor }}&style={{ $style }}" alt="Download Galette nightly"></a></figure>
+  {{- $text := i18n "download.nightly" | default "Galette_nightly" -}}
+  {{- $alt := i18n "download.alt_nightly" | default "Download Galette development version (very recent, potentially unstable)" -}}
+<figure class="download-badge"><a href="{{ $url }}"><img src="https://img.shields.io/badge/{{ $version }}-{{ $text }}-{{ $color }}.svg?logo={{ $logo }}&logoColor={{ $logoColor }}&style={{ $style }}" alt="{{ $alt }}"></a></figure>
 {{- else -}}
   {{- $url := .Get "url" | default (printf "https://galette.eu/download/galette-%s.tar.bz2" $version) -}}
-  {{- $text := .Get "text" | default "Download_Galette" -}}
-<figure class="download-badge"><a href="{{ $url }}"><img src="https://img.shields.io/badge/{{ $version }}-{{ $text }}-{{ $color }}.svg?logo={{ $logo }}&logoColor={{ $logoColor }}&style={{ $style }}" alt="Download Galette {{ $version }}"></a></figure>
+  {{- $text := i18n "download.text" | default "Download_Galette" -}}
+  {{- $alt := printf "%s %s" (i18n "download.alt" | default "Download Galette") $version -}}
+<figure class="download-badge"><a href="{{ $url }}"><img src="https://img.shields.io/badge/{{ $version }}-{{ $text }}-{{ $color }}.svg?logo={{ $logo }}&logoColor={{ $logoColor }}&style={{ $style }}" alt="{{ $alt }}"></a></figure>
 {{- end -}}
 
 

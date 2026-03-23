@@ -31,7 +31,7 @@ global.subscribe_rss:
 global.toc:
   other: "Tabla de contenidos"
 global.date_format:
-  other: "%Y-%m-%d"
+  other: "2006-01-02"
 global.built:
   other: "Desarrollado con"
 global.tosupport:

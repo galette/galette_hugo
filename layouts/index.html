@@ -14,7 +14,24 @@
     {{ range $pages | first 5 }}
       <article class="post-item">
         <div class="post-header">
-          <span class="post-meta">{{ .Date.Format "02/01/2006" }}</span>
+          <p class="post-meta">
+            {{- if .Params.tags -}}
+              {{- if reflect.IsSlice .Params.tags -}}
+                {{- range .Params.tags -}}
+                  {{- $tagKey := printf "tags.%s" . -}}
+                  {{- $translated := i18n $tagKey -}}
+                  <span class="tag {{ . }}">{{ if $translated }}{{ $translated }}{{ else }}{{ . }}{{ end }}</span>
+                {{- end -}}
+              {{- else -}}
+                {{- $tagKey := printf "tags.%s" .Params.tags -}}
+                {{- $translated := i18n $tagKey -}}
+                <span class="tag {{ .Params.tags }}">{{ if $translated }}{{ $translated }}{{ else }}{{ .Params.tags }}{{ end }}</span>
+              {{- end -}}
+            {{- end }}
+            <time class="dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+              {{ .Date.Format (i18n "global.date_format") }}
+            </time>
+          </p>
           <h3>
             <a class="post-link" href="{{ .RelPermalink }}">
               {{ .Title }}
@@ -23,7 +40,6 @@
         </div>
         <div class="post-excerpt">
           {{ .Content }}
-          <p><a href="{{ .RelPermalink }}">{{ i18n "global.next" }}...</a></p>
         </div>
       </article>
     {{ end }}

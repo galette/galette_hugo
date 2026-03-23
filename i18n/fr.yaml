@@ -27,7 +27,7 @@ global.nextpost:
 global.prevpost:
   other: "Aller au billet précédent"
 global.date_format:
-  other: "%d/%m/%Y"
+  other: "02/01/2006"
 global.donate:
   other: "Donner"
 global.tosupport:
@@ -84,3 +84,11 @@ tags.sponsored:
   other: "Sponsorisée"
 tags.poissons:
   other: "1er avril"
+download.text:
+  other: "Télécharger_Galette"
+download.nightly:
+  other: "Galette_nightly"
+download.alt:
+  other: "Télécharger Galette"
+download.alt_nightly:
+  other: "Télécharger la version de développement de Galette (très récente, potentiellement instable)"

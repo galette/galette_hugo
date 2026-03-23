@@ -1,0 +1,20 @@
+<ul class="share-buttons">
+  <li>
+    <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink | absURL }}&quote={{ .Title }}" title="{{ i18n "share.facebook" }}" target="_blank" rel="noopener">
+      <svg class="svg-icon"><use xlink:href="{{ "assets/minima-social-icons.svg#facebook" | relURL }}"></use></svg>
+      <span class="sr-only">{{ i18n "share.facebook" }}</span>
+    </a>
+  </li>
+  <li>
+    <a href="https://twitter.com/intent/tweet?source={{ .Permalink | absURL }}&text={{ .Title }}:%20{{ .Permalink | absURL }}" target="_blank" title="{{ i18n "share.twitter" }}" rel="noopener">
+        <svg class="svg-icon"><use xlink:href="{{ "assets/minima-social-icons.svg#twitter" | relURL }}"></use></svg>
+      <span class="sr-only">{{ i18n "share.twitter" }}</span>
+    </a>
+  </li>
+  <li>
+    <a href="mailto:?subject={{ .Title }}&body={{ .Title }}:%20{{ .Permalink | absURL }}" target="_blank" title="{{ i18n "share.email" }}" rel="noopener">
+      <svg class="svg-icon"><use xlink:href="{{ "assets/minima-social-icons.svg#email" | relURL }}"></use></svg>
+      <span class="sr-only">{{ i18n "share.email" }}</span>
+    </a>
+  </li>
+</ul>

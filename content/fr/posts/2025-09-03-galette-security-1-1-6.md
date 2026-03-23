@@ -11,7 +11,7 @@ Une faille de sécurité relativement importante - et ancienne - a été détect
 
 Puisqu'elle est notée critique, je vous recommande fortement de mettre à jour votre instance de Galette dès que possible.
 
-[![Télécharger Galette 1.1.6.1](https://img.shields.io/badge/1.1.6.1-Télécharger_Galette-ffb619.svg?logo=php&logoColor=white&style=for-the-badge)](https://galette.eu/download/galette-1.1.6.1.tar.bz2)
+{{< download version="1.1.6.1" >}}
 
 Peut-être aurez-vous noté qu'il y a eu 2 versions aujourd'hui ; la plus récente corrige une régression mineure dans la 1.1.6 ;)
 
