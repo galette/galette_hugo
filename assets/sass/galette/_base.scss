@@ -178,6 +178,16 @@ aside#sidebar .rss {
 
 .post-list {
     margin-top: 2em;
+
+    .post-item {
+        margin-bottom: 2em;
+        padding-bottom: 1.5em;
+        border-bottom: 1px solid $galette-grey;
+
+        &:last-child {
+            border-bottom: none;
+        }
+    }
 }
 
 .post-content pre, .post-excerpt pre {

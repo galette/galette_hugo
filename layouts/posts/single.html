@@ -1,0 +1,53 @@
+{{ define "main" }}
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+  <header class="post-header">
+    <p class="post-meta">
+      {{- if .Params.tags -}}
+        {{- if reflect.IsSlice .Params.tags -}}
+          {{- range .Params.tags -}}
+            {{- $tagKey := printf "tags.%s" . -}}
+            {{- $translated := i18n $tagKey -}}
+            <span class="tag {{ . }}">{{ if $translated }}{{ $translated }}{{ else }}{{ . }}{{ end }}</span>
+          {{- end -}}
+        {{- else -}}
+          {{- $tagKey := printf "tags.%s" .Params.tags -}}
+          {{- $translated := i18n $tagKey -}}
+          <span class="tag {{ .Params.tags }}">{{ if $translated }}{{ $translated }}{{ else }}{{ .Params.tags }}{{ end }}</span>
+        {{- end -}}
+      {{- end }}
+      <time class="dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}" itemprop="datePublished">
+        {{ .Date.Format (i18n "global.date_format") }}
+      </time>
+      {{- with .Params.author | default .Site.Params.author }}
+        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ . }}</span></span>
+      {{- end }}
+    </p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    {{ .Content }}
+  </div>
+
+  {{ partial "share.html" . }}
+
+  {{- $nextPage := .NextInSection -}}
+  {{- $prevPage := .PrevInSection -}}
+  {{- if or $nextPage $prevPage }}
+  <footer class="posts-navigation">
+    <nav>
+      {{- if $prevPage }}
+        <a href="{{ $prevPage.RelPermalink }}" title="{{ i18n "global.prevpost" }}">« {{ $prevPage.Title }}</a>
+      {{- end }}
+      {{- if and $prevPage $nextPage }} - {{ end }}
+      {{- if $nextPage }}
+        <a href="{{ $nextPage.RelPermalink }}" title="{{ i18n "global.nextpost" }}">{{ $nextPage.Title }} »</a>
+      {{- end }}
+    </nav>
+  </footer>
+  {{- end }}
+
+  <a class="u-url" href="{{ .RelPermalink }}" hidden></a>
+</article>
+{{ end }}
+
+
