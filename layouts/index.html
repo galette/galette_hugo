@@ -15,17 +15,17 @@
     <!-- DEBUG: Found {{ len $pages }} posts -->
     {{ range $pages | first 5 }}
       <article class="post-item">
-        <span class="post-meta">{{ .Date.Format "02/01/2006" }}</span>
-        <h3>
-          <a class="post-link" href="{{ .RelPermalink }}">
-            {{ .Title }}
-          </a>
-        </h3>
+        <div class="post-header">
+          <span class="post-meta">{{ .Date.Format "02/01/2006" }}</span>
+          <h3>
+            <a class="post-link" href="{{ .RelPermalink }}">
+              {{ .Title }}
+            </a>
+          </h3>
+        </div>
         <div class="post-excerpt">
-          {{ .Summary }}
-          {{ if .Truncated }}
-            <p><a href="{{ .RelPermalink }}">{{ i18n "global.next" }}...</a></p>
-          {{ end }}
+          {{ .Content }}
+          <p><a href="{{ .RelPermalink }}">{{ i18n "global.next" }}...</a></p>
         </div>
       </article>
     {{ end }}

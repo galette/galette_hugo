@@ -60,6 +60,15 @@ img {
     max-width: 100%;
 }
 
+.download-badge {
+    text-align: center;
+    margin: 1.5em auto;
+
+    a:hover {
+        text-decoration: none;
+    }
+}
+
 a {
   color: $action-color;
   text-decoration: none;
@@ -154,6 +163,17 @@ aside#sidebar .rss {
 
 .post-meta {
     margin: 0;
+}
+
+.post-header {
+    display: flex;
+    align-items: baseline;
+    gap: .5em;
+    flex-wrap: wrap;
+
+    h2, h3 {
+        margin: 0;
+    }
 }
 
 .post-content pre, .post-excerpt pre {
