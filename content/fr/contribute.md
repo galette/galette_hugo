@@ -1,5 +1,6 @@
 ---
 title: "Contribuer"
+slug: "contribuer"
 ---
 Vous souhaitez contribuer, mais vous ne savez pas quoi faire ? Peut-être même pensez-vous ne pas pouvoir aider du tout...
 

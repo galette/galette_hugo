@@ -25,50 +25,52 @@ defaultContentLanguage = 'en'
     languageName = 'Français'
     weight = 1
     contentDir = 'content/fr'
-    [[languages.fr.menu.main]]
-      name = "Accueil"
-      url = "/"
-      weight = 10
-    [[languages.fr.menu.main]]
-      name = "À propos"
-      url = "/about/"
-      weight = 20
-    [[languages.fr.menu.main]]
-      name = "Publications"
-      url = "/posts/"
-      weight = 30
-    [[languages.fr.menu.main]]
-      name = "Contribuer"
-      url = "/contribute/"
-      weight = 40
-    [[languages.fr.menu.main]]
-      name = "Contact"
-      url = "/contact/"
-      weight = 50
+    [languages.fr.menus]
+      [[languages.fr.menus.main]]
+        name = "Accueil"
+        pageRef = "/"
+        weight = 10
+      [[languages.fr.menus.main]]
+        name = "À propos"
+        pageRef = "/about"
+        weight = 20
+      [[languages.fr.menus.main]]
+        name = "Publications"
+        pageRef = "/posts"
+        weight = 30
+      [[languages.fr.menus.main]]
+        name = "Contribuer"
+        pageRef = "/contribute"
+        weight = 40
+      [[languages.fr.menus.main]]
+        name = "Contact"
+        pageRef = "/contact"
+        weight = 50
   [languages.en]
     languageName = 'English'
     weight = 2
     contentDir = 'content/en'
-    [[languages.en.menu.main]]
-      name = "Home"
-      url = "/"
-      weight = 10
-    [[languages.en.menu.main]]
-      name = "About"
-      url = "/about/"
-      weight = 20
-    [[languages.en.menu.main]]
-      name = "Posts"
-      url = "/posts/"
-      weight = 30
-    [[languages.en.menu.main]]
-      name = "Contribute"
-      url = "/contribute/"
-      weight = 40
-    [[languages.en.menu.main]]
-      name = "Contact"
-      url = "/contact/"
-      weight = 50
+    [languages.en.menus]
+      [[languages.en.menus.main]]
+        name = "Home"
+        pageRef = "/"
+        weight = 10
+      [[languages.en.menus.main]]
+        name = "About"
+        pageRef = "/about"
+        weight = 20
+      [[languages.en.menus.main]]
+        name = "Posts"
+        pageRef = "/posts"
+        weight = 30
+      [[languages.en.menus.main]]
+        name = "Contribute"
+        pageRef = "/contribute"
+        weight = 40
+      [[languages.en.menus.main]]
+        name = "Contact"
+        pageRef = "/contact"
+        weight = 50
   [languages.ar]
     languageName = 'العربية'
     weight = 10

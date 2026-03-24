@@ -24,7 +24,7 @@
                 {{ $currentPage := . }}
                 {{ range .Site.Menus.main }}
                 <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}{{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}">
-                    <a href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+                    <a href="{{ .URL }}">{{ .Name }}</a>
                 </li>
                 {{ end }}
             </ul>
