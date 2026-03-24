@@ -1,7 +1,27 @@
-<div class="langselector">
-  {{ range .AllTranslations }}
-    <a href="{{ .RelPermalink }}" class="{{ if eq $.Lang .Lang }}active{{ end }}">
+<details class="langselector">
+  <summary role="button">
+    <a class="button">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <path d="M9 6.371c0 4.418 -2.239 6.629 -5 6.629" />
+        <path d="M4 6.371h7" />
+        <path d="M5 9c0 2.144 2.252 3.908 6 4" />
+        <path d="M12 20l4 -9l4 9" />
+        <path d="M19.1 18h-6.2" />
+        <path d="M6.694 3l.793 .582" />
+      </svg>
       {{ .Language.LanguageName }}
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <path d="M18.707 8.293a1 1 0 0 1 0 1.414l-6 6a1 1 0 0 1 -1.414 0l-6 -6a1 1 0 0 1 1.414 -1.414l5.293 5.293l5.293 -5.293a1 1 0 0 1 1.414 0" />
+      </svg>
     </a>
-  {{ end }}
-</div>
+  </summary>
+  <ul>
+    {{ if .IsTranslated }}
+      {{ range .Translations }}
+        <li><a href="{{ .RelPermalink }}">{{ .Language.LanguageName }}</a></li>
+      {{ end }}
+    {{ end }}
+  </ul>
+</details>
