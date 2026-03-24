@@ -138,3 +138,17 @@ defaultContentLanguage = 'en'
 [slugify]
   # Nettoyage des URLs (minuscules, sans accents) pour les nouveaux contenus
   strategies = ["ascii"]
+
+[outputs]
+  home = ['html', 'rss']
+  section = ['html']
+  taxonomy = ['html']
+  term = ['html']
+
+[outputFormats]
+  [outputFormats.RSS]
+    baseName = "feed"
+
+[services]
+  [services.rss]
+    limit = 10
