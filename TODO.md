@@ -2,7 +2,6 @@
 ## Conversion de contenu
 - [x] Convertir les fichiers `.html` restants dans `content/` vers le format Markdown (`.md`) pour une meilleure maintenance.
 ## Internationalisation
-- [ ] Synchroniser les fichiers `i18n/*.yaml` avec Weblate.
 - [/] Compléter les contenus pour les langues moins couvertes (périmètre réduit à FR et EN pour le moment).
 ## SEO
 - [x] Vérifier et ajouter les alias (`aliases`) dans le front-matter pour toutes les pages ayant changé d'URL par rapport à Jekyll.
