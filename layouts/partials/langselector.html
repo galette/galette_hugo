@@ -2,7 +2,7 @@
   {{ range .AllTranslations }}
     {{ if ne $.Lang .Lang }}
     <a href="{{ .RelPermalink }}">
-      {{ .Language.LanguageName }}
+      {{ i18n (printf "langs.label.%s" .Lang) }}
     </a>
     {{ end }}
   {{ end }}

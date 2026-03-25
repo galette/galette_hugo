@@ -42,6 +42,10 @@ langs.en:
   other: "English"
 langs.fr:
   other: "Français"
+langs.label.en:
+  other: "Show in English"
+langs.label.fr:
+  other: "Voir en français"
 pages.about:
   other: "À propos"
 pages.home:
