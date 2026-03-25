@@ -1,4 +1,5 @@
 ---
+slug: "new-website"
 layout: post
 title: "Nouveau site web pour Galette !"
 date: 2020-05-28 19:14:04 +0200

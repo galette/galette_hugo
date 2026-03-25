@@ -1,4 +1,5 @@
 ---
+slug: "a-new-oven-for-galette"
 aliases:
 - /post/2019/12/10/Un-nouveau-four-pour-Galette
 - /post/2019/12/10/un-nouveau-four-pour-galette

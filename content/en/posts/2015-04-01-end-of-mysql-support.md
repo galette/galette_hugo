@@ -1,4 +1,5 @@
 ---
+slug: "end-of-mysql-support"
 aliases:
 - /post/2015/04/01/Fin-du-support-MySQL
 categories: en post

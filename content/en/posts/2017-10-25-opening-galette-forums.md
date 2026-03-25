@@ -1,4 +1,5 @@
 ---
+slug: "opening-galette-forums"
 aliases:
 - /post/2017/10/25/Ouverture-des-forums-de-discussion
 categories: en post

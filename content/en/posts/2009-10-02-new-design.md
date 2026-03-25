@@ -1,4 +1,5 @@
 ---
+slug: "new-design"
 aliases:
 - /post/2009/10/02/«-Nouveau-»-design
 categories: en post

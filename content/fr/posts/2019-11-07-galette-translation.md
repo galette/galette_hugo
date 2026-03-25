@@ -1,4 +1,5 @@
 ---
+slug: "galette-translation"
 aliases:
 - /post/2019/11/07/Traduction-Galette
 - /post/2019/11/07/traduction-de-galette

@@ -76,7 +76,7 @@ defaultContentLanguage = 'en'
     [markup.goldmark.renderer]
       unsafe = true
 [permalinks]
-  posts = '/post/:year/:month/:day/:title/'
+  posts = '/post/:year/:month/:day/:slug/'
 
 [frontmatter]
   lastmod = [":git", "lastmod", ":fileModTime", ":default"]

@@ -1,4 +1,5 @@
 ---
+slug: "galette-0-7-and-much-more"
 aliases:
 - /post/2012/02/19/Galette-0.7,-et-bien-plus
 categories: en post

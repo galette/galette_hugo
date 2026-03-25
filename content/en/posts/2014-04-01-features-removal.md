@@ -1,4 +1,5 @@
 ---
+slug: "features-removal"
 aliases:
 - /post/2014/04/01/Suppression-de-fonctionnalités
 categories: en post

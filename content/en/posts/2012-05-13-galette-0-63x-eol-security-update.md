@@ -1,4 +1,5 @@
 ---
+slug: "galette-0-63x-eol-security-update"
 aliases:
 - /post/2012/05/13/Galette-0%2E63x-%3A-EOL-mise-à-jour-de-sécurité
 categories: en post

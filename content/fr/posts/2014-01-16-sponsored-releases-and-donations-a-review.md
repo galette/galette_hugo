@@ -1,4 +1,5 @@
 ---
+slug: "sponsored-releases-and-donations-a-review"
 aliases:
 - /post/2013/05/25/Versions-subventionnées-et-dons-%3A-un-an-après%2C-le-bilan
 - /post/2014/01/16/versions-subventionnees-et-dons-un-bilan.html

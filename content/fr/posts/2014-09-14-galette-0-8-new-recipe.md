@@ -1,4 +1,5 @@
 ---
+slug: "galette-0-8-new-recipe"
 aliases:
 - /post/2014/08/12/Galette-0%2E8-%3A-nouvelle-recette-!
 - /post/2014/08/12/galette-0-8-nouvelle-recette

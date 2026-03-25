@@ -1,4 +1,5 @@
 ---
+slug: "galette-on-telegram"
 aliases:
 - /post/2017/10/26/Galette-sur-Telegram
 - /post/2017/10/26/galette-sur-telegram

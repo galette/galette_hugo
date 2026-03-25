@@ -1,4 +1,5 @@
 ---
+slug: "galette-forums-revival"
 layout: post
 title: "Forums de Galette ressuscités"
 date: 2023-10-17 16:45:00 +0100

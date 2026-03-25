@@ -1,4 +1,5 @@
 ---
+slug: "galette-0-7-feature-freeze"
 aliases:
 - /post/2012/02/16/Galette-0%2E7-%3A-gel-des-fonctionnalités
 categories: en post

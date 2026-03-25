@@ -1,4 +1,5 @@
 ---
+slug: "galette-pro-services"
 layout: post
 title: "Galette Professional Services"
 date: 2024-07-09 14:19:08 +0200

@@ -1,4 +1,5 @@
 ---
+slug: "galette-0-7-3-exsequenda-sponsored"
 aliases:
 - /post/2013/01/01/Galette-0%2E7%2E3-%3A-Exsequenda-subventionne-!
 categories: en post

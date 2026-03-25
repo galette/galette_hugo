@@ -1,4 +1,5 @@
 ---
+slug: "galette-0-7-2-aful-sponsored"
 aliases:
 - /post/2012/10/29/Galette-0%2E7%2E2-%3A-l-AFUL-subventionne-!
 - /post/2012/10/29/galette-0-7-2-l-aful-subventionne

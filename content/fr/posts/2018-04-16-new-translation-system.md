@@ -1,4 +1,5 @@
 ---
+slug: "new-translation-system"
 aliases:
 - /post/2018/04/16/Nouveau-système-de-traductions
 - /post/2018/04/16/nouveau-systeme-de-traductions

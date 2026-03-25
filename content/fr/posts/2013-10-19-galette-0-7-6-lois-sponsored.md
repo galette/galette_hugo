@@ -1,4 +1,5 @@
 ---
+slug: "galette-0-7-6-lois-sponsored"
 aliases:
 - /post/2013/10/19/Galette-0%2E7%2E6-%3A-subventionnée-par-Loïs
 - /post/2013/10/19/galette-0-7-6-subventionnee-par-gruiick

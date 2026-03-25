@@ -1,4 +1,5 @@
 ---
+slug: "0-7-2-8-boosted-galette"
 aliases:
 - /post/2012/12/19/Galette-0%2E7%2E2%2E8-%3A-coup-de-boost
 categories: en post

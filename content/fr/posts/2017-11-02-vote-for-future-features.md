@@ -1,4 +1,5 @@
 ---
+slug: "vote-for-future-features"
 aliases:
 - /post/2017/11/02/Voter-pour-les-futures-fonctionnalités
 - /post/2017/11/02/voter-pour-les-futures-fonctionnalites

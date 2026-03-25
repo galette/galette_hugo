@@ -1,4 +1,5 @@
 ---
+slug: "galette-0-8-2-2-le-pic-sponsored"
 aliases:
 - /post/2015/10/19/Galette-0%2E8%2E2%2E2-%3A-sponsorisée-par-Le-Pic
 - /post/2015/10/19/galette-0-8-2-2-sponsorisee-par-le-pic

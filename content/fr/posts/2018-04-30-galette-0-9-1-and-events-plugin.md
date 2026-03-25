@@ -1,4 +1,5 @@
 ---
+slug: "galette-0-9-1-and-events-plugin"
 aliases:
 - /post/2018/04/30/Galette-0.9.1
 - /post/2018/04/30/galette-0-9-1-et-plugin-evenements

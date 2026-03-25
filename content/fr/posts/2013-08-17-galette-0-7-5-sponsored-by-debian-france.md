@@ -1,4 +1,5 @@
 ---
+slug: "galette-0-7-5-sponsored-by-debian-france"
 aliases:
 - /post/2013/08/17/Galette-0%2E7%2E5-%3A-subventionnée-par-Debian-France
 - /post/2013/08/17/galette-0-7-5-subventionnee-par-debian-france

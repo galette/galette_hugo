@@ -1,4 +1,5 @@
 ---
+slug: "license-change"
 aliases:
 - /post/2013/04/01/Modification-de-license
 categories: en post

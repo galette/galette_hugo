@@ -1,4 +1,5 @@
 ---
+slug: "talking-about-galette"
 aliases:
 - /post/2020/05/18/Discuter-de-Galette
 categories: en post

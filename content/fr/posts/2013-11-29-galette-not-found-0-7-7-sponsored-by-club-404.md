@@ -1,4 +1,5 @@
 ---
+slug: "galette-not-found-0-7-7-sponsored-by-club-404"
 aliases:
 - /post/2013/11/30/Galette-not-found-%3A-la-0%2E7%2E7-sponsorisée-par-le-club-404
 - /post/2013/11/30/galette-not-found-la-0-7-7-sponsorisee-par-le-club-404

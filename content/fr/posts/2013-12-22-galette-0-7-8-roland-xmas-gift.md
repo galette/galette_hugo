@@ -1,4 +1,5 @@
 ---
+slug: "galette-0-7-8-roland-xmas-gift"
 aliases:
 - /post/2013/12/22/Galette-0%2E7%2E8-%3A-Cadeau-de-Noël-de-Roland2
 - /post/2013/12/22/galette-0-7-8-cadeau-de-noel-de-roland

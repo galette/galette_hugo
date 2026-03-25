@@ -1,4 +1,5 @@
 ---
+slug: "galette-0-9-galette-has-come"
 aliases:
 - /post/2017/12/21/Galette-0.9-(Galette-has-come)
 categories: en post
