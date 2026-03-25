@@ -71,62 +71,6 @@ defaultContentLanguage = 'en'
         name = "Contact"
         pageRef = "/contact"
         weight = 50
-  [languages.ar]
-    languageName = 'العربية'
-    weight = 10
-    contentDir = 'content/ar'
-  [languages.br]
-    languageName = 'Brezhoneg'
-    weight = 10
-    contentDir = 'content/br'
-  [languages.ca]
-    languageName = 'Català'
-    weight = 10
-    contentDir = 'content/ca'
-  [languages.de]
-    languageName = 'Deutsch'
-    weight = 10
-    contentDir = 'content/de'
-  [languages.es]
-    languageName = 'Español'
-    weight = 10
-    contentDir = 'content/es'
-  [languages.it]
-    languageName = 'Italiano'
-    weight = 10
-    contentDir = 'content/it'
-  [languages.nb_NO]
-    languageName = 'Norsk Bokmål'
-    weight = 10
-    contentDir = 'content/nb_NO'
-  [languages.oc]
-    languageName = 'Occitan'
-    weight = 10
-    contentDir = 'content/oc'
-  [languages.ota]
-    languageName = 'Ottoman Turkish'
-    weight = 10
-    contentDir = 'content/ota'
-  [languages.pt]
-    languageName = 'Português'
-    weight = 10
-    contentDir = 'content/pt'
-  [languages.ru]
-    languageName = 'Русский'
-    weight = 10
-    contentDir = 'content/ru'
-  [languages.si]
-    languageName = 'Sinhala'
-    weight = 10
-    contentDir = 'content/si'
-  [languages.tr]
-    languageName = 'Türkçe'
-    weight = 10
-    contentDir = 'content/tr'
-  [languages.uk]
-    languageName = 'Українська'
-    weight = 10
-    contentDir = 'content/uk'
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
