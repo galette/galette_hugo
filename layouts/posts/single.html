@@ -28,8 +28,6 @@
     {{ .Content }}
   </div>
 
-  {{ partial "share.html" . }}
-
   {{- $nextPage := .NextInSection -}}
   {{- $prevPage := .PrevInSection -}}
   {{- if or $nextPage $prevPage }}

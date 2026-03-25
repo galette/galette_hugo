@@ -16,6 +16,57 @@
 */
 @use "../variables";
 
+/** Share buttons */
+.share-buttons {
+    float: right;
+    margin-left: 2em;
+}
+
+.share-native {
+    display: inline-flex;
+    align-items: center;
+    gap: .5em;
+    padding: .5em 1em;
+    background: $galette-orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+
+    &:hover {
+        background: $galette-dark-orange;
+    }
+
+    svg {
+        flex-shrink: 0;
+    }
+}
+
+.share-fallback {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 1em;
+
+    a {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background: $galette-light-grey;
+        color: $text-color;
+
+        &:hover {
+            background: $galette-orange;
+            color: white;
+        }
+    }
+}
+
 ul.share-buttons{
     list-style: none;
     padding: 0;

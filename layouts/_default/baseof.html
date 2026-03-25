@@ -6,7 +6,7 @@
     <section class="wrapper">
         <header>
             <div class="ghead">
-                <h1>{{ .Title }}</h1>
+                <h1>{{ .Title }}{{ if eq .Section "posts" }} {{ partial "share.html" . }}{{ end }}</h1>
                 {{ partial "langselector.html" . }}
             </div>
             {{ partial "galettebar.html" . }}
