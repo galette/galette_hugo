@@ -119,13 +119,14 @@ section#content {
     }
 
     a {
-      border: 1px solid #98dbcc;
+      border: 1px solid $galette-grey;
       padding: .5em 1em;
-      background: #f6f5f4;
-      color: $background-color;
+      background: white;
+      color: $text-color;
 
       &:hover {
-        background: #fff;
+        background: $galette-light-grey;
+        color: $galette-dark-grey;
         text-decoration: none;
       }
 
@@ -153,11 +154,11 @@ section#content {
 /** Navigate beetween posts */
 .posts-navigation {
     margin-top: 1em;
-    border-top: 1px solid $galette-orange;
+    border-top: 1px solid $galette-light-grey;
     text-align: center;
 
     a {
-        color: $galette-light-grey;
+      color: $text-color;
     }
 }
 
@@ -197,8 +198,8 @@ aside#sidebar {
       padding: .2em .3em;
 
       &:hover, &:focus, &:active {
-        color: $action-color;
-        background: rgba(0, 0, 0, 0.1);
+        color: $galette-dark-blue;
+        background: $galette-light-grey;
       }
     }
   }
