@@ -195,7 +195,7 @@ aside#sidebar .rss {
 .content pre,
 .post-content pre,
 .post-excerpt pre {
-  padding: 0 1em;
+  padding: 1em;
   font: 1em 'courier new', courier, monospace;
   border: 1px dashed $galette-grey;
   color: $galette-dark-grey;
@@ -220,6 +220,7 @@ aside#sidebar .rss {
 /** Galette BOX */
 aside#galette {
     align-self: flex-start;
+    flex-shrink: 0;
     background: $galette-light-grey;
     border-radius:5px;
     padding: .3em;
@@ -277,7 +278,6 @@ aside#galette {
 
 @media screen and (min-width: $galette-large) {
     aside#galette {
-        flex: unset;
         width: auto;
     }
 }
