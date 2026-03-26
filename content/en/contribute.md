@@ -13,7 +13,7 @@ For the ones who stay anyway, using and testing Galette is the same process. So,
 
 If you want - especially now you are a Galette expert! - you can test new features under development when there are, or regularly try the [nightly version]({{ .Site.Params.galette.nightly_url }}). Do not forget this is an unstable version; even if instability is a relative concept.
 
-Of course, this is the same for [official plugins]({{ .Site.Params.galette.doc_url }}/{{ .Page.Language.Lang }}/master/plugins/) :-)
+Of course, this is the same for {{< doclink path="plugins/" >}}official plugins{{< /doclink >}} :-)
 
 ## Help / Communicate
 
@@ -72,4 +72,4 @@ Anyway, try to ask with developer(s) who is certainly the more appropriate to he
 
 Source code of all projects (Galette, plugins, documentation, website) is hosted on GitHub repositories, we can rely one a PR (Pull Request) that will be reviewed by the development team. Any Git applicable patch of any method would be OK too.
 
-All [really useful information for Galette source code or plugins are available in documentation]({{ .Site.Params.galette.doc_url }}/{{ .Page.Language.Lang }}/develop/source_code.html).
+All {{< doclink path="source_code.html" branch="develop" >}}really useful information for Galette source code or plugins are available in documentation{{< /doclink >}}.

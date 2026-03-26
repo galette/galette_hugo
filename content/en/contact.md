@@ -72,7 +72,7 @@ The most simple and reliable way to [search on past Galette related discussion](
 
 ## Bugs reports and requests for enhancement
 
-Specific FAQ entries are talking respectively about [bug reporting and asking for new features]({{ .Site.Params.galette.doc_url }}/{{ .Page.Language.Lang }}/master/faq/index.html#how-to-report-a-bug-or-ask-for-a-feature).
+Specific FAQ entries are talking respectively about {{< doclink path="faq/index.html#how-to-report-a-bug-or-ask-for-a-feature" >}}bug reporting and asking for new features{{< /doclink >}}.
 
 Before [reporting a bug](https://bugs.galette.eu/projects/galette) or [ask for a new feature](https://bugs.galette.eu/projects/galette/), please make sure no one else already did :-)
 

@@ -14,7 +14,7 @@ Pour ceux qui seraient restés tout de même, utiliser et tester Galette vont de
 
 Si le cœur vous en dit - surtout maintenant que vous êtes un pro de Galette ! - vous pouvez aussi tester les nouvelles fonctionnalités en développement lorsqu'il y en a, ou essayer régulièrement la [version nightly]({{ .Site.Params.galette.nightly_url }}).  N'oubliez pas dans ce cas qu'il s'agit d'une version instable ; bien que l'instabilité soit une notion toute relative.
 
-Bien entendu, il en va de même pour les [plugins officiels]({{ .Site.Params.galette.doc_url }}/{{ .Page.Language.Lang }}/master/plugins/) :-)
+Bien entendu, il en va de même pour les {{< doclink path="plugins/" >}}plugins officiels{{< /doclink >}} :-)
 
 ## Aider / Communiquer
 
@@ -73,4 +73,4 @@ Dans tous les cas de figure, essayez de vous rapprocher du ou des développeur(s
 
 Le code source des différents projets (Galette, plugins, documentation site web) est hébergé dans des dépôts GitHub, on peut utiliser leur mécanisme de PR (Pull Request) qui sera revue par l'équipe de développement. N'importe quel patch applicable par Git fourni de n'importe quelle manière ira très bien aussi.
 
-Toutes les [informations fort utiles au code source de Galette ou des plugins sont disponibles dans la documentation]({{ .Site.Params.galette.doc_url }}/{{ .Page.Language.Lang }}/develop/source_code.html).
+Toutes les {{< doclink path="source_code.html" branch="develop" >}}informations fort utiles au code source de Galette ou des plugins sont disponibles dans la documentation{{< /doclink >}}.

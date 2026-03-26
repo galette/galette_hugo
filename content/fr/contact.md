@@ -72,7 +72,7 @@ La manière la plus simple et fiable [d'effectuer une recherche dans les discuss
 
 ## Rapports de bogues et demandes d'évolutions
 
-Des entrées de FAQ spécifiques traitent respectivement des procédures de [rapport d'anomalies et de demande d'évolution]({{ .Site.Params.galette.doc_url }}/{{ .Page.Language.Lang }}/master/faq/index.html#how-to-report-a-bug-or-ask-for-a-feature).
+Des entrées de FAQ spécifiques traitent respectivement des procédures de {{< doclink path="faq/index.html#how-to-report-a-bug-or-ask-for-a-feature" >}}rapport d'anomalies et de demande d'évolution{{< /doclink >}}.
 
 Avant de [rapporter un bogue](https://bugs.galette.eu/projects/galette) ou [d'exprimer une demande de fonctionnalité](https://bugs.galette.eu/projects/galette/), assurez-vous que personne ne vous ait devancé :-)
 
