@@ -56,6 +56,10 @@ pages.contact:
   other: "Contact"
 pages.posts:
   other: "Publications"
+pages.posts.recent:
+  other: "Publications récentes"
+pages.posts.all:
+  other: "Voir toutes les publications"
 pages.notfound:
   other: "Page non trouvée :'("
 pages.descriptions.home:
