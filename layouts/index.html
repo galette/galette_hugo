@@ -9,6 +9,7 @@
     </main>
   </div>
   <div class="post-list">
+    <h2>{{ i18n "pages.posts.recent" }}</h2>
     {{ $pages := where .Site.RegularPages "Type" "posts" }}
     <!-- DEBUG: Found {{ len $pages }} posts -->
     {{ range $pages | first 5 }}
@@ -43,5 +44,8 @@
         </div>
       </article>
     {{ end }}
+    <div class="pagination">
+      <a href="{{ "posts" | relLangURL }}" class="buttom">{{ i18n "pages.posts.all" }}</a>
+    </div>
   </div>
 {{ end }}
