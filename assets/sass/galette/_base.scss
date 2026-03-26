@@ -102,6 +102,18 @@ code, kbd, samp {
     padding: .1em .2em;
 }
 
+hr {
+    border:none;
+    height: 1px;
+    background-color: $galette-light-grey;
+    margin: 2em 0;
+}
+
+.footnotes hr {
+    height: 0;
+    margin: 0;
+}
+
 /* Screen reader only */
 .sr-only {
     position: absolute;
@@ -279,5 +291,6 @@ aside#galette {
 @media screen and (min-width: $galette-large) {
     aside#galette {
         width: auto;
+        margin-left: 2em;
     }
 }

@@ -77,7 +77,9 @@ section#content {
         text-align: justify;
     }
 
-    .post-content a, .home > main a {
+    .post-content a,
+    .post-excerpt a,
+    .home > main a {
         text-decoration: underline;
     }
 
@@ -94,17 +96,12 @@ section#content {
 
     a {
         display: block;
-        padding: .1em .2em;
-
-        &.active {
-            border-bottom: 1px solid $galette-orange;
-        }
+        padding: .15em .25em;
 
         &:hover {
             text-decoration: none;
             color: $light-text-color;
             background: $galette-blue;
-            border-bottom: 1px solid transparent;
         }
 
     }
@@ -130,25 +127,6 @@ section#content {
         color: $galette-dark-grey;
         text-decoration: none;
       }
-
-      &.prev {
-        margin-right: .5em;
-        text-align: left;
-
-        &:before {
-            margin-right: .2em;
-            content: '«';
-        }
-      }
-
-      &.next {
-        margin-left: .5em;
-        text-align: right;
-        &:after {
-            margin-left: .2em;
-            content: '»';
-        }
-      }
     }
 
     .page-current {
@@ -164,7 +142,17 @@ section#content {
     text-align: center;
 
     a {
+      display: inline-block;
+      border: 1px solid $galette-grey;
+      padding: .5em 1em;
+      background: white;
       color: $text-color;
+
+      &:hover {
+        background: $galette-light-grey;
+        color: $galette-dark-grey;
+        text-decoration: none;
+      }
     }
 }
 
