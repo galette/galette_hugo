@@ -112,6 +112,7 @@ section#content {
 
 /** pagination */
 .pagination {
+    margin-top: 1em;
     text-align: center;
 
     > * {
@@ -149,11 +150,16 @@ section#content {
         }
       }
     }
+
+    .page-current {
+        margin: 0 1em;
+    }
 }
 
 /** Navigate beetween posts */
 .posts-navigation {
     margin-top: 1em;
+    padding-top: 1em;
     border-top: 1px solid $galette-light-grey;
     text-align: center;
 
@@ -247,7 +253,7 @@ footer {
     }
 
     header:first-child {
-        h1 {
+        & > h1 {
             margin: 0;
             padding-top: .6em;
             position: relative;
