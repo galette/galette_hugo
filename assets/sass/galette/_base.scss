@@ -75,7 +75,7 @@ a {
   cursor: hand;
 
   &:hover, &:active, &:focus {
-    color: #708FAB;
+    color: $galette-dark-blue;
     text-decoration: underline;
   }
 
@@ -98,7 +98,7 @@ pre {
 
 code, kbd, samp {
     font-size: $small-font-size;
-    background: rgba(0, 0, 0, .1);
+    background: $galette-light-grey;
     padding: .1em .2em;
 }
 
@@ -119,10 +119,11 @@ code, kbd, samp {
     display: inline-block;
     padding: .2em .5em;
     background-color: $galette-light-grey;
-    color: $light-text-color;
+    color: $dark-text-color;
 
     &.release {
         background-color: $release-color;
+        color: $light-text-color;
     }
 
     &.rc {
@@ -131,6 +132,7 @@ code, kbd, samp {
 
     &.sponsored {
         background-color: $sponsored-color;
+        color: $light-text-color;
     }
 }
 
@@ -182,7 +184,7 @@ aside#sidebar .rss {
     .post-item {
         margin-bottom: 2em;
         padding-bottom: 1.5em;
-        border-bottom: 1px solid $galette-grey;
+        border-bottom: 1px solid $galette-light-grey;
 
         &:last-child {
             border-bottom: none;
@@ -190,17 +192,19 @@ aside#sidebar .rss {
     }
 }
 
-.post-content pre, .post-excerpt pre {
+.content pre,
+.post-content pre,
+.post-excerpt pre {
   padding: 0 1em;
   font: 1em 'courier new', courier, monospace;
-  border: 1px dashed #C4C4C4;
-  color: #666;
+  border: 1px dashed $galette-grey;
+  color: $galette-dark-grey;
   overflow: auto;
-  background-color: #EEFFCC;
+  background-color: #fdffc3;
 }
 
 .footnotes {
-    border-top: 1px solid $galette-grey;
+    border-top: 1px solid $galette-light-grey;
     background: rgba(0, 0, 0, .1);
     padding: .5em;
 
@@ -216,7 +220,7 @@ aside#sidebar .rss {
 /** Galette BOX */
 aside#galette {
     align-self: flex-start;
-    background:rgba(#000, 0.1);
+    background: $galette-light-grey;
     border-radius:5px;
     padding: .3em;
     margin: 0 0 0 auto;
@@ -255,8 +259,7 @@ aside#galette {
 
     a {
       white-space: nowrap;
-      color:#fff;
-      color:rgba(#fff, 0.8);
+      color:$galette-dark-grey;
       display:block;
       text-align:center;
       font-weight:400;
