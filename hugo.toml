@@ -46,6 +46,10 @@ defaultContentLanguage = 'en'
         name = "Contact"
         pageRef = "/contact"
         weight = 50
+      [[languages.fr.menus.main]]
+        name = "Démo"
+        url = "https://demo.galette.eu/"
+        weight = 60
   [languages.en]
     languageName = 'English'
     weight = 2
@@ -71,6 +75,10 @@ defaultContentLanguage = 'en'
         name = "Contact"
         pageRef = "/contact"
         weight = 50
+      [[languages.en.menus.main]]
+        name = "Demo"
+        url = "https://demo.galette.eu/"
+        weight = 60
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]

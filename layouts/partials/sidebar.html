@@ -37,6 +37,7 @@
     <h3>{{ i18n "menus.doc" }}</h3>
     <ul>
         {{ $lang := .Language.Lang }}
+        <li><a href="{{ .Param "galette_doc_url" }}/{{ $lang }}/develop/faq/index.html">{{ i18n "menus.faq" }}</a></li>
         <li><a href="{{ .Param "galette_doc_url" }}/{{ $lang }}/master/installation/index.html">{{ i18n "menus.docinstall" }}</a></li>
         <li><a href="{{ .Param "galette_doc_url" }}/{{ $lang }}/master/usage/index.html">{{ i18n "menus.docuser" }}</a></li>
         <li><a href="{{ .Param "galette_doc_url" }}/{{ $lang }}/master/plugins/index.html">{{ i18n "menus.docplugins" }}</a></li>
