@@ -21,24 +21,24 @@ title: Galette 0.7,  and much more
 <p>Numerous functionnalities and changes have been made for this release, some problems may have slipped through our vigilance, feel free to report them using Galette's trackers|https://bugs.galette.eu/projects/galette/]!</p>
 
 
-<p>A most <a href="{{ site.galette.doc_url }}/{{ site.lang }}/master/changelog.html#v070">complete list of Galette 0.7 new functionnalities</a> is available on the documentation.</p>
+<p>A most {{< doclink path="changelog.html#v070" >}}complete list of Galette 0.7 new functionnalities{{< /doclink >}} is available on the documentation.</p>
 
 
 <p>If you are updating, <strong>make sure to backup your data</strong> ; I do not have any old Galette installations, so I cannot test much upgrades scripts.</p>
 
 
-<p><a href="{{ site.galette.doc_url }}/{{ site.lang }}/master/">Galette's documentation</a> also has been rewritten.<br />
+<p>{{< doclink path="" >}}Galette's documentation{{< /doclink >}} also has been rewritten.<br />
 The user guide is not yet ended, and I unfortunately can not spend more time to take care of that for now (by the way, if you're interested in helping with that, I'll not say no); on the other hand, installation manual is up-to-date:</p>
 
 <ul>
-<li><a href="Installation guide{{ site.galette.doc_url }}/{{ site.lang }}/master/installation/index.html" title="Installation guide{{ site.galette.doc_url }}/{{ site.lang }}/master/installation/index.html">Installation guidehttp://galette.tu...</a></li>
-<li><a href="{{ site.galette.doc_url }}/{{ site.lang }}/master/usermanual/index.html">user guide</a></li>
+<li>{{< doclink path="installation/index.html" >}}Installation guide{{< /doclink >}}</li>
+<li>{{< doclink path="usermanual/index.html" >}}user guide{{< /doclink >}}</li>
 </ul>
 
-<p>Galette 0.7 brings the ability to <a href="{{ site.galette.doc_url }}/{{ site.lang }}/master/plugins/index.html">add functionality using additional plugins</a>.</p>
+<p>Galette 0.7 brings the ability to {{< doclink path="plugins/index.html" >}}add functionality using additional plugins{{< /doclink >}}.</p>
 
 
-<p>On a more technical note, <a href="{{ site.galette.doc_url }}/{{ site.lang }}/master/development/index.html">developper's guide</a> was born for this new release :-)</p>
+<p>On a more technical note, {{< doclink path="development/index.html" >}}developper's guide{{< /doclink >}} was born for this new release :-)</p>
 
 
 <p>Old documentation will be gracefully retired, until that, please be carefull not to get the wrong one ;)</p>

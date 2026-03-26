@@ -11,7 +11,7 @@ title: 'Galette 0.8.1: Danielle sponsored'
 <p>Here is a new Galette release, sponsored by Danielle C. :-)</p>
 
 
-<p>This release brings a few new features, and fixes some bugs found in the previous release. Please see <a href="{{ site.galette.doc_url }}/{{ site.lang }}/master/changelog.html#v081">the full changelog</a> to know the changes.<br />
+<p>This release brings a few new features, and fixes some bugs found in the previous release. Please see {{< doclink path="changelog.html#v081" >}}the full changelog{{< /doclink >}} to know the changes.<br />
 Of course, upgrading to this latest release is highly recommended...</p>
 
 

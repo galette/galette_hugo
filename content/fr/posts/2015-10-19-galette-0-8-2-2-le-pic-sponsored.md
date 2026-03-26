@@ -24,7 +24,7 @@ title: 'Galette 0.8.2.2 : sponsorisée par Le Pic'
 <p>Plusieurs bogues ont également été corrigés.</p>
 
 
-<p>La <a href="{{ site.galette.doc_url }}/{{ site.lang }}/master/changelog.html#v0822">liste complète des nouveautés</a> est comme d'habitude disponible dans la documentation. Le <a href="{{ site.galette.doc_url }}/{{ site.lang }}/master/usermanual/index.html">manuel utilisateur</a> vous aidera à prendre en main ces nouveautés.</p>
+<p>La {{< doclink path="changelog.html#v0822" >}}liste complète des nouveautés{{< /doclink >}} est comme d'habitude disponible dans la documentation. Le {{< doclink path="usermanual/index.html" >}}manuel utilisateur{{< /doclink >}} vous aidera à prendre en main ces nouveautés.</p>
 
 
 <p>Une version corrective, puis une autre (ce soir) ont également vu le jour, et ne comportent que des correctifs plus ou moins importants.</p>

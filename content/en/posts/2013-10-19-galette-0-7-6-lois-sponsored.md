@@ -19,7 +19,7 @@ title: 'Galette 0.7.6: Loïs sponsored'
 Loïs is the original creator of Galette (along with  Frédéric Jacquot, aka Deelight), and was the main maintainer until I took over the project in 2007. He has never stopped following it, often contributing in several ways (he takes care of PostgreSQL install scripts, published several news on LinuxFr, etc.).</p>
 
 
-<p>This new Galette release ships some other features along with CSV imports, I let you check out <a href="{{ site.galette.doc_url }}/{{ site.lang }}/master/changelog.html#v076">the changelog</a>. <a href="{{ site.galette.doc_url }}/{{ site.lang }}/master/usermanual/adherents.html#csv-imports">CSV imports are already welld coumented </a> (the sponsoring effet).</p>
+<p>This new Galette release ships some other features along with CSV imports, I let you check out {{< doclink path="changelog.html#v076" >}}the changelog{{< /doclink >}}. {{< doclink path="usermanual/adherents.html#csv-imports" >}}CSV imports are already welld coumented {{< /doclink >}} (the sponsoring effet).</p>
 
 
 <p>A very big thank to Loïs to made possible implementation of this new, and often asked, feature :-)</p>

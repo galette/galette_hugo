@@ -11,7 +11,7 @@ title: Galette 0.9 (Galette has come)
 <p>Des mois, voire des années de développement intensif ; plusieurs versions intermédiaires, un travail plus qu'acharné... Et voici que Galette 0.9 vient !</p>
 
 
-<p>La liste des modifications apportées à cette nouvelle version est relativement longue, je vous invite à <a href="{{ site.galette.doc_url }}/{{ site.lang }}/master/changelog.html#v090" hreflang="fr">consulter la liste des changements</a> pour les détails.</p>
+<p>La liste des modifications apportées à cette nouvelle version est relativement longue, je vous invite à {{< doclink path="changelog.html#v090" >}}consulter la liste des changements{{< /doclink >}} pour les détails.</p>
 
 
 <p>Bien que les modifications apportées à cette nouvelle version (qui par ailleurs sonne définitivement la fin des versions 0.8) soient importantes, aucune mise à jour de la base n'est nécessaire si vous avez une version 0.8 à jour :--)</p>

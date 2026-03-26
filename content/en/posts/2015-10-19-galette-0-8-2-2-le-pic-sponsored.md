@@ -23,7 +23,7 @@ title: 'Galette 0.8.2.2: Le Pic sponsored'
 <p>Several bugs have also been fixed.</p>
 
 
-<p>The <a href="{{ site.galette.doc_url }}/{{ site.lang }}/master/changelog.html#v0822">complete changelog</a> is as usual aailable from <a href="{{ site.galette.doc_url }}/{{ site.lang }}/master/">the documentation</a>. <a href="{{ site.galette.doc_url }}/{{ site.lang }}/master/usermanual/index.html">Usermanual</a> wll help you with new features.</p>
+<p>The {{< doclink path="changelog.html#v0822" >}}complete changelog{{< /doclink >}} is as usual aailable from {{< doclink path="" >}}the documentation{{< /doclink >}}. {{< doclink path="usermanual/index.html" >}}Usermanual{{< /doclink >}} wll help you with new features.</p>
 
 
 <p>A bugfix release, and another one tonight has also been released, and ships only bug fixes.</p>

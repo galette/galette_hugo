@@ -23,10 +23,10 @@ title: Galette 0.9.1 and Events plugin
 
 
 <p>Full cangelog for Galette 0.9.1 is available at:<br />
-<a href="{{ site.galette.doc_url }}/{{ site.lang }}/master/changelog.html#v091" hreflang="fr">{{ site.galette.doc_url }}/{{ site.lang }}/master/changelog.html#v091</a></p>
+{{< doclink path="changelog.html#v091" >}}Galette 0.9.1 full changelog{{< /doclink >}}</p>
 
 
-<p>Along with this new release, a <a href="{{ site.galette.doc_url }}/{{ site.lang }}/develop/plugins/events.html" hreflang="fr">plugin to manage events</a>  is now available!</p>
+<p>Along with this new release, a {{< doclink path="plugins/events.html" branch="develop" >}}plugin to manage events{{< /doclink >}}  is now available!</p>
 
 
 <p>I'd like to thank very much all persons involed in this new release; and especially Arnold W. for the german translation, as well as "Association Bretonne des Amis de Saint Jacques de Compostelle

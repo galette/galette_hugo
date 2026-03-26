@@ -11,7 +11,7 @@ title: Galette 0.9 (Galette has come)
 <p>Months, even years of intensive developments; several candidates releases, a very hard work... And now Galette 0.9 begins!</p>
 
 
-<p>Changelog for this release is quite long, I invite you to <a href="{{ site.galette.doc_url }}/{{ site.lang }}/master/changelog.html#v090" hreflang="fr">check the full changelog</a> for details.</p>
+<p>Changelog for this release is quite long, I invite you to {{< doclink path="changelog.html#v090" >}}check the full changelog{{< /doclink >}} for details.</p>
 
 
 <p>Even if changes are numerous for this release (which EOL 0.8 series), no database upgrade is required if you're runnig an up to date 0.8 :-)</p>
