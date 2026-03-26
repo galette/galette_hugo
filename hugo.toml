@@ -8,7 +8,7 @@ defaultContentLanguage = 'en'
   github_username = 'galette'
   mastodon_username = 'galette'
   mastodon_instance = 'framapiaf.org'
-  # Paramètres Galette globaux pour un accès facile
+  # Global parameters
   galette_last_release = '1.2.1'
   galette_stable_url = 'https://galette.eu/download/galette-1.2.1.tar.bz2'
   galette_nightly_url = 'https://galette.eu/download/galette-dev.tar.bz2'
@@ -20,65 +20,45 @@ defaultContentLanguage = 'en'
 [server]
   port = 1313
 
+[menus]
+  [[menus.main]]
+    identifier = "home"
+    pageRef = "/"
+    weight = 10
+  [[menus.main]]
+    identifier = "about"
+    pageRef = "/about"
+    weight = 20
+  [[menus.main]]
+    identifier = "posts"
+    pageRef = "/posts"
+    weight = 30
+  [[menus.main]]
+    identifier = "contribute"
+    pageRef = "/contribute"
+    weight = 40
+  [[menus.main]]
+    identifier = "contact"
+    pageRef = "/contact"
+    weight = 50
+  [[menus.main]]
+    identifier = "tracker"
+    url = 'https://bugs.galette.eu/projects/galette/'
+    weight = 60
+  [[menus.main]]
+    identifier = "demo"
+    url = "https://demo.galette.eu/"
+    weight = 70
+
 [languages]
   [languages.fr]
     languageName = 'Français'
     weight = 1
     contentDir = 'content/fr'
-    [languages.fr.menus]
-      [[languages.fr.menus.main]]
-        name = "Accueil"
-        pageRef = "/"
-        weight = 10
-      [[languages.fr.menus.main]]
-        name = "À propos"
-        pageRef = "/about"
-        weight = 20
-      [[languages.fr.menus.main]]
-        name = "Publications"
-        pageRef = "/posts"
-        weight = 30
-      [[languages.fr.menus.main]]
-        name = "Contribuer"
-        pageRef = "/contribute"
-        weight = 40
-      [[languages.fr.menus.main]]
-        name = "Contact"
-        pageRef = "/contact"
-        weight = 50
-      [[languages.fr.menus.main]]
-        name = "Démo"
-        url = "https://demo.galette.eu/"
-        weight = 60
   [languages.en]
     languageName = 'English'
     weight = 2
     contentDir = 'content/en'
-    [languages.en.menus]
-      [[languages.en.menus.main]]
-        name = "Home"
-        pageRef = "/"
-        weight = 10
-      [[languages.en.menus.main]]
-        name = "About"
-        pageRef = "/about"
-        weight = 20
-      [[languages.en.menus.main]]
-        name = "Posts"
-        pageRef = "/posts"
-        weight = 30
-      [[languages.en.menus.main]]
-        name = "Contribute"
-        pageRef = "/contribute"
-        weight = 40
-      [[languages.en.menus.main]]
-        name = "Contact"
-        pageRef = "/contact"
-        weight = 50
-      [[languages.en.menus.main]]
-        name = "Demo"
-        url = "https://demo.galette.eu/"
-        weight = 60
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
@@ -90,7 +70,7 @@ defaultContentLanguage = 'en'
   lastmod = [":git", "lastmod", ":fileModTime", ":default"]
 
 [slugify]
-  # Nettoyage des URLs (minuscules, sans accents) pour les nouveaux contenus
+  # Cleanup URLs (lowercase, no accents)
   strategies = ["ascii"]
 
 [outputs]

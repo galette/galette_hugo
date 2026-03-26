@@ -66,9 +66,19 @@ pages.titles.about:
   other: "About and history of the Galette"
 menus.main:
   other: "Navigate"
+menus.home:
+  other: "Home"
+menus.about:
+  other: "About"
+menus.posts:
+  other: "Posts"
+menus.contribute:
+  other: "Contribute"
+menus.contact:
+  other: "Contact"
 menus.faq:
   other: "Frequently Asked Questions"
-menus.bugs:
+menus.tracker:
   other: "Bugs and Tasks"
 menus.demo:
   other: "Demo"

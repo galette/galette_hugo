@@ -24,7 +24,7 @@
                 {{ $currentPage := . }}
                 {{ range .Site.Menus.main }}
                 <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}{{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}">
-                    <a href="{{ .URL }}">{{ .Name }}</a>
+                    <a href="{{ .URL }}">{{ i18n (printf "menus.%s" .Identifier) }}</a>
                 </li>
                 {{ end }}
             </ul>
@@ -41,10 +41,6 @@
         <li><a href="{{ .Param "galette_doc_url" }}/{{ $lang }}/master/installation/index.html">{{ i18n "menus.docinstall" }}</a></li>
         <li><a href="{{ .Param "galette_doc_url" }}/{{ $lang }}/master/usage/index.html">{{ i18n "menus.docuser" }}</a></li>
         <li><a href="{{ .Param "galette_doc_url" }}/{{ $lang }}/master/plugins/index.html">{{ i18n "menus.docplugins" }}</a></li>
-    </ul>
-    <h3>{{ i18n "menus.bugs" }}</h3>
-    <ul>
-        <li><a href="{{ .Param "galette_tracker_url" }}">{{ i18n "menus.bugs" }}</a></li>
     </ul>
     <ul class="rss">
         <li>
