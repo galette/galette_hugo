@@ -1,6 +1,6 @@
 # Galette website
 
-## Gestionnaire d'Adhérents en Ligne Extrêmement Tarabiscoté mais Tellement Efficace
+## The free association management. / La gestion associative libre.
 
 The sources of [Galette website](https://galette.eu), which is built on the top of [Hugo](https://gohugo.io/).
 

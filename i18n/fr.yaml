@@ -5,7 +5,7 @@ global.twitter:
 global.About:
   other: "À propos"
 global.slogan:
-  other: "Galette – Gestion web des adhérents et des contributions pour les associations"
+  other: "Galette: La gestion d'association libre."
 global.home_title_seo:
   other: "Logiciel de gestion d'association"
 global.next:

@@ -51,8 +51,9 @@ section#content {
     }
 
     .home main h2:first-of-type {
-        color: $galette-blue;
         border-bottom: none;
+        text-align: center;
+        display: block;
     }
 }
 
