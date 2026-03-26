@@ -1,9 +1,9 @@
 ---
 title: "About"
 ---
-Galette is a web application to manage adherents for associations. Galette is written in PHP and rely on [MariaDB](https://mariadb.org) or [PostgreSQL](https://postgresql.org). This is a **free software** (as in free speech), under the terms of the [GPL licence](https://www.gnu.org/licenses/quick-guide-gplv3.fr.html).
+Galette is a web application to manage adherents for associations. Galette is written in PHP and relies on [MariaDB](https://mariadb.org) or [PostgreSQL](https://postgresql.org). This is **free software** (as in free speech), under the terms of the [GPL licence](https://www.gnu.org/licenses/quick-guide-gplv3.fr.html).
 
-Since 2007 (see below [the history of Galette](#galettes-history)), Johan is the developer, maintainer and handyman. External contributions have always been integrated regularly.
+Since 2007 (see below [the history of Galette](#galettes-history)), Johan has been the developer, maintainer and handyman. External contributions have always been integrated regularly.
 
 The name Galette is a French acronym for “Gestionnaire d’Adhérents en Ligne Extrêmement Tarabiscoté mais Tellement Efficace”, freely translated to “Extremely Sophisticated but so Efficient On-Line Membership Manager”. The French word “galette” also means (popular) “Money”. Unfortunately, the translation removes all the fun!
 
@@ -11,11 +11,11 @@ The name Galette is a French acronym for “Gestionnaire d’Adhérents en Ligne
 
 Since the beginning, it has been defined that the main project axis is to manage members and membership. The question of integrating as example accounting features has been asked, but declined, because too far in our minds from this axis (without taking into account the cost it can have on development and maintenance).
 
-Apart from this kind of "limit", features that reach Galette core try to be as generic as possible, to suit the most of the needs. Some more specific features does not have place in core, but can be added from plugins: therefore it is possible form Galette to [manage an automobile club]({{ .Site.Params.galette.doc_url }}/{{ .Page.Language.Lang }}/master/plugins/auto.html) or use a [loan objects system]({{ .Site.Params.galette.doc_url }}/{{ .Page.Language.Lang }}/master/plugins/objectslend.html).
+Apart from this kind of "limit", features that reach Galette core try to be as generic as possible to suit most of the needs. Some more specific features do not have place in core, but can be added from plugins: therefore, it is possible from Galette to [manage an automobile club]({{ .Site.Params.galette.doc_url }}/{{ .Page.Language.Lang }}/master/plugins/auto.html) or use a [loan objects system]({{ .Site.Params.galette.doc_url }}/{{ .Page.Language.Lang }}/master/plugins/objectslend.html).
 
 [Bug tracking system]({{ .Site.Params.galette.tracker_url }}) as well as [voting system]({{ site.galette.vote_url }}) let you influence future features, but you can of course [add them yourself]({{ "/pages/contribute/" | relLangURL }}) :-)
 
-Some of requested features (link to third party services as example) would have their place into Galette, but are complex tasks for which it has not been yet possible to find time.
+Some of the requested features (link to third party services as example) would have their place into Galette, but are complex tasks for which it has not been yet possible to find time.
 
 New features are still regularly added, reducing the todo list (which always gets bigger ;)).
 
@@ -39,7 +39,7 @@ The first project, whose name was GAELLE, dies quickly. Code was a bit complex, 
 
 In 2003, Frédéric (aka Deelight) started from scratch a nice application, unpretentious, and, as he said himself: « do what it gotta do ».
 
-The first "stable" version has probably been version 0.37b. Since, project continues quietly to change, by adding new functionalities, and by receiving new developpers / translators / reviewers / testers (many thanks to them).
+The first "stable" version has probably been version 0.37b. Since, project continues quietly to change, by adding new functionalities and by receiving new developers / translators / reviewers / testers (many thanks to them).
 
 In early 2007, Johan (aka trashy) joined the project. In April, Loïs gave him the "keys of the truck" and Johan took charge of the project Galette.
 
@@ -50,16 +50,16 @@ In 2012, project source code is switched to Git; and repositories are moved to T
 
 At the beginning of 2017, mailing lists are also switched to Tuxfamily, since Gna has announced the end of their services.
 
-Since 2024, [Tuxfamily is slowly dying](https://forum.tuxfamily.org/post/3396/), therefore Galette project has moved all services to other providers. Thank you TuxFamily for all these years of hosting!
+Since 2024, [Tuxfamily is slowly dying](https://forum.tuxfamily.org/post/3396/); therefore, Galette project has moved all services to other providers. Thank you TuxFamily for all these years of hosting!
 
 ### Original Email
 
 This is the **original email** (in French) which announces Galette's creation. Since then, the Code mailing-list from [ALDIL](https://www.aldil.org) has disappeared, archives too.
-Also, first wiki website as disappeared too.
+Also, the first wiki website has disappeared too.
 
 {% include contents/foundation_mail.html %}
 
-### From where Galette's name come?
+### From where Galette's name comes?
 
 [ALDIL](https://www.aldil.org/) members have long sought a name for this software. Here's a quick summary (in frenglish):
 
