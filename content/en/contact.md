@@ -1,6 +1,8 @@
 ---
 title: "Contact"
 ---
+{{< toc >}}
+
 Want to know how to contact us? Ways are multiple ;-)
 
 And depending on needs:

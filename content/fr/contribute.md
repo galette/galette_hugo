@@ -2,6 +2,8 @@
 title: "Contribuer"
 slug: "contribuer"
 ---
+{{< toc >}}
+
 Vous souhaitez contribuer, mais vous ne savez pas quoi faire ? Peut-être même pensez-vous ne pas pouvoir aider du tout...
 
 Pas de panique, il existe bien des manières de contribuer à un projet comme Galette, il n'est pas nécessaire d'être développeur ;-)

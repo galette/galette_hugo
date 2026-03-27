@@ -17,17 +17,17 @@
 @use "../variables";
 
 /** TOC style */
-section#content {
+section#content .toc {
+    display: inline-block;
 
-    h4.toc {
-        display: block;
+    h2 {
         border: none;
         margin-bottom: 0;
+        font-size: 1em;
     }
 
-    .post-content .section-nav {
+    nav {
         min-width: 20em;
-        display: inline-block;
         list-style-type: none;
         padding: 0;
         margin: 0;
@@ -58,7 +58,7 @@ section#content {
             padding: 0;
 
             li {
-                a {
+                & > ul a {
                     padding-left: 1em;
                 }
             }

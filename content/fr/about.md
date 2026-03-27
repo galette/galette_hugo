@@ -2,6 +2,8 @@
 title: "À propos"
 slug: "a-propos"
 ---
+{{< toc >}}
+
 Galette est une application web de gestion d'adhérents pour les associations. Galette est écrit en PHP et utilise une base de données [MariaDB](https://mariadb.org) ou [PostgreSQL](https://postgresql.org). C'est un **logiciel libre**, sous [licence GPL](https://www.gnu.org/licenses/quick-guide-gplv3.fr.html).
 
 Depuis 2007 (voir ci-dessous [l'histoire de Galette](#histoire-de-galette)), Johan est le développeur, mainteneur et homme à tout faire. Des contributions externes ont toujours été régulièrement intégrées.

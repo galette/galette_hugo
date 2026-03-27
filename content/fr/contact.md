@@ -1,6 +1,8 @@
 ---
 title: "Contact"
 ---
+{{< toc >}}
+
 Vous vous demandez comment nous contacter ? Les moyens sont multiples ;-)
 
 Et fonction du besoin :
@@ -14,7 +16,7 @@ Sur les réseaux sociaux (Mastodon, Twitter), faire du support ou expliquer cert
 
 ## Discussions instantanées
 
-Posez une question, et obtenez une réponse. C'est simple, et efficace. Ça demande juste qu'il y ait quelqu'un en face pour vous répondre, et c'est là que ça se complique un peu :-D 
+Posez une question, et obtenez une réponse. C'est simple, et efficace. Ça demande juste qu'il y ait quelqu'un en face pour vous répondre, et c'est là que ça se complique un peu :-D
 
 Il arrive parfois que les discussions instantanées ne le soient pas tant que ça, en fonction de chacun et du contexte... Le développeur principal est généralement toujours présent en pointillés.
 
