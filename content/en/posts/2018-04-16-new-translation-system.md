@@ -2,7 +2,6 @@
 slug: "new-translation-system"
 aliases:
 - /post/2018/04/16/Nouveau-système-de-traductions
-categories: en post
 date: 2018-04-16 20:16:18 +0100
 layout: post
 title: New translation system

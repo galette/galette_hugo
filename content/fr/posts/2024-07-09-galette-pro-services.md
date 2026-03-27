@@ -3,7 +3,6 @@ slug: "galette-pro-services"
 layout: post
 title: "Services Professionnels Galette"
 date: 2024-07-09 14:00:00 +0200
-categories: fr post
 ---
 
 Je me suis établi en tant qu'auto entrepreneur pour pouvoir proposer des "services professionnels", entre autres autour de Galette (toutes les demandes seront étudiées) :-)

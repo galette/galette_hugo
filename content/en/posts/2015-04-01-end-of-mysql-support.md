@@ -2,12 +2,11 @@
 slug: "end-of-mysql-support"
 aliases:
 - /post/2015/04/01/Fin-du-support-MySQL
-categories: en post
 date: 2015-04-01 04:59:04 +0100
 layout: post
 ref: end-of-mysql-support
-tags: poissons
 title: End of MySQL support
+tags: ['poissons']
 ---
 <p><strong>EDIT</strong>: Obviously, nobody can believe such thing, it was an April Fool.</p>
 

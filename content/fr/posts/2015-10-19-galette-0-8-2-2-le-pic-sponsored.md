@@ -3,11 +3,10 @@ slug: "galette-0-8-2-2-le-pic-sponsored"
 aliases:
 - /post/2015/10/19/Galette-0%2E8%2E2%2E2-%3A-sponsorisée-par-Le-Pic
 - /post/2015/10/19/galette-0-8-2-2-sponsorisee-par-le-pic
-categories: fr post
 date: 2015-10-19 18:14:52 +0100
 layout: post
-tags: release sponsored
 title: 'Galette 0.8.2.2 : sponsorisée par Le Pic'
+tags: ['release', 'sponsored']
 ---
 <p>J'ai été pas mal occupé ces derniers mois, mais ce n'est pas pour autant que Galette n'a pas évolué :-)</p>
 

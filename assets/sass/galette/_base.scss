@@ -133,6 +133,10 @@ hr {
     background-color: $galette-light-grey;
     color: $dark-text-color;
 
+    &:not(:first-child) {
+        margin-left: .5em;
+    }
+
     &.release {
         background-color: $release-color;
         color: $light-text-color;

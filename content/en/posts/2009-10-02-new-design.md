@@ -2,7 +2,6 @@
 slug: "new-design"
 aliases:
 - /post/2009/10/02/«-Nouveau-»-design
-categories: en post
 date: 2009-10-02 14:14:04 +0100
 layout: post
 title: '"New" design'

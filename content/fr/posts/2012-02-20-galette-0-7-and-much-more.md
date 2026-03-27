@@ -3,11 +3,10 @@ slug: "galette-0-7-and-much-more"
 aliases:
 - /post/2012/02/19/Galette-0.7,-et-bien-plus
 - /post/2012/02/19/galette-0-7-et-bien-plus
-categories: fr post
 date: 2012-02-20 13:20:47 +0100
 layout: post
-tags: release
 title: Galette 0.7, et bien plus
+tags: ['release']
 ---
 <p>Galette 0.7 est sur les rails depuis un certain temps maintenant, les bogues et tâches déclarés pour cette version ont été corrigés&nbsp;; la migration des versions antérieures fonctionne elle aussi.</p>
 

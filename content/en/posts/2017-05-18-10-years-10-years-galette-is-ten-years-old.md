@@ -2,7 +2,6 @@
 slug: "10-years-10-years-galette-is-ten-years-old"
 aliases:
 - /post/2017/05/17/10-ans%2C-10-ans%2C-Galette-a-10-ans-!
-categories: en post
 date: 2017-05-18 16:31:06 +0100
 layout: post
 title: 10 years, 10 years, Galette is ten years old!

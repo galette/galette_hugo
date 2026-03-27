@@ -3,8 +3,7 @@ slug: "galette-security-1-1-6"
 layout: post
 title: "Galette security release (1.1.6)!"
 date: 2025-09-03 16:30:42 +0200
-tags: release
-categories: en post
+tags: ['release']
 ---
 
 A quite important - and old - security issue has been detected and fixed in Galette.

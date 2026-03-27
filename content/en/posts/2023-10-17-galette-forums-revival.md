@@ -3,7 +3,6 @@ slug: "galette-forums-revival"
 layout: post
 title: "Galette forums revived"
 date: 2023-10-17 16:45:00 +0100
-categories: en post
 ---
 
 A few years ago, I've opened forums for Galette; but it's been closed quite quickly; mainly because of spam.

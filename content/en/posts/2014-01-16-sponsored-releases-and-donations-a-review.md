@@ -2,11 +2,10 @@
 slug: "sponsored-releases-and-donations-a-review"
 aliases:
 - /post/2013/05/25/Versions-subventionnées-et-dons-%3A-un-an-après%2C-le-bilan
-categories: en post
 date: 2014-01-16 21:49:21 +0100
 layout: post
-tags: sponsored
 title: 'Sponsored releases and donations: a review'
+tags: ['sponsored']
 ---
 <p>About one year and a half ago, I began a self-employee activity, and almost at the same time, I've added a "donate" button on the website. I communicate on both points several time, time to review has come :-)</p>
 

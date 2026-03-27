@@ -3,11 +3,10 @@ slug: "galette-0-7-2-aful-sponsored"
 aliases:
 - /post/2012/10/29/Galette-0%2E7%2E2-%3A-l-AFUL-subventionne-!
 - /post/2012/10/29/galette-0-7-2-l-aful-subventionne
-categories: fr post
 date: 2012-10-29 07:08:20 +0100
 layout: post
-tags: release sponsored
 title: 'Galette 0.7.2 : l''AFUL subventionne !'
+tags: ['release', 'sponsored']
 ---
 <p>L'AFUL et moi même sommes très heureux de vous présenter cette nouvelle mouture de Galette, qui est quelque peu particulière... Il s'agit en effet de la toute première version subventionnée.</p>
 

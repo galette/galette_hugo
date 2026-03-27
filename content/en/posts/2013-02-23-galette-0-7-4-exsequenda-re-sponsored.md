@@ -2,11 +2,10 @@
 slug: "galette-0-7-4-exsequenda-re-sponsored"
 aliases:
 - /post/2013/02/23/Galette-0%2E7%2E4-%3A-Exsequenda-re-subventionne-!
-categories: en post
 date: 2013-02-23 08:34:38 +0100
 layout: post
-tags: release sponsored
 title: 'Galette 0.7.4: Exsequenda re-sponsored!'
+tags: ['release', 'sponsored']
 ---
 <p>Exsequenda company already has sponsored previous release, and here is a new order :)</p>
 

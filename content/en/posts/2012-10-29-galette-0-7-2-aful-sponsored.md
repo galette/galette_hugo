@@ -2,11 +2,10 @@
 slug: "galette-0-7-2-aful-sponsored"
 aliases:
 - /post/2012/10/29/Galette-0%2E7%2E2-%3A-l-AFUL-subventionne-!
-categories: en post
 date: 2012-10-29 07:08:20 +0100
 layout: post
-tags: release sponsored
 title: 'Galette 0.7.2: AFUL sponsored!'
+tags: ['release', 'sponsored']
 ---
 <p>AFUL and I are really proud to present you that new Galette release, which is quite special... Indeed, that is the first sponsored version.</p>
 

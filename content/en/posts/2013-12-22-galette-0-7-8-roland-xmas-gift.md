@@ -2,11 +2,10 @@
 slug: "galette-0-7-8-roland-xmas-gift"
 aliases:
 - /post/2013/12/22/Galette-0%2E7%2E8-%3A-Cadeau-de-Noël-de-Roland2
-categories: en post
 date: 2013-12-22 00:20:42 +0100
 layout: post
-tags: release sponsored
 title: 'Galette 0.7.8: Roland Xmas gift'
+tags: ['release', 'sponsored']
 ---
 <p>A new Galette version, 0.7.8, has been release, it is sponsorised by Roland; as well as Maps and Paypal plugins :-)</p>
 

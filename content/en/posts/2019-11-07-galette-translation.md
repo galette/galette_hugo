@@ -2,7 +2,6 @@
 slug: "galette-translation"
 aliases:
 - /post/2019/11/07/Traduction-Galette
-categories: en post
 date: 2019-11-07 07:25:16 +0100
 layout: post
 title: Galette translation

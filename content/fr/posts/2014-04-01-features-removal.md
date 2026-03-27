@@ -3,11 +3,10 @@ slug: "features-removal"
 aliases:
 - /post/2014/04/01/Suppression-de-fonctionnalités
 - /post/2014/04/01/suppression-de-fonctionnalites
-categories: fr post
 date: 2014-04-01 05:04:57 +0100
 layout: post
-tags: poissons
 title: Suppression de fonctionnalités
+tags: ['poissons']
 ---
 <p><strong>EDIT</strong>&nbsp;: Évidemment, personne n’y a cru, il s’agissait d’un poisson d’avril.</p>
 

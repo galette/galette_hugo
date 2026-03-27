@@ -2,11 +2,10 @@
 slug: "features-removal"
 aliases:
 - /post/2014/04/01/Suppression-de-fonctionnalités
-categories: en post
 date: 2014-04-01 05:04:57 +0100
 layout: post
-tags: poissons
 title: Features removal
+tags: ['poissons']
 ---
 <p><strong>EDIT</strong>: Obviously, nobody can believe such thing, it was an April Fool.</p>
 

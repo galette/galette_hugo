@@ -2,11 +2,10 @@
 slug: "0-7-2-8-boosted-galette"
 aliases:
 - /post/2012/12/19/Galette-0%2E7%2E2%2E8-%3A-coup-de-boost
-categories: en post
 date: 2012-12-19 19:41:50 +0100
 layout: post
-tags: release
 title: '0.7.2.8 : boosted Galette'
+tags: ['release']
 ---
 <p>Galette's development has not been frozen after 0.7.2 AFUL sponsored version; 7 corrective releases has been released since.</p>
 

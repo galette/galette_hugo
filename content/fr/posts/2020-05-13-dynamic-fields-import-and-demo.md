@@ -3,7 +3,6 @@ slug: "dynamic-fields-import-and-demo"
 aliases:
 - /post/2020/05/13/Import-des-champs-dynamiques-et-démo-!
 - /post/2020/05/13/import-des-champs-dynamiques-et-demo
-categories: fr post
 date: 2020-05-13 16:20:41 +0100
 layout: post
 title: Import des champs dynamiques et démo !

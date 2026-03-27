@@ -3,7 +3,6 @@ slug: "a-new-oven-for-galette"
 aliases:
 - /post/2019/12/10/Un-nouveau-four-pour-Galette
 - /post/2019/12/10/un-nouveau-four-pour-galette
-categories: fr post
 date: 2019-12-10 15:30:31 +0100
 layout: post
 title: Un nouveau four pour Galette

@@ -2,11 +2,10 @@
 slug: "galette-0-63x-eol-security-update"
 aliases:
 - /post/2012/05/13/Galette-0%2E63x-%3A-EOL-mise-à-jour-de-sécurité
-categories: en post
 date: 2012-05-13 08:07:07 +0100
 layout: post
-tags: release
 title: 'Galette 0.63x : EOL & security update'
+tags: ['release']
 ---
 <p>A security flaw has been recently identified for 0.63 versions of Galette (<a href="https://bugs.galette.eu/issues/250">https://bugs.galette.eu/issues/250</a> - CVE-2012-2338).</p>
 

@@ -3,11 +3,10 @@ slug: "galette-0-7-4-exsequenda-re-sponsored"
 aliases:
 - /post/2013/02/23/Galette-0%2E7%2E4-%3A-Exsequenda-re-subventionne-!
 - /post/2013/02/23/galette-0-7-4-exsequenda-re-subventionne
-categories: fr post
 date: 2013-02-23 08:34:38 +0100
 layout: post
-tags: release sponsored
 title: 'Galette 0.7.4 : Exsequenda re-subventionne !'
+tags: ['release', 'sponsored']
 ---
 <p>La société Exsequenda a déjà subventionné la précédente version, et une nouvelle commande complémentaire a été passée :)</p>
 

@@ -2,11 +2,10 @@
 slug: "galette-0-9-galette-has-come"
 aliases:
 - /post/2017/12/21/Galette-0.9-(Galette-has-come)
-categories: fr post
 date: 2017-12-21 21:57:12 +0100
 layout: post
-tags: release
 title: Galette 0.9 (Galette has come)
+tags: ['release']
 ---
 <p>Des mois, voire des années de développement intensif ; plusieurs versions intermédiaires, un travail plus qu'acharné... Et voici que Galette 0.9 vient !</p>
 
