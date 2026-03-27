@@ -15,7 +15,7 @@ Since the beginning, it has been defined that the main project axis is to manage
 
 Apart from this kind of "limit", features that reach Galette core try to be as generic as possible to suit most of the needs. Some more specific features do not have place in core, but can be added from plugins: therefore, it is possible from Galette to {{< doclink path="plugins/auto.html" >}}manage an automobile club{{< /doclink >}} or use a {{< doclink path="plugins/objectslend.html" >}}loan objects system{{< /doclink >}}.
 
-[Bug tracking system]({{ .Site.Params.galette.tracker_url }}) as well as [voting system]({{ site.galette.vote_url }}) let you influence future features, but you can of course [add them yourself]({{ "/pages/contribute/" | relLangURL }}) :-)
+[Bug tracking system]({{% param "galette_tracker_url" %}}) as well as [voting system]({{% param "galette_vote_url" %}}) let you influence future features, but you can of course [add them yourself]({{ "/pages/contribute/" | relLangURL }}) :-)
 
 Some of the requested features (link to third party services as example) would have their place into Galette, but are complex tasks for which it has not been yet possible to find time.
 
@@ -79,13 +79,13 @@ You must know that finally, Deelight (Lead developer: One who's right) choose Ga
 
 ## Used tools
 
-* [communication mediums]({{ "/pages/contact/" | relLangURL }}),
+* [communication mediums]({{< ref "contact" >}})
 * [source code](https://github.com/galette/galette/): [Git](https://git-scm.com/),
-* [website](https://galette.eu): built by [Jekyll](https://jekyllrb.com),
-* [issues system]({{ .Site.Params.galette.tracker_url }}): [Redmine](https://redmine.org),
-* [demo](https://demo.galette.eu) : [Galette](https://galette.eu),
-* [discussion and broadcast lists]({{ "/pages/contact/" | relLangURL }}#listes-de-discussion) : [Mailman](https://list.org/)
-* [voting system]({{ site.galette.vote_url }}): [Fider](https://fider.io)
+* [website](https://galette.eu): built by [Hugo](https://gohugo.io),
+* [issues system]({{% param "galette_tracker_url" %}}): [Redmine](https://redmine.org),
+* [demo](https://demo.galette.eu): [Galette](https://galette.eu),
+* [discussion and broadcast lists]({{< ref "contact#mailing-lists" >}}): [Mailman](https://list.org/)
+* [voting system]({{% param "galette_vote_url" %}}): [Fider](https://fider.io)
 * {{< doclink >}}documentation{{< /doclink >}}: built by [Sphinx](https://www.sphinx-doc.org), hosted by [ReadTheDocs](https://rtfd.org),
-* [translations]({{ site.galette.trad_url }}) and [documentation translation]({{ site.galette.trad_url }}): [Weblate](https://weblate.org).
+* [translations]({{% param "galette_trad_url" %}}) and [documentation translation]({{% param "galette_trad_url" %}}): [Weblate](https://weblate.org).
 * Johan, hosted by himself :p

@@ -14,7 +14,7 @@ Utiliser Galette, c'est déjà soutenir le projet. Assez facile, non ? Allez, me
 
 Pour ceux qui seraient restés tout de même, utiliser et tester Galette vont de pair. Donc si vous rencontrez un bogue, ouvrez un ticket avec tous les détails possibles pour qu'un développeur puisse comprendre le problème et le reproduire également, ou utilisez [l'un des canaux de communication]({{ "/pages/contact/" | relLangURL }}) proposés pour exposer votre problème.
 
-Si le cœur vous en dit - surtout maintenant que vous êtes un pro de Galette ! - vous pouvez aussi tester les nouvelles fonctionnalités en développement lorsqu'il y en a, ou essayer régulièrement la [version nightly]({{ .Site.Params.galette.nightly_url }}).  N'oubliez pas dans ce cas qu'il s'agit d'une version instable ; bien que l'instabilité soit une notion toute relative.
+Si le cœur vous en dit - surtout maintenant que vous êtes un pro de Galette ! - vous pouvez aussi tester les nouvelles fonctionnalités en développement lorsqu'il y en a, ou essayer régulièrement la [version nightly]({{% param "galette_nightly_url" %}}).  N'oubliez pas dans ce cas qu'il s'agit d'une version instable ; bien que l'instabilité soit une notion toute relative.
 
 Bien entendu, il en va de même pour les {{< doclink path="plugins/" >}}plugins officiels{{< /doclink >}} :-)
 
@@ -46,7 +46,11 @@ N'hésitez pas à utiliser les [canaux de contact]({{ "/pages/contact/" | relLan
 
 Si donc vous souhaitez aider à traduire Galette, sa documentation ou les plugins officiels, c'est assez simple : rendez-vous sur [la plateforme de traduction (Weblate)](https://hosted.weblate.org/projects/galette/), créez ou liez un compte au besoin, connectez-vous et traduisez !
 
-![](/site/assets/images/screenshots/weblate.png)
+<figure>
+    <a href="/site/assets/images/screenshots/weblate.png" data-fancybox="gallery">
+        <img src="/site/assets/images/screenshots/weblate.png" alt="Translation screenshot">
+    </a>
+</figure>
 
 ### Détails du processus
 

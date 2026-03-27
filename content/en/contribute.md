@@ -13,7 +13,7 @@ Using Galette is already a kind of support. Quite easy, no? Well, thanks for com
 
 For the ones who stay anyway, using and testing Galette is the same process. So, if you find a bug, open a ticket with all possible details so a developer can understand the issue and reproduce it, or use [one of our communication channels]({{ "/pages/contact/" | relLangURL }}) to expose your issue.
 
-If you want - especially now you are a Galette expert! - you can test new features under development when there are, or regularly try the [nightly version]({{ .Site.Params.galette.nightly_url }}). Do not forget this is an unstable version; even if instability is a relative concept.
+If you want - especially now you are a Galette expert! - you can test new features under development when there are, or regularly try the [nightly version]({{% param "galette_nightly_url" %}}). Do not forget this is an unstable version; even if instability is a relative concept.
 
 Of course, this is the same for {{< doclink path="plugins/" >}}official plugins{{< /doclink >}} :-)
 
@@ -45,7 +45,11 @@ Do not hesitate to use provided [contact channels ]({{ "/pages/contact/" | relLa
 
 So, if you want help to translate Galette, its documentation or official plugins, that is quite simple: go to the [translation platform (Weblate)](https://hosted.weblate.org/projects/galette/), create or link an account if needed, login and translate!
 
-![](/site/assets/images/screenshots/weblate.png)
+<figure>
+    <a href="/site/assets/images/screenshots/weblate.png" data-fancybox="gallery">
+        <img src="/site/assets/images/screenshots/weblate.png" alt="Translation screenshot">
+    </a>
+</figure>
 
 ### Process details
 
