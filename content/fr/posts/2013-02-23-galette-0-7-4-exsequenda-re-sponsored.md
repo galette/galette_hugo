@@ -27,10 +27,10 @@ title: 'Galette 0.7.4 : Exsequenda re-subventionne !'
 <li>...</li>
 </ul>
 
-<p>Quelques autres améliorations on également été apportées, et quelques bogues ont été corrigés&nbsp;; voyez <a href="{{ site.galette.doc_url }}/{{ site.lang }}/master/changelog.html#v074">la liste complète des modifications</a>.</p>
+<p>Quelques autres améliorations on également été apportées, et quelques bogues ont été corrigés&nbsp;; voyez {{< doclink path="changelog.html#v074" >}}la liste complète des modifications{{< /doclink >}}.</p>
 
 
 <p>De nouveau, merci à Exsequenda pour le subventionnement, ainsi qu'à tous celles et ceux qui ont participé aux améliorations et tests de cette version :-)</p>
 
 
-<p>Notez que désormais, <a href="{{ site.galette.doc_url }}/{{ site.lang }}/master/installation/index.html#php537">Galette requiert PHP en version 5.3.7 ou ultérieure</a>.</p>
+<p>Notez que désormais, {{< doclink path="installation/index.html#php537" >}}Galette requiert PHP en version 5.3.7 ou ultérieure{{< /doclink >}}.</p>

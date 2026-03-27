@@ -20,7 +20,7 @@ title: 'Galette 0.8 : nouvelle recette !'
 <li>...</li>
 </ul>
 
-<p>De nombreux bogues ont été corrigés, et d'autres améliorations on été apportées, consultez la <a href="{{ site.galette.doc_url }}/{{ site.lang }}/master/changelog.html#v080" hreflang="fr">liste complète des changements apportés par Galette 0.8</a>. Les plugins officiels ont également tous été mis à jour, la nouvelle version ne permet pas aux anciens plugins de fonctionner.</p>
+<p>De nombreux bogues ont été corrigés, et d'autres améliorations on été apportées, consultez la {{< doclink path="changelog.html#v080" >}}liste complète des changements apportés par Galette 0.8{{< /doclink >}}. Les plugins officiels ont également tous été mis à jour, la nouvelle version ne permet pas aux anciens plugins de fonctionner.</p>
 
 
 <p>Vous pourrez récupérer cette version à l'adresse&nbsp;:

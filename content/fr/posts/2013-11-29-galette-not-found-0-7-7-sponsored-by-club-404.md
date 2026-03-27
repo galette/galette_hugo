@@ -9,10 +9,10 @@ layout: post
 tags: release sponsored
 title: 'Galette "not found" : la 0.7.7 sponsorisée par le Club 404'
 ---
-<p>Le <a href="http://www.leclub404.com/" hreflang="fr">Club 404</a> est historiquement à l'origine de la demande du <a href="{{ site.galette.doc_url }}/{{ site.lang }}/master/plugins/auto.html" hreflang="fr">plugin de gestion de clubs automobiles</a>, en 2009.</p>
+<p>Le <a href="http://www.leclub404.com/" hreflang="fr">Club 404</a> est historiquement à l'origine de la demande du {{< doclink path="plugins/auto.html" >}}plugin de gestion de clubs automobiles{{< /doclink >}}, en 2009.</p>
 
 
 <p>Aujourd'hui, le Club 404 a décidé de subventionner l'ajout de pièces jointes aux e-mailings, ainsi qu'une modification sur les droits dans le plugin Auto qui voit ainsi sortir sa première version stable&nbsp;! Un grand merci à eux&nbsp;!</p>
 
 
-<p>Quelques anomalies ont été corrigées au passage (<a href="{{ site.galette.doc_url }}/{{ site.lang }}/master/changelog.html#v077" hreflang="fr">consultez le changelog pour davantage de détails</a>), et voici venir la version 0.7.7 de Galette ainsi que la version 1.0.0 du plugin Auto :)</p>
+<p>Quelques anomalies ont été corrigées au passage ({{< doclink path="changelog.html#v077" >}}consultez le changelog pour davantage de détails{{< /doclink >}}), et voici venir la version 0.7.7 de Galette ainsi que la version 1.0.0 du plugin Auto :)</p>

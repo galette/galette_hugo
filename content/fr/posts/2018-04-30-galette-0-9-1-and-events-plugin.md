@@ -24,10 +24,10 @@ title: Galette 0.9.1 et plugin Évènements
 
 
 <p>La liste complète des changements pour Galette 0.9.1 est disponible :<br />
-<a href="{{ site.galette.doc_url }}/{{ site.lang }}/master/changelog.html#v091" hreflang="fr">{{ site.galette.doc_url }}/{{ site.lang }}/master/changelog.html#v091</a></p>
+{{< doclink path="changelog.html#v091" >}}liste complète des changements de Galette 0.9.1{{< /doclink >}}</p>
 
 
-<p>En plus de cette nouvelle version, un <a href="{{ site.galette.doc_url }}/{{ site.lang }}/develop/plugins/events.html" hreflang="fr">plugin de gestion d'évènements</a> est désormais disponible !</p>
+<p>En plus de cette nouvelle version, un {{< doclink path="plugins/events.html" branch="develop" >}}plugin de gestion d'évènements{{< /doclink >}} est désormais disponible !</p>
 
 
 <p>J'aimerai remercier vivement toutes les personnes qui ont participé à cette nouvelle version, et tout particulièrement Arnlod W. pour la traduction en Allemand, ainsi que l'association Bretonne des Amis de Saint Jacques de Compostelle (https://www.compostelle-bretagne.fr/) qui a sponsorisé le choix de l'expéditeur des e-mailings et l'intégralité du plugin évènements.</p>

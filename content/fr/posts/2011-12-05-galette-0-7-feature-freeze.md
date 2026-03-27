@@ -11,7 +11,7 @@ title: 'Galette 0.7 : gel des fonctionnalités'
 <p>Comme cela a été récemment annoncé, <a href="http://goo.gl/flGvC">les fonctionnalités de la future version 0.7 de Galette ont été gelées</a> :-)</p>
 
 
-<p>Cela signifie que l'équipe de développement n'accepte plus de nouvelles fonctionnalités à intégrer dans cette version&nbsp;; et qu'elle va pouvoir se consacrer d'avantage à la résolution de bogues, à la stabilisation du code et à la mise en place de la <a href="{{ site.galette.doc_url }}/{{ site.lang }}/master/">nouvelle documentation</a>.</p>
+<p>Cela signifie que l'équipe de développement n'accepte plus de nouvelles fonctionnalités à intégrer dans cette version&nbsp;; et qu'elle va pouvoir se consacrer d'avantage à la résolution de bogues, à la stabilisation du code et à la mise en place de la {{< doclink path="" >}}nouvelle documentation{{< /doclink >}}.</p>
 
 
-<p>Référez-vous à <a href="{{ site.galette.doc_url }}/{{ site.lang }}/master/changelog.html#v070">la liste des nouveautés qu'apporte la version 0.7</a> par rapport à ses illustres ancêtres (des Galettes qui ne doivent aujourd'hui plus être très fraîches à vrai dire :-p) pour savoir ce qu'apportera cette recette.</p>
+<p>Référez-vous à {{< doclink path="changelog.html#v070" >}}la liste des nouveautés qu'apporte la version 0.7{{< /doclink >}} par rapport à ses illustres ancêtres (des Galettes qui ne doivent aujourd'hui plus être très fraîches à vrai dire :-p) pour savoir ce qu'apportera cette recette.</p>

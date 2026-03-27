@@ -21,7 +21,7 @@ A version that contains developments paid by someone and reversed to the communi
 <p>All Galette users (who are the first to benefit from this) and I would like to say a very big thanks to AFUL for their participation. It allows Galette to keep improving and show a real, practical example of a FOSS project development! Bravo!</p>
 
 
-<p><a href="{{ site.galette.doc_url }}/{{ site.lang }}/master/changelog.html#v072" hreflang="fr">For that new Galette recipe</a>, the following ingredients has been added:</p>
+<p>{{< doclink path="changelog.html#v072" >}}For that new Galette recipe{{< /doclink >}}, the following ingredients has been added:</p>
 <ul>
 <li>improve dynamic fields interface,</li>
 <li>the code that manage those fields has been refactored,</li>

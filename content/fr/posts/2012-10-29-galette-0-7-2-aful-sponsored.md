@@ -22,7 +22,7 @@ Il s'agit simplement d'une version dont certains développements ont été finan
 <p>De ma part ainsi que de celle des utilisateurs de Galette (qui sont les premiers à en bénéficier d'ailleurs)&nbsp;: un très grand merci à l'AFUL qui par sa participation permet à Galette de progresser dans le bon sens&nbsp;; un exemple pratique très concret de participation au développement d'un projet libre&nbsp;! Bravo&nbsp;!</p>
 
 
-<p><a href="{{ site.galette.doc_url }}/{{ site.lang }}/master/changelog.html#v072" hreflang="fr">Dans la recette de cette nouvelle Galette</a>, les ingrédients suivants ont été ajoutés&nbsp;:</p>
+<p>{{< doclink path="changelog.html#v072" >}}Dans la recette de cette nouvelle Galette{{< /doclink >}}, les ingrédients suivants ont été ajoutés&nbsp;:</p>
 <ul>
 <li>amélioration de l'interface des champs dynamiques,</li>
 <li>remaniement intégral du code qui gère ces mêmes champs,</li>

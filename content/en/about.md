@@ -11,7 +11,7 @@ The name Galette is a French acronym for “Gestionnaire d’Adhérents en Ligne
 
 Since the beginning, it has been defined that the main project axis is to manage members and membership. The question of integrating as example accounting features has been asked, but declined, because too far in our minds from this axis (without taking into account the cost it can have on development and maintenance).
 
-Apart from this kind of "limit", features that reach Galette core try to be as generic as possible to suit most of the needs. Some more specific features do not have place in core, but can be added from plugins: therefore, it is possible from Galette to [manage an automobile club]({{ .Site.Params.galette.doc_url }}/{{ .Page.Language.Lang }}/master/plugins/auto.html) or use a [loan objects system]({{ .Site.Params.galette.doc_url }}/{{ .Page.Language.Lang }}/master/plugins/objectslend.html).
+Apart from this kind of "limit", features that reach Galette core try to be as generic as possible to suit most of the needs. Some more specific features do not have place in core, but can be added from plugins: therefore, it is possible from Galette to {{< doclink path="plugins/auto.html" >}}manage an automobile club{{< /doclink >}} or use a {{< doclink path="plugins/objectslend.html" >}}loan objects system{{< /doclink >}}.
 
 [Bug tracking system]({{ .Site.Params.galette.tracker_url }}) as well as [voting system]({{ site.galette.vote_url }}) let you influence future features, but you can of course [add them yourself]({{ "/pages/contribute/" | relLangURL }}) :-)
 
@@ -28,7 +28,7 @@ Finally, note that only one major release is supported. Then, since Galette 0.9 
 [Galette's users list](https://telemetry.galette.eu/reference) is available from our telemetry application :)
 [Register yourself if you use Galette](https://telemetry.galette.eu/reference?showmodal)
 
-Note that you can also [register from Galette]({{ .Site.Params.galette.doc_url }}/{{ .Page.Language.Lang }}/master/usermanual/generalites.html#telemetry) (since 0.9); you will be able to edit your data using this.
+Note that you can also {{< doclink path="usermanual/generalites.html#telemetry" >}}register from Galette{{< /doclink >}} (since 0.9); you will be able to edit your data using this.
 
 ## Galette's history
 
@@ -84,6 +84,6 @@ You must know that finally, Deelight (Lead developer: One who's right) choose Ga
 * [demo](https://demo.galette.eu) : [Galette](https://galette.eu),
 * [discussion and broadcast lists]({{ "/pages/contact/" | relLangURL }}#listes-de-discussion) : [Mailman](https://list.org/)
 * [voting system]({{ site.galette.vote_url }}): [Fider](https://fider.io)
-* [documentation]({{ .Site.Params.galette.doc_url }}/{{ .Page.Language.Lang }}/master): built by [Sphinx](https://www.sphinx-doc.org), hosted by [ReadTheDocs](https://rtfd.org),
+* {{< doclink >}}documentation{{< /doclink >}}: built by [Sphinx](https://www.sphinx-doc.org), hosted by [ReadTheDocs](https://rtfd.org),
 * [translations]({{ site.galette.trad_url }}) and [documentation translation]({{ site.galette.trad_url }}): [Weblate](https://weblate.org).
 * Johan, hosted by himself :p

@@ -19,7 +19,7 @@ title: 'Galette 0.8: new recipe!'
 <li>...</li>
 </ul>
 
-<p>Some bugs have been fixed, and some other improvements have been implemented, please take a look at the <a href="{{ site.galette.doc_url }}/{{ site.lang }}/master/changelog.html#v080" hreflang="fr">complete changelog</a>. All plugins have also been updated, since old versions will not work with that new Galette.</p>
+<p>Some bugs have been fixed, and some other improvements have been implemented, please take a look at the {{< doclink path="changelog.html#v080" >}}complete changelog{{< /doclink >}}. All plugins have also been updated, since old versions will not work with that new Galette.</p>
 
 
 <p>You can download this release at:

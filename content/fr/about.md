@@ -12,7 +12,7 @@ Le nom Galette est un acronyme pour « Gestionnaire d’Adhérents en Ligne Extr
 
 Depuis le début, il a été défini que l'axe principal du projet serait la gestion des adhérents et adhésions. La question par exemple d'inclure des notions de comptabilité a été évoquée, mais refusée, car trop éloignée à notre sens de cet axe (sans compter la charge supplémentaire que ça impliquerait en termes de développements et de maintenance).
 
-Outre ce type de « limites », les fonctionnalités intégrées au cœur du logiciel se veulent le plus générique possible, ce afin de convenir au plus grand nombre. Certaines fonctionnalités plus spécifiques n'y ont pas leur place, mais peuvent en revanche être ajoutées par le biais du système des plugins : l'on peut ainsi depuis Galette [gérer un club automobile]({{ .Site.Params.galette.doc_url }}/{{ .Page.Language.Lang }}/master/plugins/auto.html) ou  utiliser un [système de prêts d'objets]({{ .Site.Params.galette.doc_url }}/{{ .Page.Language.Lang }}/master/plugins/objectslend.html).
+Outre ce type de « limites », les fonctionnalités intégrées au cœur du logiciel se veulent le plus générique possible, ce afin de convenir au plus grand nombre. Certaines fonctionnalités plus spécifiques n'y ont pas leur place, mais peuvent en revanche être ajoutées par le biais du système des plugins : l'on peut ainsi depuis Galette {{< doclink path="plugins/auto.html" >}}gérer un club automobile{{< /doclink >}} ou  utiliser un {{< doclink path="plugins/objectslend.html" >}}système de prêts d'objets{{< /doclink >}}.
 
 Le système de [gestion des tickets]({{ .Site.Params.galette.tracker_url }}) ainsi que le [système de vote]({{ site.galette.vote_url }}) vous permettent d'influencer les futures fonctionnalités, mais vous pouvez bien entendu les [ajouter vous-mêmes]({{ "/pages/contribute/" | relLangURL }}) :-)
 
@@ -29,7 +29,7 @@ Enfin, notez qu'une seule version majeure n'est supportée à la fois. Ainsi, de
 La <a href="https://telemetry.galette.eu/reference" hreflang="en">liste des utilisateurs de Galette</a> peut être consultée sur notre application de télémétrie :)
 <a href="http://telemetry.galette.eu/reference?showmodal" hreflang="en">Enregistrez-vous si vous utilisez Galette</a> !
 
-Notez que vous pouvez également [vous enregistrer depuis Galette]({{ .Site.Params.galette.doc_url }}/{{ .Page.Language.Lang }}/master/usermanual/generalites.html#telemetry) (à partir de la version 0.9) ; ce qui vous permettra par la suite de modifier vos données.
+Notez que vous pouvez également {{< doclink path="usermanual/generalites.html#telemetry" >}}vous enregistrer depuis Galette{{< /doclink >}} (à partir de la version 0.9) ; ce qui vous permettra par la suite de modifier vos données.
 
 ## Histoire de Galette
 
@@ -83,6 +83,6 @@ Sachez qu'au final, Deelight (Développeur : Celui qui a raison) a choisi Galett
 * [démo](https://demo.galette.eu) : [Galette](https://galette.eu),
 * [listes de diffusion]({{ "/pages/contact/" | relLangURL }}#listes-de-discussion) : [Mailman](https://list.org),
 * [système de vote]({{ site.galette.vote_url }}) : [Fider](https://fider.io),
-* [documentation]({{ .Site.Params.galette.doc_url }}/{{ .Page.Language.Lang }}/master) : générée par [Sphinx](https://www.sphinx-doc.org), hébergée chez [ReadTheDocs](https://rtfd.org),
+* {{< doclink >}}documentation{{< /doclink >}} : générée par [Sphinx](https://www.sphinx-doc.org), hébergée chez [ReadTheDocs](https://rtfd.org),
 * [traductions]({{ site.galette.trad_url }}) et [traduction documentation]({{ site.galette.trad_url }}) : [Weblate](https://weblate.org).
 * Johan, hébergé chez lui :p

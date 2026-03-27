@@ -1,0 +1,9 @@
+{{- $url := .Site.Params.galette_doc_url -}}
+{{- $lang := .Page.Language.Lang -}}
+{{- $branch := or (.Get "branch") "master" -}}
+{{- $path := .Get "path" -}}
+{{- if $path -}}
+<a href="{{ $url }}/{{ $lang }}/{{ $branch }}/{{ $path }}">{{ .Inner }}</a>
+{{- else -}}
+<a href="{{ $url }}/{{ $lang }}/{{ $branch }}">{{ .Inner }}</a>
+{{- end -}}

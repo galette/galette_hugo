@@ -10,7 +10,7 @@ title: 'Galette 0.7: feature freeze'
 <p>As that was recently announced, <a href="http://goo.gl/flGvC" hreflang="fr">features for future 0.7 version of Galette has been freezed</a> :-)</p>
 
 
-<p>That means development team will no longer accept new features fort these version; and that it will dedicate more time to bugfix, code stabilization and improve the <a href="{{ site.galette.doc_url }}/{{ site.lang }}/master">new documentation</a>.</p>
+<p>That means development team will no longer accept new features fort these version; and that it will dedicate more time to bugfix, code stabilization and improve the {{< doclink >}}new documentation{{< /doclink >}}.</p>
 
 
-<p>Refer to <a href="{{ site.galette.doc_url }}/{{ site.lang }}/master/changelog.html#v070" hreflang="fr">0.7 changelog</a> from its illustrious ancestors (Galettes that are probalby not so so fresh acually :-p) to know what this new recipe brings.</p>
+<p>Refer to {{< doclink path="changelog.html#v070" >}}0.7 changelog{{< /doclink >}} from its illustrious ancestors (Galettes that are probalby not so so fresh acually :-p) to know what this new recipe brings.</p>

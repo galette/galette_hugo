@@ -12,7 +12,7 @@ title: 'Galette 0.8.1 : sponsorisée par Danielle'
 <p>Et voici une nouvelle version de Galette, sponsorisée par Danielle C. :-)</p>
 
 
-<p>Cette version apporte quelques menues nouveautés, et corrige également quelques bogues relevés dans la version précédente. Je vous invite à consulter <a href="{{ site.galette.doc_url }}/{{ site.lang }}/master/changelog.html#v081">la liste complète des changements</a> pour davantage de détails.<br />
+<p>Cette version apporte quelques menues nouveautés, et corrige également quelques bogues relevés dans la version précédente. Je vous invite à consulter {{< doclink path=/changelog.html#v081 >}}la liste complète des changements{{< /doclink >}} pour davantage de détails.<br />
 Il va sans dire que la mise à jour est fortement recommandée...</p>
 
 

@@ -26,10 +26,10 @@ title: 'Galette 0.7.4: Exsequenda re-sponsored!'
 <li>...</li>
 </ul>
 
-<p>Some other enhancements has been added too, and some bugs has been fixed; <a href="{{ site.galette.doc_url }}/{{ site.lang }}/master/changelog.html#v074">see complete modifications list</a>.</p>
+<p>Some other enhancements has been added too, and some bugs has been fixed; {{< doclink path="changelog.html#v074" >}}see complete modifications list{{< /doclink >}}.</p>
 
 
 <p>Again, thanks to Exsequenda for sponsoring this release, as well as all contributors involved in development and testing :-)</p>
 
 
-<p>Please note that <a href="{{ site.galette.doc_url }}/{{ site.lang }}/master/installation/index.html#php537">Galette now requires PHP 5.3.7 or above</a>.</p>
+<p>Please note that {{< doclink path="installation/index.html#php537" >}}Galette now requires PHP 5.3.7 or above{{< /doclink >}}.</p>
