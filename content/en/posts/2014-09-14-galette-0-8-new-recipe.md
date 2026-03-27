@@ -23,8 +23,7 @@ tags: ['release']
 
 <p>You can download this release at:
 <br />
-<a href="https://galette.eu/download/archives/galette-0.8.tar.bz2">https://galette.eu/download/archives/galette-0.8.tar.bz2</a></p>
-
+{{< download version="0.8" archive >}}
 
 <p>This new progress in the project closes 0.7 series that has been started early 2012, after some time of good and faithful services – well... I hope!</p>
 
