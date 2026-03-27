@@ -1,0 +1,7 @@
+{{- $path := .Get "path" -}}
+{{- $alt := .Get "alt" -}}
+<figure>
+    <a href="{{ $path }}" data-fancybox="gallery">
+        <img src="{{ $path }}" alt="{{ $alt }}">
+    </a>
+</figure>

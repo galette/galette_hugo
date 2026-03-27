@@ -11,9 +11,9 @@ title: '0.7.2.8 : boosted Galette'
 <p>Galette's development has not been frozen after 0.7.2 AFUL sponsored version; 7 corrective releases has been released since.</p>
 
 
-<p>And here is the eighth one, that fixes a performance issue on members lists. As an illustration , below a <a href="http://pecl.php.net/package/xhprof" hreflang="en">XHProf</a> (a hierarchical profiler tool) resume comparison; so it seems figures say more than words :p</p>
+<p>And here is the eighth one, that fixes a performance issue on members lists. As an illustration, below a <a href="http://pecl.php.net/package/xhprof" hreflang="en">XHProf</a> (a hierarchical profiler tool) resume comparison; so it seems figures say more than words :p</p>
 
-![](/site/assets/images/galette_perfs.png)
+{{< img_link path="/site/assets/images/galette_perfs.png" alt="Performance comparison" >}}
 
 <p>Those performances issues were impacting:</p>
 <ul>
