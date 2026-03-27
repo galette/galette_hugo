@@ -16,7 +16,7 @@ Depuis le début, il a été défini que l'axe principal du projet serait la ges
 
 Outre ce type de « limites », les fonctionnalités intégrées au cœur du logiciel se veulent le plus générique possible, ce afin de convenir au plus grand nombre. Certaines fonctionnalités plus spécifiques n'y ont pas leur place, mais peuvent en revanche être ajoutées par le biais du système des plugins : l'on peut ainsi depuis Galette {{< doclink path="plugins/auto.html" >}}gérer un club automobile{{< /doclink >}} ou  utiliser un {{< doclink path="plugins/objectslend.html" >}}système de prêts d'objets{{< /doclink >}}.
 
-Le système de [gestion des tickets]({{ .Site.Params.galette.tracker_url }}) ainsi que le [système de vote]({{ site.galette.vote_url }}) vous permettent d'influencer les futures fonctionnalités, mais vous pouvez bien entendu les [ajouter vous-mêmes]({{ "/pages/contribute/" | relLangURL }}) :-)
+Le système de [gestion des tickets]({{% param "galette_tracker_url" %}}) ainsi que le [système de vote]({{% param "galette_vote_url" %}}) vous permettent d'influencer les futures fonctionnalités, mais vous pouvez bien entendu les [ajouter vous-mêmes]({{< ref "contribute" >}}) :-)
 
 Un certain nombre de fonctionnalités demandées (lien avec des services tiers par exemple) auraient tout à fait leur place dans Galette, mais ce sont des tâches complexes pour lesquelles il n'a pour le moment pas été possible de dégager du temps.
 
@@ -78,13 +78,13 @@ Sachez qu'au final, Deelight (Développeur : Celui qui a raison) a choisi Galett
 
 ## Outils utilisés
 
-* [moyens de communication]({{ "/pages/contact/" | relLangURL }}),
+* [moyens de communication]({{< ref "contact" >}})
 * [code source](https://github.com/galette/galette/) : [Git](https://git-scm.com/),
-* site web : généré par [Jekyll](https://jekyllrb.com)[^1],
-* [gestionnaire de tickets]({{ .Site.Params.galette.tracker_url }}) : [Redmine](https://redmine.org),
+* site web : généré par [Hugo](https://gohugo.io),
+* [gestionnaire de tickets]({{% param "galette_tracker_url" %}}) : [Redmine](https://redmine.org),
 * [démo](https://demo.galette.eu) : [Galette](https://galette.eu),
-* [listes de diffusion]({{ "/pages/contact/" | relLangURL }}#listes-de-discussion) : [Mailman](https://list.org),
-* [système de vote]({{ site.galette.vote_url }}) : [Fider](https://fider.io),
+* [listes de diffusion]({{< ref "contact#listes-de-discussion" >}}) : [Mailman](https://list.org),
+* [système de vote]({{% param "galette_vote_url" %}}) : [Fider](https://fider.io),
 * {{< doclink >}}documentation{{< /doclink >}} : générée par [Sphinx](https://www.sphinx-doc.org), hébergée chez [ReadTheDocs](https://rtfd.org),
-* [traductions]({{ site.galette.trad_url }}) et [traduction documentation]({{ site.galette.trad_url }}) : [Weblate](https://weblate.org).
+* [traductions]({{% param "galette_trad_url" %}}) et [traduction documentation]({{% param "galette_trad_url" %}}) : [Weblate](https://weblate.org).
 * Johan, hébergé chez lui :p

@@ -14,6 +14,8 @@ defaultContentLanguage = 'en'
   galette_nightly_url = 'https://galette.eu/download/galette-dev.tar.bz2'
   galette_doc_url = 'https://doc.galette.eu'
   galette_tracker_url = 'https://bugs.galette.eu/projects/galette/'
+  galette_trad_url = 'https://hosted.weblate.org/projects/galette/galette/'
+  galette_vote_url = 'https://vote.galette.eu/'
 [pagination]
   pagerSize = 5
 
