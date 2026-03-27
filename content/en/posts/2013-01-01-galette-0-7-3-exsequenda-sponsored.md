@@ -2,11 +2,10 @@
 slug: "galette-0-7-3-exsequenda-sponsored"
 aliases:
 - /post/2013/01/01/Galette-0%2E7%2E3-%3A-Exsequenda-subventionne-!
-categories: en post
 date: 2013-01-01 22:10:58 +0100
 layout: post
-tags: release sponsored
 title: 'Galette 0.7.3: Exsequenda sponsored!'
+tags: ['release', 'sponsored']
 ---
 <p>First of all, a very good 2013 year to all :-) Epiphany will be a bit early this year ;-)</p>
 

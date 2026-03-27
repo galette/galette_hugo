@@ -2,11 +2,10 @@
 slug: "license-change"
 aliases:
 - /post/2013/04/01/Modification-de-license
-categories: en post
 date: 2013-04-01 08:00:00 +0100
 layout: post
-tags: poissons
 title: License change
+tags: ['poissons']
 ---
 <p><strong>EDIT</strong>: Obviously, nobody can believe such thing, it was an April Fool.</p>
 

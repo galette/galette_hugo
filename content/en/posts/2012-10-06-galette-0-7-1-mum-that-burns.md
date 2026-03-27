@@ -2,11 +2,10 @@
 slug: "galette-0-7-1-mum-that-burns"
 aliases:
 - /post/2012/10/06/Galette-0%2E7%2E1-%3A-maman%2C-ça-brûle-!
-categories: en post
 date: 2012-10-06 18:31:35 +0100
 layout: post
-tags: release
 title: 'Galette 0.7.1: Mum, that burns!'
+tags: ['release']
 ---
 <p>A few months after the last major update Galette has known; the crew did it again and is proud to present you the new Galette version :-)</p>
 

@@ -2,7 +2,6 @@
 slug: "galette-0-7-feature-freeze"
 aliases:
 - /post/2012/02/16/Galette-0%2E7-%3A-gel-des-fonctionnalités
-categories: en post
 date: 2011-12-05 14:27:55 +0100
 layout: post
 title: 'Galette 0.7: feature freeze'

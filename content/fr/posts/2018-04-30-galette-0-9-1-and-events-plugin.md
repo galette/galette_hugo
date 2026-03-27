@@ -3,11 +3,10 @@ slug: "galette-0-9-1-and-events-plugin"
 aliases:
 - /post/2018/04/30/Galette-0.9.1
 - /post/2018/04/30/galette-0-9-1-et-plugin-evenements
-categories: fr post
 date: 2018-04-30 06:16:35 +0100
 layout: post
-tags: release sponsored
 title: Galette 0.9.1 et plugin Évènements
+tags: ['release', 'sponsored']
 ---
 <p>Quelques mois après la dernière version majeure, nous sommes fiers de vous annoncer la sortie de la <a href="https://galette.eu/download/galette-0.9.1.tar.bz2">version 0.9.1 de Galette</a> !</p>
 

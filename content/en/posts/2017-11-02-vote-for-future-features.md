@@ -2,7 +2,6 @@
 slug: "vote-for-future-features"
 aliases:
 - /post/2017/11/02/Voter-pour-les-futures-fonctionnalités
-categories: en post
 date: 2017-11-02 17:16:57 +0100
 layout: post
 title: Vote for future features?

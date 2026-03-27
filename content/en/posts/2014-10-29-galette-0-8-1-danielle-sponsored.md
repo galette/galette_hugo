@@ -2,11 +2,10 @@
 slug: "galette-0-8-1-danielle-sponsored"
 aliases:
 - /post/2014/10/29/Galette-0%2E8%2E1-%3A-sponsorisée-par-Danielle
-categories: en post
 date: 2014-10-29 06:52:37 +0100
 layout: post
-tags: release sponsored
 title: 'Galette 0.8.1: Danielle sponsored'
+tags: ['release', 'sponsored']
 ---
 <p>Here is a new Galette release, sponsored by Danielle C. :-)</p>
 

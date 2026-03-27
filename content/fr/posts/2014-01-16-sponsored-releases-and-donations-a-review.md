@@ -3,11 +3,10 @@ slug: "sponsored-releases-and-donations-a-review"
 aliases:
 - /post/2013/05/25/Versions-subventionnées-et-dons-%3A-un-an-après%2C-le-bilan
 - /post/2014/01/16/versions-subventionnees-et-dons-un-bilan.html
-categories: fr post
 date: 2014-01-16 21:49:21 +0100
 layout: post
-tags: sponsored
 title: 'Versions subventionnées et dons : un bilan'
+tags: ['sponsored']
 ---
 <p>Voici un peu plus d'un an et demi, je décidais de m'établir comme auto-entrepreneur, et à peu près à la même période, j'ajoutais un bouton «&nbsp;dons&nbsp;» sur le site. J'ai communiqué sur l'un et/ou l'autre de ces points à différentes reprises, le temps est venu de faire un petit bilan :-)</p>
 

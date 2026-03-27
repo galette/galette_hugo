@@ -3,11 +3,10 @@ slug: "galette-0-7-5-sponsored-by-debian-france"
 aliases:
 - /post/2013/08/17/Galette-0%2E7%2E5-%3A-subventionnée-par-Debian-France
 - /post/2013/08/17/galette-0-7-5-subventionnee-par-debian-france
-categories: fr post
 date: 2013-08-17 07:14:28 +0100
 layout: post
-tags: release sponsored
 title: 'Galette 0.7.5 : subventionnée par Debian France !'
+tags: ['release', 'sponsored']
 ---
 <p><a href="https://france.debian.net/" hreflang="fr">L'association Debian France</a>, qui promeut l'excellent système d'exploitation Debian, et moi même sommes très heureux de vous présenter la <a href="https://galette.eu/download/archives/galette-0.7.5.tar.bz2">mouture 0.7.5 de Galette</a>&nbsp;!</p>
 

@@ -3,11 +3,10 @@ slug: "galette-0-7-6-lois-sponsored"
 aliases:
 - /post/2013/10/19/Galette-0%2E7%2E6-%3A-subventionnée-par-Loïs
 - /post/2013/10/19/Galette-0%2E7%2E6-:-subventionnée-par-Loïs
-categories: en post
 date: 2013-10-19 08:18:16 +0100
 layout: post
-tags: release sponsored
 title: 'Galette 0.7.6: Loïs sponsored'
+tags: ['release', 'sponsored']
 ---
 <p>Versions follow one after the other and are all very different...</p>
 

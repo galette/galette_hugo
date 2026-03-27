@@ -3,8 +3,7 @@ slug: "galette-security-1-1-6"
 layout: post
 title: "Nouvelle version sécurité de Galette (1.1.6) !"
 date: 2025-09-03 16:30:42 +0200
-tags: release
-categories: fr post
+tags: ['release']
 ---
 
 

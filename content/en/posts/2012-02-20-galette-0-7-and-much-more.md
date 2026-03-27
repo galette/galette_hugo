@@ -2,11 +2,10 @@
 slug: "galette-0-7-and-much-more"
 aliases:
 - /post/2012/02/19/Galette-0.7,-et-bien-plus
-categories: en post
 date: 2012-02-20 13:20:47 +0100
 layout: post
-tags: release
 title: Galette 0.7,  and much more
+tags: ['release']
 ---
 <p>Galette 0.7 was on the road for some time now. Bugs and tasks announced for this version are fixed; older versions migration works also.</p>
 

@@ -3,11 +3,10 @@ slug: "license-change"
 aliases:
 - /post/2013/04/01/Modification-de-license
 - /post/2013/04/01/modification-de-license
-categories: fr post
 date: 2013-04-01 08:00:00 +0100
 layout: post
-tags: poissons
 title: Modification de licence
+tags: ['poissons']
 ---
 <p><strong>EDIT</strong>&nbsp;: Évidemment, personne n'y a cru, il s'agissait d'un poisson d'avril.</p>
 

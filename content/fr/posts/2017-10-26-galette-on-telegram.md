@@ -3,7 +3,6 @@ slug: "galette-on-telegram"
 aliases:
 - /post/2017/10/26/Galette-sur-Telegram
 - /post/2017/10/26/galette-sur-telegram
-categories: fr post
 date: 2017-10-26 17:38:07 +0100
 layout: post
 title: Galette sur Telegram

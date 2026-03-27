@@ -4,11 +4,10 @@ aliases:
 - /post/2013/10/19/Galette-0%2E7%2E6-%3A-subventionnée-par-Loïs
 - /post/2013/10/19/galette-0-7-6-subventionnee-par-gruiick
 - /post/2013/10/19/Galette-0%2E7%2E6-:-subventionnée-par-Loïs
-categories: fr post
 date: 2013-10-19 08:18:16 +0100
 layout: post
-tags: release sponsored
 title: 'Galette 0.7.6 : subventionnée par Loïs'
+tags: ['release', 'sponsored']
 ---
 <p>Les versions se suivent, et ne se ressemblent pas...</p>
 

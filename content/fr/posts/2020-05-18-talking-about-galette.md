@@ -3,7 +3,6 @@ slug: "talking-about-galette"
 aliases:
 - /post/2020/05/18/Discuter-de-Galette
 - /post/2020/05/18/discuter-de-galette
-categories: fr post
 date: 2020-05-18 17:36:52 +0100
 layout: post
 title: Discuter de Galette

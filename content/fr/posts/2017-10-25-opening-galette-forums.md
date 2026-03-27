@@ -3,7 +3,6 @@ slug: "opening-galette-forums"
 aliases:
 - /post/2017/10/25/Ouverture-des-forums-de-discussion
 - /post/2017/10/25/ouverture-des-forums-de-discussion
-categories: fr post
 date: 2017-10-25 17:58:10 +0100
 layout: post
 title: Ouverture des forums de discussion

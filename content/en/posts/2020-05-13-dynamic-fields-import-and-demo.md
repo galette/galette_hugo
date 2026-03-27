@@ -2,7 +2,6 @@
 slug: "dynamic-fields-import-and-demo"
 aliases:
 - /post/2020/05/13/Import-des-champs-dynamiques-et-démo-!
-categories: en post
 date: 2020-05-13 16:20:41 +0100
 layout: post
 title: Dynamic fields import and demo!

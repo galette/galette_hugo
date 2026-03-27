@@ -3,7 +3,6 @@ slug: "galette-socials"
 layout: post
 title: "Galette social networks"
 date: 2023-10-17 17:05:00 +0100
-categories: fr post
 ---
 
 Quelques nouveaux comptes/pages pour Galette ont été créés sur les réseaux sociaux.

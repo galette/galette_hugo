@@ -2,11 +2,10 @@
 slug: "galette-0-8-new-recipe"
 aliases:
 - /post/2014/08/12/Galette-0%2E8-%3A-nouvelle-recette-!
-categories: en post
 date: 2014-09-14 06:21:54 +0100
 layout: post
-tags: release
 title: 'Galette 0.8: new recipe!'
+tags: ['release']
 ---
 <p>It's been 6 month since last Galette was released...</p>
 

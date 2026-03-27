@@ -2,11 +2,10 @@
 slug: "galette-not-found-0-7-7-sponsored-by-club-404"
 aliases:
 - /post/2013/11/30/Galette-not-found-%3A-la-0%2E7%2E7-sponsorisée-par-le-club-404
-categories: en post
 date: 2013-11-29 09:05:13 +0100
 layout: post
-tags: release sponsored
 title: 'Galette "not found": 0.7.7 sponsored by Club 404'
+tags: ['release', 'sponsored']
 ---
 <p>The <a href="http://www.leclub404.com/" hreflang="fr">404 Club</a> is the original requester of the {{< doclink path="plugins/auto.html" >}}plugin to manage automobile clubs{{< /doclink >}} in 2009.</p>
 
