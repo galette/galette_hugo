@@ -12,7 +12,7 @@ Pas de panique, il existe bien des manières de contribuer à un projet comme Ga
 
 Utiliser Galette, c'est déjà soutenir le projet. Assez facile, non ? Allez, merci d'être venus :D
 
-Pour ceux qui seraient restés tout de même, utiliser et tester Galette vont de pair. Donc si vous rencontrez un bogue, ouvrez un ticket avec tous les détails possibles pour qu'un développeur puisse comprendre le problème et le reproduire également, ou utilisez [l'un des canaux de communication]({{ "/pages/contact/" | relLangURL }}) proposés pour exposer votre problème.
+Pour ceux qui seraient restés tout de même, utiliser et tester Galette vont de pair. Donc si vous rencontrez un bogue, ouvrez un ticket avec tous les détails possibles pour qu'un développeur puisse comprendre le problème et le reproduire également, ou utilisez [l'un des canaux de communication]({{< ref "contact" >}}) proposés pour exposer votre problème.
 
 Si le cœur vous en dit - surtout maintenant que vous êtes un pro de Galette ! - vous pouvez aussi tester les nouvelles fonctionnalités en développement lorsqu'il y en a, ou essayer régulièrement la [version nightly]({{% param "galette_nightly_url" %}}).  N'oubliez pas dans ce cas qu'il s'agit d'une version instable ; bien que l'instabilité soit une notion toute relative.
 
@@ -42,7 +42,7 @@ Vous pouvez ainsi :
 ## Traduire
 
 Préambule. Toute contribution au projet doit être faite dans la langue principale (anglais `en_GB`). En cas d'erreur sur la langue principale, il faut aller la corriger dans le contenu d'origine (le code en somme).
-N'hésitez pas à utiliser les [canaux de contact]({{ "/pages/contact/" | relLangURL }}) mis à disposition pour trouver de l'aide sur le sujet si vous le souhaitez ;-)
+N'hésitez pas à utiliser les [canaux de contact]({{< ref "contact" >}}) mis à disposition pour trouver de l'aide sur le sujet si vous le souhaitez ;-)
 
 Si donc vous souhaitez aider à traduire Galette, sa documentation ou les plugins officiels, c'est assez simple : rendez-vous sur [la plateforme de traduction (Weblate)](https://hosted.weblate.org/projects/galette/), créez ou liez un compte au besoin, connectez-vous et traduisez !
 
@@ -68,11 +68,11 @@ Les contributions sont dans tous les cas relues et commentées au besoin, permet
 
 Bien entendu, la documentation se doit de respecter certaines contraintes techniques pour être mise en ligne, mais ce n'est pas un impératif pour de nouveaux ajouts. Si, par exemple, vous ne savez pas faire un lien, il suffira de le préciser d'une manière ou d'une autre dans le contenu, par exemple  `voir l'article xyz (https://xyz.com)`.
 
-Si vous souhaitez compléter la documentation ou y apporter une correction, le fonctionnement est le même que pour Galette : utilisez éventuellement les [canaux de communication]({{ "/pages/contact/" | relLangURL }}) pour exposer votre problématique, dans tous les cas ouvrez un rapport d'anomalie ou une demande d'évolution sur le [gestionnaire de bogues](https://bugs.galette.eu/projects/documentation-galette), pour la suite des opérations  on fera selon les niveaux et les possibilités de chacun.
+Si vous souhaitez compléter la documentation ou y apporter une correction, le fonctionnement est le même que pour Galette : utilisez éventuellement les [canaux de communication]({{< ref "contact" >}}) pour exposer votre problématique, dans tous les cas ouvrez un rapport d'anomalie ou une demande d'évolution sur le [gestionnaire de bogues](https://bugs.galette.eu/projects/documentation-galette), pour la suite des opérations  on fera selon les niveaux et les possibilités de chacun.
 
 ## Développer / corriger
 
-Avant de vraiment vous lancer, veillez à vous assurer que votre fonctionnalité serait acceptée, ainsi que la manière dont vous souhaitez l'implémenter. Les [différents canaux de communication]({{ "/pages/contact/" | relLangURL }}) servent à ça, n'hésitez surtout pas :)
+Avant de vraiment vous lancer, veillez à vous assurer que votre fonctionnalité serait acceptée, ainsi que la manière dont vous souhaitez l'implémenter. Les [différents canaux de communication]({{< ref "contact" >}}) servent à ça, n'hésitez surtout pas :)
 
 Mettre le nez dans le code, c'est la possibilité de contribution la plus technique. Les plugins seront certainement plus faciles à appréhender que Galette elle-même, la majorité d'entre eux est assez simple ; mais vous pouvez bien sûr proposer des modifications sur le cœur :)
 Dans tous les cas de figure, essayez de vous rapprocher du ou des développeur(s) qui sont certainement les personnes les plus à-même de vous aider.

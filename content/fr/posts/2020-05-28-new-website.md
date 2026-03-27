@@ -19,6 +19,6 @@ Au final, j'espère qu'il sera possible d'utiliser une plateforme de traduction 
 
 Si vous trouvez des erreurs, [merci de bien vouloir ouvrir un ticket](https://bugs.galette.eu/projects/website). Bien entendu, vous pouvez aussi fournir un patch git ou ouvrir une pull request sur GitHub :)
 
-Je tiens à remercier « GruiicK » sur [IRC]({{ "/pages/contact/" | relLangURL }}#irc)/[Matrix]({{ "/pages/contact/" | relLangURL }}#matrix) pour son aide précieuse (comme à l'accoutumée !) à la revue de ce site, et merci aussi à « Hiob » !
+Je tiens à remercier « GruiicK » sur [IRC]({{< ref "contact#irc" >}})/[Matrix]({{< ref "contact#matrix" >}}) pour son aide précieuse (comme à l'accoutumée !) à la revue de ce site, et merci aussi à « Hiob » !
 
 Bonne Galette !
