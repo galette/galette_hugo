@@ -14,7 +14,7 @@ title: 'Galette 0.7.2.8 : coup de boost'
 
 <p>Et voici donc la huitième mouture, qui corrige cette fois un problème de performances sur les listes d'adhérents. Voici pour illustration un comparatif des relevés établis par <a href="http://pecl.php.net/package/xhprof" hreflang="en">XHProf</a> (un outil de profilage hiérarchique) sur une liste de 500 adhérents&nbsp;; puisque paraît-il un petit schéma vaut mieux qu'un long discours :p</p>
 
-![](/site/assets/images/galette_perfs.png)
+{{< img_link path="/site/assets/images/galette_perfs.png" alt="Comparaison des performances" >}}
 
 <p>Ces soucis de performances impactaient&nbsp;:</p>
 <ul>

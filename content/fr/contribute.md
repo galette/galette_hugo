@@ -25,7 +25,7 @@ Une autre piste potentielle pour contribuer au projet, c'est d'aider à l'instal
 Ce peut-être pour l'association de votre voisin à qui Galette pourrait rendre service, ou qui ne parvient pas à l'installer, par exemple.
 Mais ça peut aussi être de réponse à une demande sur les listes ou n'importe quel autre canal de demande d'entre aide. D'ailleurs, si vous connaissez des canaux d'aide Galette existants qui ne sont pas listés dans la page contact, merci de nous les signaler que cela y soit ajouté.
 
-Communiquer autour de Galette est aussi un bon moyen de contribuer, et qui ne demande aucune compétence particulière. Parlez de Galette sur vos réseaux sociaux (les [réseaux sociaux de Galette]({% tl contact%}#réseaux-sociaux) sont listés sur la page contact), dans vos réunions de GUL, ou autres rassemblements.
+Communiquer autour de Galette est aussi un bon moyen de contribuer, et qui ne demande aucune compétence particulière. Parlez de Galette sur vos réseaux sociaux (les [réseaux sociaux de Galette]({{< ref "contact#réseaux-sociaux" >}}) sont listés sur la page contact), dans vos réunions de GUL, ou autres rassemblements.
 
 <a name="donate"></a>
 ## Faire un don
@@ -46,11 +46,7 @@ N'hésitez pas à utiliser les [canaux de contact]({{< ref "contact" >}}) mis à
 
 Si donc vous souhaitez aider à traduire Galette, sa documentation ou les plugins officiels, c'est assez simple : rendez-vous sur [la plateforme de traduction (Weblate)](https://hosted.weblate.org/projects/galette/), créez ou liez un compte au besoin, connectez-vous et traduisez !
 
-<figure>
-    <a href="/site/assets/images/screenshots/weblate.png" data-fancybox="gallery">
-        <img src="/site/assets/images/screenshots/weblate.png" alt="Translation screenshot">
-    </a>
-</figure>
+{{< img_link path="/site/assets/images/screenshots/weblate.png" alt="Capture d'écran de la plateforme de traduction Weblate" >}}
 
 ### Détails du processus
 

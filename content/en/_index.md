@@ -20,11 +20,7 @@ Galette works on any web server that supports PHP ([see prerequisites]({{< param
             <li><strong>Plugin support</strong></li>
             <li>...</li>
         </ul>
-        <figure>
-            <a href="/site/assets/images/screenshots/edit_member.png" data-fancybox="gallery">
-                <img src="/site/assets/images/screenshots/edit_member.png" alt="Edit member screenshot">
-            </a>
-        </figure>
+        {{< img_link path="/site/assets/images/screenshots/edit_member.png" alt="Edit member screenshot" >}}
     </div>
     <div>
         <ul>
@@ -39,11 +35,7 @@ Galette works on any web server that supports PHP ([see prerequisites]({{< param
             <li>Works with MariaDB or PostgreSQL</li>
             <li>...</li>
         </ul>
-        <figure>
-            <a href="/site/assets/images/screenshots/desktop.png" data-fancybox="gallery">
-                <img src="/site/assets/images/screenshots/desktop.png" alt="Desktop screenshot">
-            </a>
-        </figure>
+        {{< img_link path="/site/assets/images/screenshots/desktop.png" alt="Desktop screenshot" >}}
     </div>
 </div>
 

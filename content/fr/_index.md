@@ -20,11 +20,7 @@ Galette fonctionne sur n'importe quel serveur web qui prend en charge PHP ([voir
             <li><strong>Support de plugins</strong></li>
             <li>...</li>
         </ul>
-        <figure>
-            <a href="/site/assets/images/screenshots/edit_member.png" data-fancybox="gallery">
-                <img src="/site/assets/images/screenshots/edit_member.png" alt="Edit member screenshot">
-            </a>
-        </figure>
+        {{< img_link path="/site/assets/images/screenshots/edit_member.png" alt="Capture écran modification adhérent" >}}
     </div>
     <div>
         <ul>
@@ -39,11 +35,7 @@ Galette fonctionne sur n'importe quel serveur web qui prend en charge PHP ([voir
             <li>Fonctionne avec MariaDB ou PostgreSQL</li>
             <li>...</li>
         </ul>
-        <figure>
-            <a href="/site/assets/images/screenshots/desktop.png" data-fancybox="gallery">
-                <img src="/site/assets/images/screenshots/desktop.png" alt="Desktop screenshot">
-            </a>
-        </figure>
+        {{< img_link path="/site/assets/images/screenshots/desktop.png" alt="Capture écran bureau" >}}
     </div>
 </div>
 

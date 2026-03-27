@@ -13,7 +13,7 @@ Using Galette is already a kind of support. Quite easy, no? Well, thanks for com
 
 For the ones who stay anyway, using and testing Galette is the same process. So, if you find a bug, open a ticket with all possible details so a developer can understand the issue and reproduce it, or use [one of our communication channels]({{< ref "contact" >}}) to expose your issue.
 
-If you want - especially now you are a Galette expert! - you can test new features under development when there are, or regularly try the [nightly version]({{% param "galette_nightly_url" %}}). Do not forget this is an unstable version; even if instability is a relative concept.
+If you want - especially now you are a Galette expert! - you can test new features under development when there are, or regularly try the [nightly version]({{% param "galette_nightly_url" %}}). Remember this is an unstable version; even if instability is a relative concept.
 
 Of course, this is the same for {{< doclink path="plugins/" >}}official plugins{{< /doclink >}} :-)
 
@@ -24,7 +24,7 @@ Another possible way to contribute to the project is to help to install, configu
 That can be for your neighbour's association to which Galette can be helpful, or if he cannot achieve to install it, for example.
 But that can also be answering a question on the mailing lists or any other communication channel. By the way, if you know Galette help channels that are not listed in our contact page, please give us an highlight so we can add it.
 
-To communicate about Galette is also a good way to contribute, and does not require any specific skills. Talk about Galette on your social networks ([Galette ones]({% tl contact%}#social-networks) are listed on contact page), during your LUG meetings or else.
+To communicate about Galette is also a good way to contribute, and does not require any specific skills. Talk about Galette on your social networks ([Galette ones]({{< ref "contact#social-networks" >}}) are listed on contact page), during your LUG meetings or else.
 
 <a name="donate"></a>
 ## Make a donation
@@ -45,11 +45,7 @@ Do not hesitate to use provided [contact channels ]({{< ref "contact" >}}) to fi
 
 So, if you want help to translate Galette, its documentation or official plugins, that is quite simple: go to the [translation platform (Weblate)](https://hosted.weblate.org/projects/galette/), create or link an account if needed, login and translate!
 
-<figure>
-    <a href="/site/assets/images/screenshots/weblate.png" data-fancybox="gallery">
-        <img src="/site/assets/images/screenshots/weblate.png" alt="Translation screenshot">
-    </a>
-</figure>
+{{< img_link path="/site/assets/images/screenshots/weblate.png" alt="Translation platform Weblate screenshot" >}}
 
 ### Process details
 
