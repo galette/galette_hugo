@@ -18,6 +18,6 @@ In the end, I hope I'll be able to use a translation platform to get the website
 
 If you find errors, [please open an issue](https://bugs.galette.eu/projects/website). Of course, you can also provide a git patch or open a pull request on GitHub :-)
 
-I'd like to thanks "GruiicK" on [IRC]({{ "/pages/contact/" | relLangURL }}#irc)/[Matrix]({{ "/pages/contact/" | relLangURL }}#matrix) for his precious help (as usual!) reviewing this new website, and also to "Hiob"!
+I'd like to thanks "GruiicK" on [IRC]({{< ref "contact#irc" >}})/[Matrix]({{< ref "contact#matrix" >}}) for his precious help (as usual!) reviewing this new website, and also to "Hiob"!
 
 Happy Galette!
