@@ -38,7 +38,7 @@ You can also join [Galette Discord](https://discord.gg/98g2e3xka8) channel :)
 
 IRC is a communication protocol that does exist from years (1988), which does well what we ask it (not much finally), and which is still widespread.
 
-All you need is an IRC client to connect to [irc.oftc.net](irc://irc.oftc.net) and then join `#galette`.
+All you need is an IRC client to connect to `irc://irc.oftc.net` and then join `#galette`.
 
 Note than when your IRC client is closed or just not connected, no message will be sent to you. And you will never be able to see what you've missed (no log of the IRC channel is available).
 
