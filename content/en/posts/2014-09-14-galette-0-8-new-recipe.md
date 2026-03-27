@@ -7,12 +7,12 @@ layout: post
 title: 'Galette 0.8: new recipe!'
 tags: ['release']
 ---
-<p>It's been 6 month since last Galette was released...</p>
+<p>It's been 6 months since last Galette was released...</p>
 
 
 <p>During this time, even if I became dad another time, I've worked on some important changes provided in this new release:</p>
 <ul>
-<li>complete rewrite of the installation process, more pleasant and logic for the users, and much more flexible for developpers,</li>
+<li>complete rewrite of the installation process, more pleasant and logic for the users, and much more flexible for developers,</li>
 <li>use of database component to its new major release, the old one is no longer supported,</li>
 <li>PHP 5.4 as minimum version,</li>
 <li>...</li>
@@ -26,7 +26,7 @@ tags: ['release']
 <a href="https://galette.eu/download/archives/galette-0.8.tar.bz2">https://galette.eu/download/archives/galette-0.8.tar.bz2</a></p>
 
 
-<p>This new progress in the projet closes 0.7 series that has been started early 2012, after some time of good and faithful services - well... I hope!</p>
+<p>This new progress in the project closes 0.7 series that has been started early 2012, after some time of good and faithful services – well... I hope!</p>
 
 
 <p>I now have to recover from all that ;)</p>

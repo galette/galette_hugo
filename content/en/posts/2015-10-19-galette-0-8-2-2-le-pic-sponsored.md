@@ -7,12 +7,12 @@ layout: post
 title: 'Galette 0.8.2.2: Le Pic sponsored'
 tags: ['release', 'sponsored']
 ---
-<p>I have been very busy these months, but Galette has progressed anyways :-)</p>
+<p>I have been very busy these months, but Galette has progressed anyway :-)</p>
 
 
-<p>0.8.2 release, sponsored by Hélène of <a href="http://www.le-pic.org">Le Pic</a> were born at the end of may. This release ends SQLite support, but comes with many new features:</p>
+<p>0.8.2 release, sponsored by Hélène of <a href="http://www.le-pic.org">Le Pic</a> was born at the end of may. This release ends SQLite support, but comes with many new features:</p>
 <ul>
-<li>Attach members  (for families, per exmaple); it is so possible to use parents coordinates for the child member;</li>
+<li>Attach members (for families, per example); it is so possible to use parents coordinates for the child member;</li>
 <li>Add member number;</li>
 <li>Customize member form;</li>
 <li>Add maintainance mode;</li>

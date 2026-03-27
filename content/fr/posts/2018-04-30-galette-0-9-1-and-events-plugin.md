@@ -8,7 +8,7 @@ layout: post
 title: Galette 0.9.1 et plugin Évènements
 tags: ['release', 'sponsored']
 ---
-<p>Quelques mois après la dernière version majeure, nous sommes fiers de vous annoncer la sortie de la <a href="https://galette.eu/download/galette-0.9.1.tar.bz2">version 0.9.1 de Galette</a> !</p>
+<p>Quelques mois après la dernière version majeure, nous sommes fiers de vous annoncer la sortie de la <a href="https://galette.eu/download/archives/galette-0.9.1.tar.bz2">version 0.9.1 de Galette</a> !</p>
 
 
 <p>Cette nouvelle version corrige quelques bogues, et apporte également quelques nouveautés :</p>

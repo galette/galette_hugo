@@ -7,7 +7,7 @@ layout: post
 title: Galette 0.9.1 and Events plugin
 tags: ['release', 'sponsored']
 ---
-<p>A few months after the last major release, we are proud to announce the release of <a href="https://galette.eu/download/galette-0.9.1.tar.bz2">Galette 0.9.1</a>!</p>
+<p>A few months after the last major release, we are proud to announce the release of <a href="https://galette.eu/download/archives/galette-0.9.1.tar.bz2">Galette 0.9.1</a>!</p>
 
 
 <p>This new version provides some bug fixes, and a few new features:</p>

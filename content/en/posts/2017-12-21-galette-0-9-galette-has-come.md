@@ -28,7 +28,7 @@ tags: ['release']
 <p>And of course, all existing communication channels (<a href="{{< ref "contact" >}}">mailing lists</a>, <a href="{{< ref "contact#irc" >}}">IRC channel</a>, <a href="https://bugs.galette.eu/projects/galette">tracker</a>, ...) are still available.</p>
 
 
-<p>Please share your Telemetry informations and register as an user; this may help the project ;-)</p>
+<p>Please share your Telemetry information and register as an user; this may help the project ;-)</p>
 
 
 <p>I'd like to thank very much every one that has been involved in this release! And a very, very big thanks for those who tests candidate releases and have filled bugs that I have fixed.</p>
