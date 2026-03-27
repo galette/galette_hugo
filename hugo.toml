@@ -78,8 +78,8 @@ defaultContentLanguage = 'en'
 [outputs]
   home = ['html', 'rss']
   section = ['html']
-  taxonomy = ['html']
-  term = ['html']
+  taxonomy = []
+  term = []
 
 [outputFormats]
   [outputFormats.RSS]
