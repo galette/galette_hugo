@@ -38,7 +38,7 @@ Vous pouvez également rejoindre le canal [Galette Discord](https://discord.gg/9
 
 IRC est un protocole de communication qui existe depuis de nombreuses années (1988), qui fait très bien ce qu'on lui demande (pas grand chose somme toute), et qui est encore actuellement très répandu.
 
-Tout ce dont vous avez besoin, c'est donc d'un client IRC pour vous connecter sur [irc.oftc.net](irc://irc.oftc.net) pour ensuite rejoindre `#galette`.
+Tout ce dont vous avez besoin, c'est donc d'un client IRC pour vous connecter sur `irc://irc.oftc.net` pour ensuite rejoindre `#galette`.
 
 Notez que lorsque votre client IRC est fermé ou simplement non connecté, aucun message ne vous parviendra. Et vous ne pourrez jamais non plus voir ce que vous avez manqué (aucun log du canal IRC n'est disponible).
 
