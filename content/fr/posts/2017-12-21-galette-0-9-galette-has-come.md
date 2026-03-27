@@ -26,13 +26,13 @@ title: Galette 0.9 (Galette has come)
 </ul>
 
 
-<p>Et bien entendu, tous les moyens déjà existants (<a href="{{ "/pages/contact/" | relLangURL }}">listes de diffusion</a>, <a href="{{ "/pages/contact/" | relLangURL }}">canal IRC</a>, <a href="https://bugs.galette.eu/projects/galette">tracker</a>, ...) restent disponibles.</p>
+<p>Et bien entendu, tous les moyens déjà existants (<a href="{{< ref "contact" >}}">listes de diffusion</a>, <a href="{{< ref "contact#irc" >}}">canal IRC</a>, <a href="https://bugs.galette.eu/projects/galette">tracker</a>, ...) restent disponibles.</p>
 
 
 <p>Pensez à envoyer les informations de Télémétrie et à vous enregistrer en tant qu'utilisateur ; ça pourra aider le projet ;-)</p>
 
 
-<p>Je tiens à remercier chaleureusement toutes les personnes qui ont contribué à cette version, de près ou de loin ! Et un merci tout particulier à ceux qui ont testé les version intermédiaires et m'ont remonté les problèmes que j'ai eu le loisir de corriger.</p>
+<p>Je tiens à remercier chaleureusement toutes les personnes qui ont contribué à cette version, de près ou de loin ! Et un merci tout particulier à ceux qui ont testé les versions intermédiaires et m'ont remonté les problèmes que j'ai eu le loisir de corriger.</p>
 
 
 <p>Je vous souhaite - à toutes et à tous - d'excellentes fêtes de fin d'année !</p>

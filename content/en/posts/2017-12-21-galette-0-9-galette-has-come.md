@@ -26,7 +26,7 @@ title: Galette 0.9 (Galette has come)
 </ul>
 
 
-<p>And of course, all existing communication channels (<a href="{{ "/pages/contact/" | relLangURL }}">mailing lists</a>, <a href="{{ "/pages/contact/" | relLangURL }}">IRC channel</a>, <a href="https://bugs.galette.eu/projects/galette">tracker</a>, ...) are still available.</p>
+<p>And of course, all existing communication channels (<a href="{{< ref "contact" >}}">mailing lists</a>, <a href="{{< ref "contact#irc" >}}">IRC channel</a>, <a href="https://bugs.galette.eu/projects/galette">tracker</a>, ...) are still available.</p>
 
 
 <p>Please share your Telemetry informations and register as an user; this may help the project ;-)</p>

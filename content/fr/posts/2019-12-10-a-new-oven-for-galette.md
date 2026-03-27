@@ -22,7 +22,7 @@ Le mien a été monté il y a plus de 9 ans, un renouvellement va s'imposer, il 
 Et pour faire tout ça, j'ai besoin d'un ordinateur ! :-)</p>
 
 
-<p>J'ai créé une <a href="https://www.paypal.com/pools/c/8krlYNjX1j">cagnotte Paypal</a> (un peu faute de mieux), mais vous pouvez toujours <a href="{{ "/pages/contact/" | relLangURL }}">me contacter si vous souhaitez faire un don</a> par un autre biais ;)</p>
+<p>J'ai créé une <a href="https://www.paypal.com/pools/c/8krlYNjX1j">cagnotte Paypal</a> (un peu faute de mieux), mais vous pouvez toujours <a href="{{< ref "contact" >}}">me contacter si vous souhaitez faire un don</a> par un autre biais ;)</p>
 
 
 <p>Le montant de la cagnotte est une fourchette très haute ; mais comprend la totalité du matériel, dont voici le détail :</p>
