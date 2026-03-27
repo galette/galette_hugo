@@ -1,6 +1,8 @@
 ---
 title: "Contribute"
 ---
+{{< toc >}}
+
 You would like to contribute, but you do not know what to do? Maybe do you think you cannot do nothing at all...
 
 Don't panic, there are numerous ways to contribute to a project like Galette, no need to be a developer ;-)

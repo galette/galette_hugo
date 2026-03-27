@@ -1,6 +1,8 @@
 ---
 title: "About"
 ---
+{{< toc >}}
+
 Galette is a web application to manage adherents for associations. Galette is written in PHP and relies on [MariaDB](https://mariadb.org) or [PostgreSQL](https://postgresql.org). This is **free software** (as in free speech), under the terms of the [GPL licence](https://www.gnu.org/licenses/quick-guide-gplv3.fr.html).
 
 Since 2007 (see below [the history of Galette](#galettes-history)), Johan has been the developer, maintainer and handyman. External contributions have always been integrated regularly.
