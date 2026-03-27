@@ -17,11 +17,11 @@ Mine has been built more than 9 years ago, a renew will be mandatory, it has bee
 <p>I invite you to <a href="https://www.paypal.com/pools/c/8krlYNjX1j">donate to help me buy this computer</a> if you wish!</p>
 
 
-<p>As a reminder, I'm the maintainer and developer of the project. With coding <strong>new features</strong> and <strong>technical evolutions</strong> (often complex); I'm also in charge of <strong>website</strong>, writting <strong>documentation</strong>, <strong>translations</strong>, <strong>user support</strong>, etc.<br />
+<p>As a reminder, I'm the maintainer and developer of the project. With coding <strong>new features</strong> and <strong>technical evolutions</strong> (often complex); I'm also in charge of <strong>website</strong>, writing <strong>documentation</strong>, <strong>translations</strong>, <strong>user support</strong>, etc.<br />
 And for all of that, I need a computer! :-)</p>
 
 
-<p>I've created a <a href="https://www.paypal.com/pools/c/8krlYNjX1j">Paypal pool</a>, but you can still <a href="{{ "/pages/contact/" | relLangURL }}">contact me if you want to donate</a> another way ;)</p>
+<p>I've created a <a href="https://www.paypal.com/pools/c/8krlYNjX1j">Paypal pool</a>, but you can still <a href="{{< ref "contact" >}}">contact me if you want to donate</a> another way ;)</p>
 
 
 <p>Pool amount is top of the price bracket; but includes all required hardware:</p>
