@@ -19,12 +19,12 @@ tags: ['release']
 <li>...</li>
 </ul>
 
-<p>De nombreux bogues ont été corrigés, et d'autres améliorations on été apportées, consultez la {{< doclink path="changelog.html#v080" >}}liste complète des changements apportés par Galette 0.8{{< /doclink >}}. Les plugins officiels ont également tous été mis à jour, la nouvelle version ne permet pas aux anciens plugins de fonctionner.</p>
+<p>De nombreux bogues ont été corrigés, et d'autres améliorations ont été apportées, consultez la {{< doclink path="changelog.html#v080" >}}liste complète des changements apportés par Galette 0.8{{< /doclink >}}. Les plugins officiels ont également tous été mis à jour, la nouvelle version ne permet pas aux anciens plugins de fonctionner.</p>
 
 
 <p>Vous pourrez récupérer cette version à l'adresse&nbsp;:
 <br />
-<a href="https://galette.eu/download/archives/galette-0.8.tar.bz2">https://galette.eu/download/archives/galette-0.8.tar.bz2</a></p>
+{{< download version="0.8" archive="true" >}}
 
 
 <p>Cette nouvelle avancée dans le projet clôt la série 0.7 initiée début 2012 et qui vous aura déjà rendu - du moins je l'espère - de bons et loyaux services&nbsp;!</p>

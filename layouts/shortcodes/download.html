@@ -4,7 +4,7 @@
 {{- $logo := .Get "logo" | default "php" -}}
 {{- $logoColor := .Get "logoColor" | default "white" -}}
 {{- $style := .Get "style" | default "for-the-badge" -}}
-{{ $archive := (cond (ne (.Get "archive") nil) "" "/archives") }}
+{{ $archive := (cond (.Get "archive") "/archives" "") }}
 
 {{- if $nightly -}}
   {{- $version = "dev" -}}
