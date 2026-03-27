@@ -24,7 +24,7 @@ Il arrive parfois que les discussions instantanées ne le soient pas tant que ç
 
 Matrix est un protocole de communication assez récent, qui se veut ouvert et très interopérable. Le fonctionnement est un peu similaire à IRC, à la différence qu'il faut un compte Matrix, pour ensuite rejoindre le salon de Galette.
 
-* salon Matrix : [#galette:matrix.org](https://matrix.to/#/#galette:matrix.org)
+* salon Matrix : [#galette:matrix.org](https://matrix.to/#/%23galette:matrix.org)
 * et communauté : [+galette:matrix.org](https://matrix.to/#/+galette:matrix.org)
 
 L'accès au salon est ouvert à tous, les archives ne sont pas publiques, vous n'aurez accès qu'aux conversations qui ont eu lieu après que vous ayez rejoint le salon.
