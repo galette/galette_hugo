@@ -59,7 +59,7 @@ Since 2024, [Tuxfamily is slowly dying](https://forum.tuxfamily.org/post/3396/);
 This is the **original email** (in French) which announces Galette's creation. Since then, the Code mailing-list from [ALDIL](https://www.aldil.org) has disappeared, archives too.
 Also, the first wiki website has disappeared too.
 
-{% include contents/foundation_mail.html %}
+{{< include file="content/includes/foundation_mail.html" >}}
 
 ### From where Galette's name comes?
 
@@ -67,7 +67,7 @@ Also, the first wiki website has disappeared too.
 
 You must know that finally, Deelight (Lead developer: One who's right) choose Galette, GruiicK (President: One who said banco) said banco.
 
-{% include contents/notthename.html %}
+{{< include file="content/includes/notthename.html" >}}
 
 ## Fortunes
 
@@ -75,7 +75,7 @@ You must know that finally, Deelight (Lead developer: One who's right) choose Ga
 
 (fortunes from mail/irc/etc, anti-chronologeek order)
 
-{% include contents/fortunes.html %}
+{{< include file="content/includes/fortunes.html" >}}
 
 ## Used tools
 
