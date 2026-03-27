@@ -45,7 +45,7 @@ body > header:first-child {
 }
 
 /** Page contents */
-section.wrapper {
+main.wrapper {
     max-width: $galette-max-width;
     margin: 0 auto;
     background: #fff;
@@ -60,11 +60,18 @@ section.wrapper {
     }
 
     header {
-        h1 {
-            display: inline-block;
-            border-bottom: 1px solid $galette-orange;
-            line-height: 1.2em;
-            margin: .1em 0;
+        .header-title {
+            display: flex;
+            align-items: center;
+            gap: 1em;
+            flex-wrap: wrap;
+
+            h1 {
+                display: inline-block;
+                border-bottom: 1px solid $galette-orange;
+                line-height: 1.2em;
+                margin: .1em 0;
+            }
         }
     }
 }
@@ -80,7 +87,7 @@ section#content {
     .content a,
     .post-content a,
     .post-excerpt a,
-    .home > main a {
+    .home a {
         text-decoration: underline;
     }
 
@@ -226,7 +233,7 @@ footer {
 
 @media screen and (min-width: $galette-large) {
     $galette-left-pcontent: 0 1em !default;
-    section.wrapper {
+    main.wrapper {
         position: relative;
         display: grid;
         grid-template-columns: 3fr 1fr;
