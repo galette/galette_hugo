@@ -1,7 +1,7 @@
 <aside id="galette">
     <ul>
         <li><a href="{{ .Param "galette_stable_url" }}">Galette <strong>{{ .Param "galette_last_release" }}</strong></a></li>
-        <li><a href="{{ "contribute" | relLangURL }}#donate"><strong>{{ i18n "global.donate" }}</strong> {{ i18n "global.tosupport" }}</a></li>
+        <li><a href="{{ ref . "contribute" }}#donate"><strong>{{ i18n "global.donate" }}</strong> {{ i18n "global.tosupport" }}</a></li>
         <li><a href="{{ .Param "galette_nightly_url" }}">Galette <strong>nightly</strong></a></li>
     </ul>
 </aside>
