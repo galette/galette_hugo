@@ -24,7 +24,7 @@ It may happen that instant messaging is not really instant, depending on every o
 
 Matrix is a quite recent communication protocol, which aims to be open and interoperable. It operates almost like IRC, with the difference you will first have to create a Matrix account, to join Galette discussion room.
 
-* Matrix room: [#galette:matrix.org](https://matrix.to/#/#galette:matrix.org)
+* Matrix room: [#galette:matrix.org](https://matrix.to/#/%23galette:matrix.org)
 * and community: [+galette:matrix.org](https://matrix.to/#/+galette:matrix.org)
 
 Room is accessible for everyone, archives are not public, you will just have access to the discussion which will happen after you've joined.

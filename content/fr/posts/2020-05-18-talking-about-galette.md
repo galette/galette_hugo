@@ -8,7 +8,7 @@ layout: post
 title: Discuter de Galette
 ---
 <p>En testant <a href="https://matrix.org">Matrix</a> ce week-end, j'ai vu qu'il était possible d'y créer des salons, lié avec des canaux IRC. J'ai donc mis ça en place, et vous pouvez désormais nous rejoindre :<br />
-<a href="https://matrix.to/#/#galette:matrix.org">https://matrix.to/#/#galette:matrix.org</a></p>
+<a href="https://matrix.to/#/%23galette:matrix.org">https://matrix.to/#/#galette:matrix.org</a></p>
 
 
 <p>Le canal IRC officiel de Galette (#galette sur OFTC) y est intégré, la discussion est donc globale ; c'est plus avantageux je pense (ça l'est pour moi) :-)</p>
