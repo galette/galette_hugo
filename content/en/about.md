@@ -15,7 +15,7 @@ Since the beginning, it has been defined that the main project axis is to manage
 
 Apart from this kind of "limit", features that reach Galette core try to be as generic as possible to suit most of the needs. Some more specific features do not have place in core, but can be added from plugins: therefore, it is possible from Galette to {{< doclink path="plugins/auto.html" >}}manage an automobile club{{< /doclink >}} or use a {{< doclink path="plugins/objectslend.html" >}}loan objects system{{< /doclink >}}.
 
-[Bug tracking system]({{% param "galette_tracker_url" %}}) as well as [voting system]({{% param "galette_vote_url" %}}) let you influence future features, but you can of course [add them yourself]({{ "/pages/contribute/" | relLangURL }}) :-)
+[Bug tracking system]({{% param "galette_tracker_url" %}}) as well as [voting system]({{% param "galette_vote_url" %}}) let you influence future features, but you can of course [add them yourself]({{< ref "contribute" >}}) :-)
 
 Some of the requested features (link to third party services as example) would have their place into Galette, but are complex tasks for which it has not been yet possible to find time.
 

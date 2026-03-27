@@ -11,7 +11,7 @@ Don't panic, there are numerous ways to contribute to a project like Galette, no
 
 Using Galette is already a kind of support. Quite easy, no? Well, thanks for coming :D
 
-For the ones who stay anyway, using and testing Galette is the same process. So, if you find a bug, open a ticket with all possible details so a developer can understand the issue and reproduce it, or use [one of our communication channels]({{ "/pages/contact/" | relLangURL }}) to expose your issue.
+For the ones who stay anyway, using and testing Galette is the same process. So, if you find a bug, open a ticket with all possible details so a developer can understand the issue and reproduce it, or use [one of our communication channels]({{< ref "contact" >}}) to expose your issue.
 
 If you want - especially now you are a Galette expert! - you can test new features under development when there are, or regularly try the [nightly version]({{% param "galette_nightly_url" %}}). Do not forget this is an unstable version; even if instability is a relative concept.
 
@@ -41,7 +41,7 @@ So you can:
 ## Translate
 
 Preamble. All contribution to the project must be done in the main language (`en_GB` english). In case of mistake in the main language, it must get fixed in the original contents (source code).
-Do not hesitate to use provided [contact channels ]({{ "/pages/contact/" | relLangURL }}) to find help about that if you need ;-)
+Do not hesitate to use provided [contact channels ]({{< ref "contact" >}}) to find help about that if you need ;-)
 
 So, if you want help to translate Galette, its documentation or official plugins, that is quite simple: go to the [translation platform (Weblate)](https://hosted.weblate.org/projects/galette/), create or link an account if needed, login and translate!
 
@@ -67,11 +67,11 @@ Contributions are anyway always reviewed and commented if needed, allowing adjus
 
 Of course, documentation must fit some technical constraints to be published, but this is not mandatory for new contents. If for example you do not know how to make a link, just drop a word in the contents, for example `see xyz article (https://xyz.com)`.
 
-If you want to complete documentation or add a fix, the way to go is the same as Galette's one: you may use [communication channels]({{ "/pages/contact/" | relLangURL }}) to explain your issue, and in all cases open a bug or feature request on the [bug tracker](https://bugs.galette.eu/projects/documentation-galette), we will adapt according to each level and skills after that.
+If you want to complete documentation or add a fix, the way to go is the same as Galette's one: you may use [communication channels]({{< ref "contact" >}}) to explain your issue, and in all cases open a bug or feature request on the [bug tracker](https://bugs.galette.eu/projects/documentation-galette), we will adapt according to each level and skills after that.
 
 ## Hack / fix
 
-Before you begin to write code, make sure your feature would be accepted, as well as the implementation you want to go with. This is the goal of [different communication channels]({{ "/pages/contact/" | relLangURL }}), do not hesitate :)
+Before you begin to write code, make sure your feature would be accepted, as well as the implementation you want to go with. This is the goal of [different communication channels]({{< ref "contact" >}}), do not hesitate :)
 
 Dive in the code is the most technical contribution. Plugins will certainly be simplest to understand than Galette itself, most of them are quite simple; but you can of course propose change on the core :)
 Anyway, try to ask with developer(s) who is certainly the more appropriate to help you on.
