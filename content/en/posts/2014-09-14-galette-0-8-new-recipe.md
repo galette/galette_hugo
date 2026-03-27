@@ -23,7 +23,7 @@ tags: ['release']
 
 <p>You can download this release at:
 <br />
-{{< download version="0.8" archive >}}
+{{< download version="0.8" archive="true" >}}
 
 <p>This new progress in the project closes 0.7 series that has been started early 2012, after some time of good and faithful services – well... I hope!</p>
 

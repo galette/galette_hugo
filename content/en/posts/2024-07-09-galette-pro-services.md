@@ -5,6 +5,8 @@ title: "Galette Professional Services"
 date: 2024-07-09 14:19:08 +0200
 ---
 
+DISCONTINUED
+
 I've created a small enterprise to propose some "professional services", around Galette among others (all requests will be considered) :-)
 
 What I propose:
