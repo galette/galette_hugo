@@ -1,0 +1,11 @@
+{
+  "name": "galette-hugo-a11y",
+  "private": true,
+  "scripts": {
+    "test:a11y": "playwright test"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.10.1",
+    "@playwright/test": "^1.51.0"
+  }
+}

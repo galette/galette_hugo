@@ -3,3 +3,5 @@ node_modules/
 public/
 resources/
 .idea/
+playwright-report/
+test-results/
