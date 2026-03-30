@@ -60,7 +60,7 @@ Depuis 2024, [Tuxfamily s'éteint doucement](https://forum.tuxfamily.org/post/33
 Ceci est le **mail originel** annonçant la création de Galette. Depuis, la liste Code de l'[ALDIL](https://www.aldil.org) a disparu, ses archives aussi.
 De même, le premier site wiki du projet a disparu aussi...
 
-{% include contents/foundation_mail.html %}
+{{< include file="content/includes/foundation_mail.html" >}}
 
 ### D'où vient le nom Galette
 
@@ -68,13 +68,13 @@ Les membres de l'[ALDIL](https://www.aldil.org/) ont longuement cherché un nom 
 
 Sachez qu'au final, Deelight (Développeur : Celui qui a raison) a choisi Galette, GruiicK (Président : Celui qui dit banco) a dit banco.
 
-{% include contents/notthename.html %}
+{{< include file="content/includes/notthename.html" >}}
 
 ## Fortunes
 
 (section des fortunes mail/irc/etc, par ordre anti-chronologeek)
 
-{% include contents/fortunes.html %}
+{{< include file="content/includes/fortunes.html" >}}
 
 ## Outils utilisés
 
