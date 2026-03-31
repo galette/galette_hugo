@@ -1,0 +1,19 @@
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        {{- if .IsPage -}}
+            "@type": "BlogPosting",
+        {{- else -}}
+            "@type": "Website",
+        {{- end -}}
+        "author": {
+              "@type": "Person",
+              "name": "{{ .Site.Params.author }}"
+        },
+        "datePublished": "{{ .Date.Format "2006-01-02" }}",
+        "name": "{{ .Site.Title }}}",
+        "headline": "{{ .Title }}",
+        "description": "{{ .Description }}",
+        "url": "{{ .Permalink }}"
+    }
+</script>

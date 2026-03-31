@@ -11,7 +11,7 @@
     {{ $pages := where .Site.RegularPages "Type" "posts" }}
     <!-- DEBUG: Found {{ len $pages }} posts -->
     {{ range $pages | first 5 }}
-      <article class="post-item">
+      <article class="post-item h-entry" itemscope itemtype="http://schema.org/BlogPosting">
         <div class="post-header">
           <p class="post-meta">
             {{- if .Params.tags -}}

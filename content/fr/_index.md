@@ -1,5 +1,6 @@
 ---
 title: "Accueil"
+description: "Application web à code source ouvert de gestion d'adhésions pour les associations"
 ---
 ## La gestion associative libre.
 Galette est une application web Open Source de gestion d'adhérents et de cotisations en ligne destination des associations.<br/>

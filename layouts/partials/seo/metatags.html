@@ -1,0 +1,5 @@
+<title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}</title>
+<meta name="description" content="{{ .Description }}">
+<link rel="canonical" href="{{ .Permalink }}" />
+{{ partial "seo/provider/opengraph" . }}
+{{ partial "seo/provider/schemaorg" . }}

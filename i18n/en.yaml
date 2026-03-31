@@ -62,8 +62,6 @@ pages.posts.all:
   other: "View all posts"
 pages.notfound:
   other: "Page not found :("
-pages.descriptions.home:
-  other: "Open source web membership management application for associations"
 pages.titles.contribute:
   other: "Contribute to Galette"
 pages.titles.about:

@@ -62,8 +62,6 @@ pages.posts.all:
   other: "Voir toutes les publications"
 pages.notfound:
   other: "Page non trouvée :'("
-pages.descriptions.home:
-  other: "Application web à code source ouvert de gestion d'adhésions pour les associations"
 pages.titles.contribute:
   other: "Contribuer à Galette"
 pages.titles.about:

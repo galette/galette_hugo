@@ -1,5 +1,6 @@
 ---
 title: "Home"
+description: "Open source web membership management application for associations"
 ---
 ## Open Source Membership Management Application for Non-Profit Organizations
 Galette is a web application for membership and contribution management, specially designed for non-profit organizations.<br/>
