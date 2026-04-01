@@ -1,7 +1,7 @@
 <script type="application/ld+json">
     {
         "@context": "http://schema.org",
-        {{- if .IsPage -}}
+        {{- if (and .IsPage (eq .Type "posts")) -}}
             "@type": "BlogPosting",
         {{- else -}}
             "@type": "Website",

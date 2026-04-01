@@ -6,7 +6,7 @@
     {{- end -}}">
 <meta property="og:description" content="{{ .Description }}">
 <meta property="og:type" content="
-    {{- if .IsPage -}}
+    {{- if (and .IsPage (eq .Type "posts")) -}}
         article
     {{- else -}}
         website
@@ -16,13 +16,13 @@
 <meta property="og:site_name" content="{{ .Site.Title }}">
 <meta property="og:locale" content="{{ .Lang }}">
 
-{{ if .IsPage }}
+{{- if (and .IsPage (eq .Type "posts")) -}}
     {{- range .Params.tags -}}
         <meta property="article:tag" content="{{ . }}">
     {{- end -}}
 {{- end -}}
 
-{{- if .IsPage -}}
+{{- if (and .IsPage (eq .Type "posts")) -}}
     <meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05-07:00" }}">
 {{- else -}}
     {{- if not .Site.Lastmod.IsZero -}}
