@@ -11,7 +11,7 @@
     {{ $pages := where .Site.RegularPages "Type" "posts" }}
     <!-- DEBUG: Found {{ len $pages }} posts -->
     {{ range $pages | first 5 }}
-      <article class="post-item h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+      <article class="post-item h-entry">
         <div class="post-header">
           <p class="post-meta">
             {{- if .Params.tags -}}
@@ -27,7 +27,7 @@
                 <span class="tag {{ .Params.tags }}">{{ if $translated }}{{ $translated }}{{ else }}{{ .Params.tags }}{{ end }}</span>
               {{- end -}}
             {{- end }}
-            <time class="dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+            <time class="dt-published" datetime="{{ .Date.Format "2006-01-02" }}">
               {{ .Date.Format (i18n "global.date_format") }}
             </time>
           </p>
