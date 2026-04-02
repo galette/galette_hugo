@@ -1,4 +1,4 @@
-<title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}</title>
+<title>{{ if .IsHome }}{{ i18n "global.home_title_seo" }}{{ else }}{{ .Title }}{{ end }} | {{ .Site.Title }}</title>
 <meta name="description" content="{{ .Description }}">
 <link rel="canonical" href="{{ .Permalink }}" />
 {{ partial "seo/provider/opengraph" . }}

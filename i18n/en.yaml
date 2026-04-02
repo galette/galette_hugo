@@ -6,6 +6,8 @@ global.About:
   other: "About"
 global.slogan:
   other: "Galette - Web mangement of members and memberships for associations"
+global.home_title_seo:
+  other: "Association management software"
 global.next:
   other: "Next"
 global.previous:

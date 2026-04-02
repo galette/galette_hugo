@@ -1,9 +1,9 @@
 ---
 title: "Accueil"
-description: "Application web à code source ouvert de gestion d'adhésions pour les associations"
+description: "Logiciel libre de gestion d'association, Galette vous aide à gérer les adhérents, cotisations et autres aspects de votre association depuis votre navigateur web. Simple. Libre. Gratuit. Pur-beurre."
 ---
 ## La gestion associative libre.
-Galette est une application web Open Source de gestion d'adhérents et de cotisations en ligne destination des associations.<br/>
+Galette est une application web Open Source de gestion d'adhérents et de cotisations en ligne à destination des associations.<br/>
 C'est avant toute chose un <strong>logiciel libre</strong>, communautaire, et gratuit !
 Galette fonctionne sur n'importe quel serveur web qui prend en charge PHP ([voir les pré-requis]({{< param "galette_doc_url" >}}/fr/master/installation/prerequis.html)). En cas de besoin, nous proposons [différents moyens de nous contacter]({{< ref "contact.md" >}}) :)<br/>
 [Les personnes qui souhaitent participer]({{< ref "contribute.md" >}}) sont évidemment les bienvenues :-)

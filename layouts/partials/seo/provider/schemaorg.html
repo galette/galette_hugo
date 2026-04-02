@@ -3,10 +3,10 @@
         "@context": "http://schema.org",
         "headline": "
             {{- if .IsHome -}}
-                {{ .Site.Title }}
+                {{ i18n "global.home_title_seo" }}
             {{- else -}}
                 {{ .Title }}
-            {{- end -}}
+            {{- end -}} | {{ .Site.Title }}
         ",
         {{ if (and .IsPage (eq .Type "posts")) }}
             "@type": "BlogPosting",
