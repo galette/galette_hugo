@@ -1,5 +1,5 @@
 <aside id="sidebar">
-    <h3 class="mainmnulnk">{{ i18n "menus.main" }}</h3>
+    <h2 class="mainmnulnk">{{ i18n "menus.main" }}</h2>
     <header>
         <a href="#main-menu"
             id="main-menu-toggle"
@@ -38,7 +38,7 @@
             tabindex="-1"
             aria-hidden="true"></a>
     </header>
-    <h3>{{ i18n "menus.doc" }}</h3>
+    <h2>{{ i18n "menus.doc" }}</h2>
     <ul>
         {{ $lang := .Language.Lang }}
         <li><a href="{{ .Param "galette_doc_url" }}/{{ $lang }}/develop/faq/index.html">{{ i18n "menus.faq" }}</a></li>
