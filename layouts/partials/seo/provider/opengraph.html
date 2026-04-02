@@ -4,7 +4,7 @@
         {{ i18n "global.home_title_seo" }}
     {{- else -}}
         {{ .Title }}
-    {{- end -}} | {{ .Site.Title }}">
+    {{- end }} | {{ .Site.Title }}">
 <meta property="og:type" content="
     {{- if (and .IsPage (eq .Type "posts")) -}}
         article
