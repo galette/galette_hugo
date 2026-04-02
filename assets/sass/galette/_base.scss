@@ -50,10 +50,16 @@ section#content {
         }
     }
 
-    .home main h2:first-of-type {
+    h2.slogan {
         border-bottom: none;
-        text-align: center;
         display: block;
+        font-size: 2.5rem;
+        color: $galette-dark-blue;
+        text-align: center;
+        line-height: .9;
+        margin: 0 auto 2rem auto;
+        transform: rotate3d(-1,1,0,25deg) translateY(-.5rem);
+        max-width: 460px;
     }
 }
 

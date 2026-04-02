@@ -1,6 +1,6 @@
 # Galette website
 
-## The free association management. / La gestion associative libre.
+## Free your association management! / Libérez la gestion de votre association !
 
 The sources of [Galette website](https://galette.eu), which is built on the top of [Hugo](https://gohugo.io/).
 
