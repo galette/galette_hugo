@@ -26,7 +26,9 @@
                   "name": "{{ .Site.Params.author }}"
             },
             {{ range .Params.tags }}
-                "keywords": "{{ . }}",
+                {{- $tagKey := printf "tags.%s" . -}}
+                {{- $translated := i18n $tagKey -}}
+                "keywords": "{{ if $translated }}{{ $translated }}{{ else }}{{ . }}{{ end }}",
             {{ end }}
             "datePublished": "{{ .Date.Format "2006-01-02" }}",
         {{ end }}
