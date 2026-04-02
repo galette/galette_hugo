@@ -1,25 +1,21 @@
 <script type="application/ld+json">
     {
         "@context": "http://schema.org",
+        {{ if (and .IsPage (eq .Type "posts")) }}
+            "@type": "BlogPosting",
+        {{ else }}
+            "@type": "WebPage",
+        {{ end }}
         "headline": "
             {{- if .IsHome -}}
                 {{ i18n "global.home_title_seo" }}
             {{- else -}}
                 {{ .Title }}
-            {{- end -}} | {{ .Site.Title }}
-        ",
-        {{ if (and .IsPage (eq .Type "posts")) }}
-            "@type": "BlogPosting",
-        {{ else if .IsHome }}
-            "@type": "Website",
-        {{ else }}
-            "@type": "WebPage",
-        {{ end }}
+            {{- end }} | {{ .Site.Title }}",
+        "description": "{{ .Description }}",
         "url": "{{ .Permalink }}",
         "image": "{{ absURL "assets/images/og_image.jpg" }}",
-        "description": "{{ .Description }}",
         "inLanguage": "{{ .Lang }}",
-        "name": "{{ .Site.Title }}",
         {{ if (and .IsPage (eq .Type "posts")) }}
             "author": {
                   "@type": "Person",
@@ -35,5 +31,11 @@
         {{ if not .Lastmod.IsZero }}
             "dateModified": "{{ .Lastmod.Format "2006-01-02" }}"
         {{ end }}
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "WebSite",
+        "name": "{{ .Site.Title }}",
+        "url": "https://galette.eu"
     }
 </script>
