@@ -17,7 +17,7 @@ import type { Result as AxeResult } from 'axe-core';
 import * as fs from 'fs';
 import * as path from 'path';
 
-const WCAG_TAGS = ['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa'];
+const WCAG_TAGS = ['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa', 'RGAAv4'];
 const URLS_FILE = path.join(__dirname, 'urls.json');
 
 // Read list from global.setup.ts
