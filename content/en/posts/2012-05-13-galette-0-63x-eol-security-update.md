@@ -20,9 +20,6 @@ tags: ['release']
 <a href="https://galette.eu/download/archives/galette-0.63.4.tgz">https://galette.eu/download/archives/galette-0.63.4.tgz</a></p>
 
 
-<p>Only one file must be changed on all concerned versions; you can <a href="http://goo.gl/eICiy">get it here</a> and replace the existing one in your installation (that way you do not need to upgrade the full code).</p>
-
-
 <p>Please note that it is the very last change on 0.6x series (that are now EOL): development, support, etc for those versions will be discarded,</p>
 
 

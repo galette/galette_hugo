@@ -7,7 +7,7 @@ date: 2011-12-05 14:27:55 +0100
 layout: post
 title: 'Galette 0.7 : gel des fonctionnalités'
 ---
-<p>Comme cela a été récemment annoncé, <a href="http://goo.gl/flGvC">les fonctionnalités de la future version 0.7 de Galette ont été gelées</a> :-)</p>
+<p>Comme cela a été récemment annoncé, les fonctionnalités de la future version 0.7 de Galette ont été gelées :-)</p>
 
 
 <p>Cela signifie que l'équipe de développement n'accepte plus de nouvelles fonctionnalités à intégrer dans cette version&nbsp;; et qu'elle va pouvoir se consacrer d'avantage à la résolution de bogues, à la stabilisation du code et à la mise en place de la {{< doclink path="" >}}nouvelle documentation{{< /doclink >}}.</p>

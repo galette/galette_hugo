@@ -19,9 +19,6 @@ Vous pourriez vous demander ce que ça change pour le projet Galette...
 
 Les fonctionnalités sponsorisées seront intégrées une fois terminées, mais Galette reste un projet libre et gratuit. Je continuerai de faire évoluer le projet tout comme je le fais depuis des années.
 
-J'ai mis en place un site web ainsi que certains moyens de contact dédiés :
-<br/>[https://pro.galette.eu](https://pro.galette.eu/fr)
-
 Contactez-moi si vous avez des projets ou des questions :-)
 
 À bientôt !

@@ -18,7 +18,7 @@ tags: ['release']
 
 <p>Around this version, several services has been provided:</p>
 <ul>
-<li><a href="http://forums.galette.eu/">Galette's forums</a>,</li>
+<li><a href="https://github.com/orgs/galette/discussions">Galette's forums</a>,</li>
 <li><a href="https://vote.galette.eu/">a feedback platform for future features</a>,</li>
 <li><a href="https://t.me/galettesoft">a Telegram group</a>,</li>
 <li><a href="https://telemetry.galette.eu/">a Telemetry app</a>.</li>

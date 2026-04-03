@@ -8,7 +8,7 @@ title: Opening Galette forums
 ---
 <p><strong>too much spam and too less interest, forums are now closed.</strong></p>
 
-<p><a href="https://forums.galette.eu">Galette discussion forums</a> are opening!</p>
+<p><a href="https://github.com/orgs/galette/discussions">Galette discussion forums</a> are opening!</p>
 
 
 <p>This is something that has been asked several times; but I never agree... Mainly beacause I was afraid of the time to spend on it. But I must admit some users are not comfortable with mailing lists; so I've decided to got for it :)</p>
