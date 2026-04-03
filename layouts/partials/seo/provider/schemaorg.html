@@ -1,0 +1,47 @@
+<script type="application/ld+json">
+    {
+        "@context": "https:\/\/schema.org",
+        "@graph": [
+            {
+                {{ if (and .IsPage (eq .Type "posts")) }}
+                    "@type": "BlogPosting",
+                {{ else }}
+                    "@type": "WebPage",
+                {{ end }}
+                "headline": "
+                    {{- if .IsHome -}}
+                        {{ i18n "global.home_title_seo" }}
+                    {{- else -}}
+                        {{ .Title }}
+                    {{- end }} | {{ .Site.Title }}",
+                "description": "{{ .Description }}",
+                "url": "{{ .Permalink }}",
+                "image": "{{ absURL "assets/images/og_image.jpg" }}",
+                "inLanguage": "{{ .Lang }}",
+                {{ if (and .IsPage (eq .Type "posts")) }}
+                    "author": {
+                          "@type": "Person",
+                          "name": "{{ .Site.Params.author }}"
+                    },
+                    "keywords": "
+                        {{- $tags := .Params.tags -}}
+                        {{- range $index, $tag := $tags -}}
+                            {{- $tagKey := printf "tags.%s" $tag -}}
+                            {{- $translated := i18n $tagKey -}}
+                            {{- if $translated -}}{{ $translated }}{{- else -}}{{ $tag }}{{- end -}}
+                            {{- if ne (add $index 1) (len $tags) -}},{{- end -}}
+                        {{- end -}}",
+                    "datePublished": "{{ .Date.Format "2006-01-02" }}",
+                {{ end }}
+                {{ if not .Lastmod.IsZero }}
+                    "dateModified": "{{ .Lastmod.Format "2006-01-02" }}"
+                {{ end }}
+            },
+            {
+                "@type": "WebSite",
+                "name": "{{ .Site.Title }}",
+                "url": "https:\/\/galette.eu"
+            }
+        ]
+    }
+</script>

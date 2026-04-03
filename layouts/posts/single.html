@@ -1,5 +1,5 @@
 {{ define "main" }}
-<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+<article class="post">
   <header class="post-header">
     <p class="post-meta">
       {{- if .Params.tags -}}
@@ -15,16 +15,16 @@
           <span class="tag {{ .Params.tags }}">{{ if $translated }}{{ $translated }}{{ else }}{{ .Params.tags }}{{ end }}</span>
         {{- end -}}
       {{- end }}
-      <time class="dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}" itemprop="datePublished">
+      <time datetime="{{ .Date.Format "2006-01-02" }}">
         {{ .Date.Format (i18n "global.date_format") }}
       </time>
       {{- with .Params.author | default .Site.Params.author }}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ . }}</span></span>
+        • <span>{{ . }}</span>
       {{- end }}
     </p>
   </header>
 
-  <div class="post-content e-content" itemprop="articleBody">
+  <div class="post-content">
     {{ .Content }}
   </div>
 
@@ -43,8 +43,6 @@
     </nav>
   </footer>
   {{- end }}
-
-  <a class="u-url" href="{{ .RelPermalink }}" hidden></a>
 </article>
 {{ end }}
 

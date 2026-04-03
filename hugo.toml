@@ -3,7 +3,6 @@ title = 'Galette'
 defaultContentLanguage = 'en'
 [params]
   email = 'contact@galette.eu'
-  description = "Gestionnaire d'Adhérents en Ligne Extrêmement Tarabiscoté mais Tellement Efficace"
   author = 'Johan Cwiklinski'
   github_username = 'galette'
   mastodon_username = 'galette'

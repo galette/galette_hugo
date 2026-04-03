@@ -6,6 +6,8 @@ global.About:
   other: "À propos"
 global.slogan:
   other: "Galette – Gestion web des adhérents et des contributions pour les associations"
+global.home_title_seo:
+  other: "Logiciel de gestion d'association"
 global.next:
   other: "Suivante"
 global.previous:
@@ -62,8 +64,6 @@ pages.posts.all:
   other: "Voir toutes les publications"
 pages.notfound:
   other: "Page non trouvée :'("
-pages.descriptions.home:
-  other: "Application web à code source ouvert de gestion d'adhésions pour les associations"
 pages.titles.contribute:
   other: "Contribuer à Galette"
 pages.titles.about:

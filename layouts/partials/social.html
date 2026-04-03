@@ -5,13 +5,13 @@
         </svg>
         <span class="username sr-only">{{ .Site.Params.github_username }}</span>
     </a>
-    <a rel="me" href="https://{{ .Site.Params.mastodon_instance }}/@{{ .Site.Params.mastodon_username }}" title="Mastodon">
+    <a href="https://{{ .Site.Params.mastodon_instance }}/@{{ .Site.Params.mastodon_username }}" title="Mastodon">
         <svg class="svg-icon">
             <use xlink:href="{{ "assets/minima-social-icons.svg#mastodon" | relURL }}"></use>
         </svg>
         <span class="username sr-only">{{ .Site.Params.mastodon_username }}</span>
     </a>
-    <a href="{{ "feed.xml" | relLangURL }}">
+    <a href="{{ "feed.xml" | relLangURL }}" title="{{ i18n "global.subscribe_rss" }}">
         <svg class="svg-icon">
             <use xlink:href="{{ "assets/minima-social-icons.svg#rss" | relURL }}"></use>
         </svg>

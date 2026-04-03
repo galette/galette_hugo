@@ -91,9 +91,6 @@ section#content {
         text-decoration: underline;
     }
 
-    h1 {
-    }
-
     h2.post-title {
         margin: .4em 0
     }
@@ -171,45 +168,38 @@ aside#sidebar {
     border-top: 1px solid $galette-orange;
     margin-top: 2em;
 
-  h2 {
-    margin: 0;
-    text-shadow: 1px 1px 1px rgba(242, 161, 4, 0.5);
-
-    border-bottom: 1px $background-color dotted;
-    color: $background-color;
-  }
-
-  h3 {
-    color: $text-color;
-    margin: 1em 0 .5em;
-  }
-
-  ul {
-    list-style: none;
-    margin: 0em 0;
-    padding: 0;
-  }
-
-  li {
-    display: block;
-    margin: 0;
-
-    a {
-      color: $text-color;
-      display: block;
-      text-decoration: none;
-      padding: .2em .3em;
-
-      &:hover, &:focus, &:active {
-        color: $galette-dark-blue;
-        background: $galette-light-grey;
-      }
+    h2 {
+        font-size: 1.17em;
+        color: $text-color;
+        margin: 1em 0 .5em;
     }
-  }
 
-  .main-menu li.active a {
-    border-bottom: 1px solid $galette-orange;
-  }
+    ul {
+        list-style: none;
+        margin: 0em 0;
+        padding: 0;
+    }
+
+    li {
+        display: block;
+        margin: 0;
+
+        a {
+            color: $text-color;
+            display: block;
+            text-decoration: none;
+            padding: .2em .3em;
+
+            &:hover, &:focus, &:active {
+                color: $galette-dark-blue;
+                background: $galette-light-grey;
+            }
+        }
+    }
+
+    .main-menu li.active a {
+        border-bottom: 1px solid $galette-orange;
+    }
 }
 
 /** main footer */
