@@ -2,7 +2,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {{ partial "seo/metatags" . }}
-  {{ $style := resources.Get "sass/main.scss" | css.Sass (dict "includePaths" (slice "assets/sass")) | resources.Minify | resources.Fingerprint }}
+  {{ $style := resources.Get "sass/main.scss" | css.Sass (dict "includePaths" (slice "assets/sass")) | resources.Minify }}
   <link rel="stylesheet" href="{{ $style.RelPermalink }}">
   <link rel="stylesheet" href="{{ "assets/js/fancybox/jquery.fancybox.min.css" | relURL }}">
   <link type="application/atom+xml" rel="alternate" href="{{ "feed.xml" | relLangURL }}" title="Galette">
