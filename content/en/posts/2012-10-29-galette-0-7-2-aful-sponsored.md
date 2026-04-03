@@ -14,7 +14,7 @@ tags: ['release', 'sponsored']
 
 
 <p>But what is a "Sponsored version"?<br />
-A version that contains developments paid by someone and reversed to the community. TThe AFUL has been this someone for the present release and this via <a href="http://x-tnd.be" hreflang="fr">my self-employment activity</a>.</p>
+A version that contains developments paid by someone and reversed to the community. TThe AFUL has been this someone for the present release and this via my self-employment activity.</p>
 
 
 <p>All Galette users (who are the first to benefit from this) and I would like to say a very big thanks to AFUL for their participation. It allows Galette to keep improving and show a real, practical example of a FOSS project development! Bravo!</p>

@@ -15,7 +15,7 @@ tags: ['release', 'sponsored']
 
 
 <p>Késako une «&nbsp;Version subventionnée&nbsp;» ?<br />
-Il s'agit simplement d'une version dont certains développements ont été financés via <a href="http://x-tnd.be" hreflang="fr">mon activité d'auto-entrepreneur</a> et reversés à la communauté, par l'AFUL en l'occurrence.</p>
+Il s'agit simplement d'une version dont certains développements ont été financés via mon activité d'auto-entrepreneur et reversés à la communauté, par l'AFUL en l'occurrence.</p>
 
 
 <p>De ma part ainsi que de celle des utilisateurs de Galette (qui sont les premiers à en bénéficier d'ailleurs)&nbsp;: un très grand merci à l'AFUL qui par sa participation permet à Galette de progresser dans le bon sens&nbsp;; un exemple pratique très concret de participation au développement d'un projet libre&nbsp;! Bravo&nbsp;!</p>
