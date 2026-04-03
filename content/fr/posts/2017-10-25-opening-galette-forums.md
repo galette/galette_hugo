@@ -7,9 +7,9 @@ date: 2017-10-25 17:58:10 +0100
 layout: post
 title: Ouverture des forums de discussion
 ---
-<p><strong>trop de spam et trop peu d'intérêt, les forums sont fermés.</strong></p>
+<p><strong>Trop de spam et trop peu d'intérêt, les forums sont fermés.</strong></p>
 
-<p>Les <a href="https://forums.galette.eu">forums de discussion de Galette</a> ouvrent leurs portes !</p>
+<p>Les <a href="https://github.com/orgs/galette/discussions">forums de discussion de Galette</a> ouvrent leurs portes !</p>
 
 
 <p>C'est une demande qui avait été faite à plusieurs reprises ; mais que j'avais toujours écartée... Principalement par "peur" du temps qu'il faudrait y consacrer. Mais force est de constater que certains utilisateurs ne sont absolument pas à l'aise avec les listes de diffusion ; j'ai donc décidé de franchir le pas :)</p>

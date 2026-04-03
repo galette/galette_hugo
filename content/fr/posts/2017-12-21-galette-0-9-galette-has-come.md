@@ -18,7 +18,7 @@ tags: ['release']
 
 <p>Autour de cette version plusieurs nouveaux services ont vu le jour :</p>
 <ul>
-<li><a href="http://forums.galette.eu/">les forums de Galette</a>,</li>
+<li><a href="https://github.com/orgs/galette/discussions">les forums de Galette</a>,</li>
 <li><a href="https://vote.galette.eu/">un espace de vote pour les futures fonctionnalités</a>,</li>
 <li><a href="https://t.me/galettesoft">un groupe Telegram</a>,</li>
 <li><a href="https://telemetry.galette.eu/">une application de collecte de Télémétrie</a>.</li>
