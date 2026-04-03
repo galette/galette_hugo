@@ -6,7 +6,7 @@ date: 2011-12-05 14:27:55 +0100
 layout: post
 title: 'Galette 0.7: feature freeze'
 ---
-<p>As that was recently announced, <a href="http://goo.gl/flGvC" hreflang="fr">features for future 0.7 version of Galette has been freezed</a> :-)</p>
+<p>As that was recently announced, features for future 0.7 version of Galette has been freezed :-)</p>
 
 
 <p>That means development team will no longer accept new features fort these version; and that it will dedicate more time to bugfix, code stabilization and improve the {{< doclink >}}new documentation{{< /doclink >}}.</p>

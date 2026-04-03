@@ -21,9 +21,6 @@ tags: ['release']
 <a href="https://galette.eu/download/archives/galette-0.63.4.tgz">https://galette.eu/download/archives/galette-0.63.4.tgz</a></p>
 
 
-<p>Un seul fichier est impacté sur l'ensemble des versions touchées&nbsp;; vous pouvez <a href="http://goo.gl/eICiy">le récupérer ici</a> et remplacer dans votre installation existante (ce qui vous évite la mise à jour complète de l'application).</p>
-
-
 <p>Notez également qu'il s'agit de la toute dernière modification qui sera apportée aux versions 0.6x de Galette (qui passe donc EOL)&nbsp;: les développements, le support, etc. de ces versions ne seront plus assurés.</p>
 
 
