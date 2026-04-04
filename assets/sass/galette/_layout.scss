@@ -115,7 +115,7 @@ section#content {
 
 /** pagination */
 .pagination {
-    margin-top: 1em;
+    margin-top: 2em;
     text-align: center;
 
     > * {
@@ -142,10 +142,15 @@ section#content {
 
 /** Navigate beetween posts */
 .posts-navigation {
-    margin-top: 1em;
+    margin-top: 2em;
     padding-top: 1em;
     border-top: 1px solid $galette-light-grey;
     text-align: center;
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
 
     a {
       display: inline-block;
