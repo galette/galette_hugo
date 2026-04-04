@@ -34,7 +34,7 @@ global.donate:
   other: "Donner"
 global.tosupport:
   other: "pour soutenir !"
-share.native:
+share.label:
   other: "Partager"
 share.mastodon:
   other: "Partager sur Mastodon"
