@@ -18,79 +18,45 @@
 
 /** Share buttons */
 .share-buttons {
-    display: inline-block;
-    vertical-align: top;
-    font-size: .8em;
-}
-
-.share-native {
-    display: inline-flex;
-    align-items: center;
-    gap: .5em;
-    padding: .5em 1em;
-    background: $galette-light-grey;
-    color: $text-color;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1em;
-
-    &:hover {
-        background: $galette-orange;
-        color: $galette-dark-grey;
-    }
-
-    svg {
-        flex-shrink: 0;
-    }
-}
-
-.share-fallback {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+    position: relative;
     display: flex;
-    gap: .1em;
+    align-items: center;
+    justify-content: start;
+    gap: .25rem;
+    font-size: .85em;
+    font-weight: bold;
+    padding-top: .5rem;
+    margin-top: .5rem;
 
-    a {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        width: 30px;
-        height: 30px;
-        border-radius: 50%;
-        background: $galette-light-grey;
-        color: $text-color;
+    &::before {
+        position: absolute;
+        top: 0;
+        display: block;
+        content: " ";
+        border-top: 1px solid $galette-light-grey;
+        width: 125px;
+    }
 
-        &:hover {
-            background: $galette-orange;
-            color: $galette-dark-grey;
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+
+        a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background: transparent;
+            color: $galette-blue;
+
+            &:hover {
+                background: $galette-light-grey;
+                color: $galette-dark-blue;
+            }
         }
     }
-}
-
-ul.share-buttons{
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    text-align: right;
-}
-
-ul.share-buttons li{
-    display: inline-block;
-}
-
-ul.share-buttons .sr-only{
-    position: absolute;
-    clip: rect(1px 1px 1px 1px);
-    clip: rect(1px, 1px, 1px, 1px);
-    padding: 0;
-    border: 0;
-    height: 1px;
-    width: 1px;
-    overflow: hidden;
-}
-
-ul.share-buttons img{
-    width: 16px;
 }
