@@ -2,8 +2,7 @@
 title: "Home"
 description: "Free Software for association management, Galette helps you manage members, contributions, and other aspects of your association from your web browser. Simple. Open-source. Free."
 ---
-## Open Source Membership Management Application for Non-Profit Organizations
-Galette is a web application for membership and contribution management, specially designed for non-profit organizations.<br/>
+Galette is an open source web application for membership and contribution management, specially designed for non-profit organizations.<br/>
 Above all, it is <strong>free software</strong>, community-driven, and free of charge!
 Galette works on any web server that supports PHP ([see prerequisites]({{< param "galette_doc_url" >}}/en/master/installation/prerequis.html)). If you need it, we offer [various ways to contact us]({{< ref "contact.md" >}}) :)<br/>
 [People who wish to participate]({{< ref "contribute.md" >}}) are obviously welcome :-)
