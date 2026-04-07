@@ -1,12 +1,12 @@
 /**
  * i18n-navigation.spec.ts
  *
- * Valide que les menus et liens sont corrects selon la langue de la page.
- * - Pages EN : URLs sans préfixe (/, /about/, etc.)
- * - Pages FR : URLs avec préfixe /fr/
+ * Validates that menus and links are correct according to the page language.
+ * - EN pages: URLs without prefix (/, /about/, etc.)
+ * - FR pages: URLs with /fr/ prefix
  *
- * Lit les traductions depuis i18n/en.yaml et i18n/fr.yaml pour suivre
- * automatiquement les modifications de libellés.
+ * Reads translations from i18n/en.yaml and i18n/fr.yaml to automatically
+ * follow label modifications.
  */
 
 import { test, expect } from '@playwright/test';
@@ -14,14 +14,14 @@ import * as fs from 'fs';
 import * as path from 'path';
 import yaml from 'js-yaml';
 
-// Types pour les traductions
+// Types for translations
 interface Translations {
   [key: string]: { other: string };
 }
 
 /**
- * Charge et parse un fichier YAML de traduction.
- * Lève une erreur si le fichier est manquant ou mal formaté.
+ * Loads and parses a translation YAML file.
+ * Throws an error if the file is missing or malformed.
  */
 function loadTranslations(lang: 'en' | 'fr'): Translations {
   const filePath = path.join(__dirname, '..', 'i18n', `${lang}.yaml`);
@@ -92,18 +92,20 @@ test.describe('English pages', () => {
     test(`[i18n-EN] ${page.title} - documentation links contain /en/`, async ({ page: playwright }) => {
       await playwright.goto(page.url);
 
-      // Check documentation links
+      // Check documentation links - should point to https://doc.galette.eu/en/
       const docLinks = [
-        { selector: 'a[href*="faq"]', name: 'FAQ' },
-        { selector: 'a[href*="installation"]', name: 'Installation' },
-        { selector: 'a[href*="usermanual"]', name: 'User manual' },
-        { selector: 'a[href*="plugins"]', name: 'Plugins' },
+        { selector: 'a[href*="doc.galette.eu/en/"][href*="faq"]', name: 'FAQ' },
+        { selector: 'a[href*="doc.galette.eu/en/"][href*="installation"]', name: 'Installation' },
+        { selector: 'a[href*="doc.galette.eu/en/"][href*="usermanual"]', name: 'User manual' },
+        { selector: 'a[href*="doc.galette.eu/en/"][href*="plugins"]', name: 'Plugins' },
       ];
 
       for (const link of docLinks) {
         const element = playwright.locator(link.selector).first();
+        await expect(element, `${link.name} link should point to EN documentation`).toBeVisible();
         const href = await element.getAttribute('href');
-        expect(href, `${link.name} link should contain /en/`).toContain('/en/');
+        expect(href, `${link.name} link should contain doc.galette.eu/en/`).toContain('doc.galette.eu/en/');
+        expect(href, `${link.name} link should not contain doc.galette.eu/fr/`).not.toContain('doc.galette.eu/fr/');
       }
     });
 
@@ -140,7 +142,7 @@ test.describe('French pages', () => {
     test(`[i18n-FR] ${page.title} - menu labels and links`, async ({ page: playwright }) => {
       await playwright.goto(page.url);
 
-      // Vérifier les libellés du menu principal
+      // Check main menu labels
       const sidebar = playwright.locator('#sidebar nav#main-menu');
 
       for (const menuId of mainMenuItems) {
@@ -155,18 +157,20 @@ test.describe('French pages', () => {
     test(`[i18n-FR] ${page.title} - documentation links contains /fr/`, async ({ page: playwright }) => {
       await playwright.goto(page.url);
 
-      // Vérifier les liens de documentation
+      // Check documentation links - should point to https://doc.galette.eu/fr/
       const docLinks = [
-        { selector: 'a[href*="faq"]', name: 'FAQ' },
-        { selector: 'a[href*="installation"]', name: 'Installation' },
-        { selector: 'a[href*="usermanual"]', name: 'Manuel utilisateur' },
-        { selector: 'a[href*="plugins"]', name: 'Plugins' },
+        { selector: 'a[href*="doc.galette.eu/fr/"][href*="faq"]', name: 'FAQ' },
+        { selector: 'a[href*="doc.galette.eu/fr/"][href*="installation"]', name: 'Installation' },
+        { selector: 'a[href*="doc.galette.eu/fr/"][href*="usermanual"]', name: 'Manuel utilisateur' },
+        { selector: 'a[href*="doc.galette.eu/fr/"][href*="plugins"]', name: 'Plugins' },
       ];
 
       for (const link of docLinks) {
         const element = playwright.locator(link.selector).first();
+        await expect(element, `${link.name} link should point to FR documentation`).toBeVisible();
         const href = await element.getAttribute('href');
-        expect(href, `Link ${link.name} must contains /fr/`).toContain('/fr/');
+        expect(href, `${link.name} link should contain doc.galette.eu/fr/`).toContain('doc.galette.eu/fr/');
+        expect(href, `${link.name} link should not contain doc.galette.eu/en/`).not.toContain('doc.galette.eu/en/');
       }
     });
 
