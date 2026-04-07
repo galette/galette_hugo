@@ -30,7 +30,7 @@ export default defineConfig({
   globalSetup: './tests/global.setup.ts',
 
   use: {
-    baseURL: 'http://localhost:1313/',
+    baseURL: 'http://localhost:1314/',
     /* Screenshot on fail */
     screenshot: 'only-on-failure',
     /* Debug trace in HTML report */
@@ -39,8 +39,8 @@ export default defineConfig({
 
   /* Configure and start Hugo */
   webServer: {
-    command: 'hugo server --baseURL http://localhost:1313/',
-    url: 'http://localhost:1313/',
+    command: 'hugo server --port 1314 --baseURL http://localhost:1314/',
+    url: 'http://localhost:1314/',
     reuseExistingServer: !process.env.CI,
     timeout: 120_000,
   },
