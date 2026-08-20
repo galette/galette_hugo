@@ -87,6 +87,3 @@ Before [reporting a bug](https://bugs.galette.eu/projects/galette) or [ask for a
 **Please do not ask for support!**
 
 * Mastodon: [@galette@framapiaf.org](https://framapiaf.org/@galette)
-* Bluesky : [@galettesoft.bsky.social](https://bsky.app/profile/galettesoft.bsky.social)
-* ~~Twitter: [@galette_soft](https://twitter.com/galette_soft)~~
-* Facebook: [Galette](https://www.facebook.com/galettesoft)
