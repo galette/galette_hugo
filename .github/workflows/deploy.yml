@@ -23,7 +23,7 @@ jobs:
       - name: Build
         run: hugo --gc --minify --baseURL https://galette.eu/site/
       - name: Deploy to Dedicated Server
-        uses: Burnett01/rsync-deployments@9.0.0
+        uses: Burnett01/rsync-deployments@9.0.1
         with:
           switches: -avzr --delete
           path: public/
